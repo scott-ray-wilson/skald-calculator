@@ -63,9 +63,6 @@ import WEAPON_ENCHANTMENT_LIST from "@/resources/extracts/weaponEnchantment.extr
 // Items
 import ACCESSORY_LIST from "@/resources/extracts/accessories.extract.json";
 import ADVENTURING_ITEM_LIST from "@/resources/extracts/adventuringItems.extract.json";
-import MISC_ITEM_LIST from "@/resources/extracts/miscItems.extract.json";
-import KEY_LIST from "@/resources/extracts/keys.extract.json";
-import TRINKET_LIST from "@/resources/extracts/trinkets.extract.json";
 import AMMO_LIST from "@/resources/extracts/ammo.extract.json";
 import ARMOR_LIST from "@/resources/extracts/armor.extract.json";
 import BOOK_LIST from "@/resources/extracts/books.extract.json";
@@ -73,10 +70,13 @@ import CONSUMABLE_LIST from "@/resources/extracts/consumeables.extract.json";
 import FOOD_LIST from "@/resources/extracts/foods.extract.json";
 import GEM_LIST from "@/resources/extracts/gems.extract.json";
 import JEWELRY_LIST from "@/resources/extracts/jewelry.extract.json";
+import KEY_LIST from "@/resources/extracts/keys.extract.json";
 import MELEE_WEAPON_LIST from "@/resources/extracts/meleeWeapons.extract.json";
+import MISC_ITEM_LIST from "@/resources/extracts/miscItems.extract.json";
 import RANGED_WEAPON_LIST from "@/resources/extracts/rangedWeapons.extract.json";
 import REAGENT_LIST from "@/resources/extracts/reagents.extract.json";
 import SHIELD_LIST from "@/resources/extracts/shields.extract.json";
+import TRINKET_LIST from "@/resources/extracts/trinkets.extract.json";
 
 // Tooltips
 import RULES_TOOLTIP_LIST from "@/resources/extracts/rulesTooltips.extract.json";
