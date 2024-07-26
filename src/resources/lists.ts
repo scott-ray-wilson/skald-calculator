@@ -66,6 +66,7 @@ import ADVENTURING_ITEM_LIST from "@/resources/extracts/adventuringItems.extract
 import AMMO_LIST from "@/resources/extracts/ammo.extract.json";
 import ARMOR_LIST from "@/resources/extracts/armor.extract.json";
 import BOOK_LIST from "@/resources/extracts/books.extract.json";
+import CLOTHING_LIST from "@/resources/extracts/clothing.extract.json";
 import CONSUMABLE_LIST from "@/resources/extracts/consumeables.extract.json";
 import FOOD_LIST from "@/resources/extracts/foods.extract.json";
 import GEM_LIST from "@/resources/extracts/gems.extract.json";
@@ -208,6 +209,7 @@ const COMBINED_ITEM_LIST = [
   ...AMMO_LIST,
   ...ARMOR_LIST,
   ...SHIELD_LIST,
+  ...CLOTHING_LIST,
   ...ACCESSORY_LIST,
   ...JEWELRY_LIST,
   ...COMBINED_CONSUMABLES_LIST,
@@ -258,6 +260,7 @@ export {
   CHARACTER_LIST,
   CLASS_LIST,
   CLERIC_FEAT_LIST,
+  CLOTHING_LIST,
   COMBAT_ATTRIBUTE_LIST,
   COMBAT_MANEUVER_LIST,
   COMBINED_ABILITY_LIST,
