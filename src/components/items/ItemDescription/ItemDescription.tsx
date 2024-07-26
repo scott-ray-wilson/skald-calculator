@@ -107,6 +107,9 @@ export const ItemDescription = () => {
         case "trinkets":
           category = "Trinket";
           break;
+        case "clothing":
+          category = "Clothing";
+          break;
         default:
           category = "????";
       }
