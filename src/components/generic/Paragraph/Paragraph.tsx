@@ -1,6 +1,7 @@
-import { Fragment } from "react";
+import { Fragment, ReactNode } from "react";
 import { Keyword } from "@/components/generic";
 import { KEYWORD_MAP, KEYWORD_REGEX } from "@/resources";
+import { cn } from "@/components/utils";
 
 type ParagraphProps = {
   children: string;
@@ -17,6 +18,7 @@ export const Paragraph = ({
   ignoreIds = [],
   shouldOverride = false,
 }: ParagraphProps) => {
+  // split paragraphs within in-game text
   if (children.match(NEW_LINE_REGEX)) {
     return children.split(NEW_LINE_REGEX).map((segment, index) =>
       segment ? (
@@ -38,12 +40,34 @@ export const Paragraph = ({
 
         const shouldIgnore = keyword ? ignoreIds.includes(keyword.id) : false;
 
+        let text: ReactNode = segment;
+
+        // handle quotations being white, matching in-game text
+        if (segment.match(/["“]/g)) {
+          text = (
+            <>
+              {segment.split(/(["“].*?["”])/g).map((part, index) => {
+                return part ? (
+                  <span
+                    className={cn(className, {
+                      "text-white": part.trim().match(/["“]/g),
+                    })}
+                    key={index}
+                  >
+                    {part}
+                  </span>
+                ) : null;
+              })}
+            </>
+          );
+        }
+
         return (
           <Fragment key={`${segment}_${index}`}>
             {keyword && !shouldIgnore ? (
               <Keyword shouldOverride={shouldOverride}>{segment}</Keyword>
             ) : (
-              segment
+              text
             )}
           </Fragment>
         );
