@@ -71,6 +71,7 @@ import ARMOR_LIST from "@/resources/extracts/armor.extract.json";
 import BOOK_LIST from "@/resources/extracts/books.extract.json";
 import CONSUMABLE_LIST from "@/resources/extracts/consumeables.extract.json";
 import FOOD_LIST from "@/resources/extracts/foods.extract.json";
+import GEM_LIST from "@/resources/extracts/gems.extract.json";
 import JEWELRY_LIST from "@/resources/extracts/jewelry.extract.json";
 import MELEE_WEAPON_LIST from "@/resources/extracts/meleeWeapons.extract.json";
 import RANGED_WEAPON_LIST from "@/resources/extracts/rangedWeapons.extract.json";
@@ -212,6 +213,7 @@ const COMBINED_ITEM_LIST = [
   ...COMBINED_CONSUMABLES_LIST,
   ...FOOD_LIST,
   ...COMBINED_ADVENTURING_ITEMS_LIST,
+  ...GEM_LIST,
   ...TRINKET_LIST,
 ];
 
@@ -277,6 +279,7 @@ export {
   DEFENCE_ATTRIBUTE_LIST,
   FOOD_RECIPE_LIST,
   FOOD_LIST,
+  GEM_LIST,
   GENERAL_EFFECT_LIST,
   GENERAL_ENCHANTMENT_LIST,
   HEALING_EFFECT_LIST,
