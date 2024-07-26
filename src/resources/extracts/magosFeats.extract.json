@@ -1,0 +1,1411 @@
+[
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 4,
+                "abilities": [
+                    "ABI_PassiveSpellTierAir"
+                ],
+                "spells": [
+                    "ABI_SpellHaste"
+                ],
+                "spellSchool": "ATT_SpellListAir",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:28:09 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosAirMagic1",
+        "title": "Air Magic Expert",
+        "description": "",
+        "imagePath": "FeatMagosAirMagic2",
+        "systemId": "",
+        "id": "FEA_MagosAirMagic2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:44 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveImmunityElectrical",
+                    "ABI_PassiveSpellTierAir"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListAir",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:28:13 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosAirMagic3",
+        "title": "Air Magic Grand Master",
+        "description": "",
+        "imagePath": "FeatMagosAirMagic4",
+        "systemId": "",
+        "id": "FEA_MagosAirMagic4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:48 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveSpellTierAir"
+                ],
+                "spells": [
+                    "ABI_SpellMagicMissile"
+                ],
+                "spellSchool": "ATT_SpellListAir",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:28:07 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosArcaneSpellcasting1",
+        "title": "Air Magic Initiate",
+        "description": "",
+        "imagePath": "FeatMagosAirMagic1",
+        "systemId": "",
+        "id": "FEA_MagosAirMagic1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:42 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveResistanceLightning",
+                    "ABI_PassiveSpellTierAir"
+                ],
+                "spells": [
+                    "ABI_SpellInvisibility"
+                ],
+                "spellSchool": "ATT_SpellListAir",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:28:11 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosAirMagic2",
+        "title": "Air Magic Master",
+        "description": "",
+        "imagePath": "FeatMagosAirMagic3",
+        "systemId": "",
+        "id": "FEA_MagosAirMagic3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:45 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusLore"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredArcaneRush"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_MagosArcaneFont1",
+        "title": "Arcane Font Expert",
+        "description": "",
+        "imagePath": "FeatMagosArcanestudy2",
+        "systemId": "",
+        "id": "FEA_MagosArcaneFont2",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:18:12 AM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusLore"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:27:18 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_MagosMagosTraining1",
+        "title": "Arcane Font Initiate ",
+        "description": "",
+        "imagePath": "FeatMagosArcanestudy1",
+        "systemId": "",
+        "id": "FEA_MagosArcaneFont1",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:18:10 AM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusLore"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusIntellect"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_MagosArcaneFont2",
+        "title": "Arcane Font Master",
+        "description": "",
+        "imagePath": "FeatMagosArcanestudy3",
+        "systemId": "",
+        "id": "FEA_MagosArcaneFont3",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:18:15 AM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveActivateSpellcaster"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:16:38 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 0,
+        "type": "Magic",
+        "prereqFeat": "",
+        "title": "Arcane Spellcasting",
+        "description": "",
+        "imagePath": "FeatMagosArcaneSpellcasting1",
+        "systemId": "",
+        "id": "FEA_MagosArcaneSpellcasting1",
+        "notes": "",
+        "lastEdit": "8/14/2023 5:58:19 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverThrustAndParry"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 8:02:08 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_MagosLightWeapons2",
+        "title": "Blade Initiate",
+        "description": "",
+        "imagePath": "FeatRogueRogueBlade1",
+        "systemId": "",
+        "id": "FEA_MagosBlade1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:58:00 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 4,
+                "abilities": [
+                    "ABI_PassiveSpellTierEarth"
+                ],
+                "spells": [
+                    "ABI_SpellStoneskin"
+                ],
+                "spellSchool": "ATT_SpellListEarth",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:28:32 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosEarthMagic1",
+        "title": "Earth Magic Expert",
+        "description": "",
+        "imagePath": "FeatMagosEarthMagic2",
+        "systemId": "",
+        "id": "FEA_MagosEarthMagic2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:53 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveImmunityAcid",
+                    "ABI_PassiveSpellTierEarth"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListEarth",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:28:51 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosEarthMagic3",
+        "title": "Earth Magic Grand Master",
+        "description": "",
+        "imagePath": "FeatMagosEarthMagic4",
+        "systemId": "",
+        "id": "FEA_MagosEarthMagic4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:58 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveSpellTierEarth"
+                ],
+                "spells": [
+                    "ABI_SpellSwarmOfGnats"
+                ],
+                "spellSchool": "ATT_SpellListEarth",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:28:28 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosArcaneSpellcasting1",
+        "title": "Earth Magic Initiate",
+        "description": "",
+        "imagePath": "FeatMagosEarthMagic1",
+        "systemId": "",
+        "id": "FEA_MagosEarthMagic1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:51 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveResistanceAcid",
+                    "ABI_PassiveSpellTierEarth"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListEarth",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:28:33 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosEarthMagic2",
+        "title": "Earth Magic Master",
+        "description": "",
+        "imagePath": "FeatMagosEarthMagic3",
+        "systemId": "",
+        "id": "FEA_MagosEarthMagic3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:56 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 4,
+                "abilities": [
+                    "ABI_PassiveSpellTierFire"
+                ],
+                "spells": [
+                    "ABI_SpellFireLash"
+                ],
+                "spellSchool": "ATT_SpellListFire",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:29:04 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosFireMagic1",
+        "title": "Fire Magic Expert",
+        "description": "",
+        "imagePath": "FeatMagosFireMagic2",
+        "systemId": "",
+        "id": "FEA_MagosFireMagic2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:04 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveImmunityFire",
+                    "ABI_PassiveSpellTierFire"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListFire",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/26/2024 1:31:52 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosFireMagic3",
+        "title": "Fire Magic Grand Master",
+        "description": "",
+        "imagePath": "FeatMagosFireMagic4",
+        "systemId": "",
+        "id": "FEA_MagosFireMagic4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:08 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveSpellTierFire"
+                ],
+                "spells": [
+                    "ABI_SpellFireFist"
+                ],
+                "spellSchool": "ATT_SpellListFire",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:29:02 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosArcaneSpellcasting1",
+        "title": "Fire Magic Initiate",
+        "description": "",
+        "imagePath": "FeatMagosFireMagic1",
+        "systemId": "",
+        "id": "FEA_MagosFireMagic1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:02 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveResistanceFire",
+                    "ABI_PassiveSpellTierFire"
+                ],
+                "spells": [
+                    "ABI_SpellFireBall"
+                ],
+                "spellSchool": "ATT_SpellListFire",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:29:06 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Magic",
+        "prereqFeat": "FEA_MagosFireMagic2",
+        "title": "Fire Magic Master",
+        "description": "",
+        "imagePath": "FeatMagosFireMagic3",
+        "systemId": "",
+        "id": "FEA_MagosFireMagic3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:06 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDamagePiercing"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Combat",
+        "prereqFeat": "FEA_MagosLightWeapons1",
+        "title": "Light Weapons Expert",
+        "description": "",
+        "imagePath": "FeatRogueLightWeapons2",
+        "systemId": "",
+        "id": "FEA_MagosLightWeapons2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:57 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Combat",
+        "prereqFeat": "",
+        "title": "Light Weapons Initiate",
+        "description": "",
+        "imagePath": "FeatRogueLightWeapons1",
+        "systemId": "",
+        "id": "FEA_MagosLightWeapons1",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:32:16 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:34 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBows"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:34 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusFletching"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:34 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_MagosLightWeapons2",
+        "title": "Ranged Weapons Initiate ",
+        "description": "",
+        "imagePath": "FeatRogueRogueRanged1",
+        "systemId": "",
+        "id": "FEA_MagosRangedWeapon1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:59 PM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusCrafting"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusSpellAptitude"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_MagosArcanestudy1",
+        "title": "Sorcerous Expert",
+        "description": "",
+        "imagePath": "FeatMagosArcanestudy2",
+        "systemId": "",
+        "id": "FEA_MagosArcanestudy2",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:19:07 AM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusCrafting"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusSpellAptitude"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusMaxCascade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:27:18 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_MagosMagosTraining1",
+        "title": "Sorcerous Initiate ",
+        "description": "",
+        "imagePath": "FeatMagosArcanestudy1",
+        "systemId": "",
+        "id": "FEA_MagosArcanestudy1",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:19:04 AM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusCrafting"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/24/2024 12:16:18 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusSpellAptitude"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusMaxCascade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:02:54 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_MagosArcanestudy2",
+        "title": "Sorcerous Master",
+        "description": "",
+        "imagePath": "FeatMagosArcanestudy3",
+        "systemId": "",
+        "id": "FEA_MagosArcanestudy3",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:19:10 AM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusSpellAptitude"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:50:29 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusLore"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:03:25 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverSpellBurn"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "5/24/2024 12:02:28 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 0,
+        "type": "ClassGeneral",
+        "prereqFeat": "",
+        "title": "Touched by the Reticulum",
+        "description": "",
+        "imagePath": "FeatMagosMagosTraining1",
+        "systemId": "",
+        "id": "FEA_MagosMagosTraining1",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:07:47 AM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusWill"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusAwareness"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveActivateFreeSwap"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:45:18 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_MagosArcaneDiscipline1",
+        "title": "Trickster Expert",
+        "description": "",
+        "imagePath": "FeatMagosArcaneDiscipline2",
+        "systemId": "",
+        "id": "FEA_MagosArcaneDiscipline2",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:19:24 AM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusAwareness"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusWill"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusInitiative"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:03:12 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_MagosMagosTraining1",
+        "title": "Trickster Initiate",
+        "description": "",
+        "imagePath": "FeatMagosArcaneDiscipline1",
+        "systemId": "",
+        "id": "FEA_MagosArcaneDiscipline1",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:19:22 AM UTC"
+    },
+    {
+        "container": "magosFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusWill"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusDodge"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveActivateEvasion"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/14/2023 5:03:12 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_MagosArcaneDiscipline2",
+        "title": "Trickster Master",
+        "description": "",
+        "imagePath": "FeatMagosArcaneDiscipline3",
+        "systemId": "",
+        "id": "FEA_MagosArcaneDiscipline3",
+        "notes": "",
+        "lastEdit": "5/24/2024 12:31:42 AM UTC"
+    }
+]

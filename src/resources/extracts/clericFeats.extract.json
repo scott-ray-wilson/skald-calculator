@@ -1,0 +1,1321 @@
+[
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 4,
+                "abilities": [
+                    "ABI_PassiveSpellTierBody"
+                ],
+                "spells": [
+                    "ABI_SpellCureDiseaseModerate"
+                ],
+                "spellSchool": "ATT_SpellListBody",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 2 spells of the Body School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:18:44 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericBodyMagic1",
+        "title": "Body Magic Expert",
+        "description": "You may now cast Tier 2 spells of the Body School. ",
+        "imagePath": "FeatClericBodyMagic2",
+        "systemId": "",
+        "id": "FEA_ClericBodyMagic2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:35 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveSpellTierBody"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListBody",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 4 spells of the Body School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:18:50 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericBodyMagic3",
+        "title": "Body Magic Grand Master",
+        "description": "You may now cast Tier 4 spells of the Body School. ",
+        "imagePath": "FeatClericBodyMagic4",
+        "systemId": "",
+        "id": "FEA_ClericBodyMagic4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:31 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveSpellTierBody"
+                ],
+                "spells": [
+                    "ABI_SpellLayOnHandsMinor"
+                ],
+                "spellSchool": "ATT_SpellListBody",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 1 spells of the Body School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:18:38 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericSpellcasting",
+        "title": "Body Magic Initiate",
+        "description": "You may now cast Tier 1 spells of the Body School. ",
+        "imagePath": "FeatClericBodyMagic1",
+        "systemId": "",
+        "id": "FEA_ClericBodyMagic1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:37 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveSpellTierBody"
+                ],
+                "spells": [
+                    "ABI_SpellCircleOfHealingLesser"
+                ],
+                "spellSchool": "ATT_SpellListBody",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 3 spells of the Body School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:18:47 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericBodyMagic2",
+        "title": "Body Magic Master",
+        "description": "You may now cast Tier 3 spells of the Body School. ",
+        "imagePath": "FeatClericBodyMagic3",
+        "systemId": "",
+        "id": "FEA_ClericBodyMagic3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:33 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:22:37 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDamageClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:22:37 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverStunningBlow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:22:37 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Combat",
+        "prereqFeat": "FEA_ClericWeapons1",
+        "title": "Cleric Weapons Expert",
+        "description": "",
+        "imagePath": "FeatClericWeapons2",
+        "systemId": "",
+        "id": "FEA_ClericWeapons2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:55:45 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:22:37 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDamageClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:22:37 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverShakeTheEarth"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:22:37 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Combat",
+        "prereqFeat": "FEA_ClericWeapons3",
+        "title": "Cleric Weapons Grand Master",
+        "description": "",
+        "imagePath": "FeatClericWeapons4",
+        "systemId": "",
+        "id": "FEA_ClericWeapons4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:55:41 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDodgeShield"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:22:37 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDodgePhalanx"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:22:37 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverDefendAlly"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:22:37 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Combat",
+        "prereqFeat": "",
+        "title": "Cleric Weapons Initate",
+        "description": "",
+        "imagePath": "FeatClericWeapons1",
+        "systemId": "",
+        "id": "FEA_ClericWeapons1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:55:47 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDodgePhalanx"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:30:29 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDodgeShield"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:30:29 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverShieldRush"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/13/2023 8:30:29 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_ClericWeapons2",
+        "title": "Cleric Weapons Master",
+        "description": "",
+        "imagePath": "FeatClericWeapons3",
+        "systemId": "",
+        "id": "FEA_ClericWeapons3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:55:43 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveActivateSpellcaster"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/13/2023 10:47:18 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 0,
+        "type": "Magic",
+        "prereqFeat": "",
+        "title": "Divine Spellcasting",
+        "description": "You gain the ability to learn spells from the Mind, Body and Spirit School.",
+        "imagePath": "FeatClericSpellcasting1",
+        "systemId": "",
+        "id": "FEA_ClericSpellcasting",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:11 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusDiplomacy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:51:34 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:51:34 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusPresence"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:51:34 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_ClericTenderoftheFaith1",
+        "title": "Faithful Expert",
+        "description": "",
+        "imagePath": "FeatClericTenderoftheFaith2",
+        "systemId": "",
+        "id": "FEA_ClericTenderoftheFaith2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:55:55 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/13/2023 11:04:51 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusSpellAptitude"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/13/2023 11:01:19 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusMaxCascade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/13/2023 11:01:19 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 15,
+        "tier": 4,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_ClericTenderoftheFaith3",
+        "title": "Faithful Grand Master",
+        "description": "",
+        "imagePath": "FeatClericTenderoftheFaith4",
+        "systemId": "",
+        "id": "FEA_ClericTenderoftheFaith4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:55:51 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusHealing"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:51:34 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:51:34 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusAuraSize"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "5/24/2024 12:32:57 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_ClericReligiousTraining1",
+        "title": "Faithful Initiate",
+        "description": "",
+        "imagePath": "FeatClericTenderoftheFaith1",
+        "systemId": "",
+        "id": "FEA_ClericTenderoftheFaith1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:55:57 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusLore"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:51:34 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/13/2023 10:39:49 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveSpellRadiusAura"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:51:34 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_ClericTenderoftheFaith2",
+        "title": "Faithful Master",
+        "description": "",
+        "imagePath": "FeatClericTenderoftheFaith3",
+        "systemId": "",
+        "id": "FEA_ClericTenderoftheFaith3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:55:53 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusArmorHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:33:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusArmorHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:33:22 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_ClericArmor2",
+        "title": "Heavy Armor Expert",
+        "description": "",
+        "imagePath": "",
+        "systemId": "",
+        "id": "FEA_ClericArmor3",
+        "notes": "",
+        "lastEdit": "5/22/2024 8:17:48 AM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusArmorMedium"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:33:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusArmorMedium"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:33:22 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusArmorMedium"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:33:22 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_ClericResilience2",
+        "title": "Medium Armor Expert",
+        "description": "",
+        "imagePath": "",
+        "systemId": "",
+        "id": "FEA_ClericArmor2",
+        "notes": "",
+        "lastEdit": "5/22/2024 8:10:51 AM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 4,
+                "abilities": [
+                    "ABI_PassiveSpellTierMind"
+                ],
+                "spells": [
+                    "ABI_SpellStunningTouch"
+                ],
+                "spellSchool": "ATT_SpellListMind",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 2 spells of the Mind School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:19:27 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericMindMagic1",
+        "title": "Mind Magic Expert",
+        "description": "You may now cast Tier 2 spells of the Mind School. ",
+        "imagePath": "FeatClericMindMagic2",
+        "systemId": "",
+        "id": "FEA_ClericMindMagic2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:28 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveSpellTierMind"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListMind",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 4 spells of the Mind School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:19:32 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericMindMagic3",
+        "title": "Mind Magic Grand Master",
+        "description": "You may now cast Tier 4 spells of the Mind School. ",
+        "imagePath": "FeatClericMindMagic4",
+        "systemId": "",
+        "id": "FEA_ClericMindMagic4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:25 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveSpellTierMind"
+                ],
+                "spells": [
+                    "ABI_SpellInstillCourage"
+                ],
+                "spellSchool": "ATT_SpellListMind",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 1 spells of the Mind School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:19:24 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericSpellcasting",
+        "title": "Mind Magic Initiate",
+        "description": "You may now cast Tier 1 spells of the Mind School. ",
+        "imagePath": "FeatClericMindMagic1",
+        "systemId": "",
+        "id": "FEA_ClericMindMagic1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:29 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveSpellTierMind"
+                ],
+                "spells": [
+                    "ABI_SpellHystericalBlindness"
+                ],
+                "spellSchool": "ATT_SpellListMind",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 3 spells of the Mind School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:19:29 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericMindMagic2",
+        "title": "Mind Magic Master",
+        "description": "You may now cast Tier 3 spells of the Mind School. ",
+        "imagePath": "FeatClericMindMagic3",
+        "systemId": "",
+        "id": "FEA_ClericMindMagic3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:26 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_ManueverPrayerBasic"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/13/2023 11:00:57 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 0,
+        "type": "ClassGeneral",
+        "prereqFeat": "",
+        "title": "Religious Training",
+        "description": "",
+        "imagePath": "FeatClericReligiousTraining1",
+        "systemId": "",
+        "id": "FEA_ClericReligiousTraining1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:55:59 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusToughness"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:33:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusVitality"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/13/2023 9:54:31 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusWill"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "6/5/2024 4:45:25 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_ClericResilience1",
+        "title": "Resilience Expert",
+        "description": "",
+        "imagePath": "FeatClericResilience3",
+        "systemId": "",
+        "id": "FEA_ClericResilience2",
+        "notes": "",
+        "lastEdit": "5/19/2024 6:29:55 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusVitality"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:33:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusWill"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:33:22 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusToughness"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/7/2023 10:33:22 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_ClericReligiousTraining1",
+        "title": "Resilience Initiate",
+        "description": "",
+        "imagePath": "FeatClericResilience2",
+        "systemId": "",
+        "id": "FEA_ClericResilience1",
+        "notes": "",
+        "lastEdit": "5/19/2024 6:29:47 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 4,
+                "abilities": [
+                    "ABI_PassiveSpellTierSpirit"
+                ],
+                "spells": [
+                    "ABI_SpellTouchOfWeakness"
+                ],
+                "spellSchool": "ATT_SpellListSpirit",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 2 spells of the Spirit School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:19:52 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericSpiritMagic1",
+        "title": "Spirit Magic Expert",
+        "description": "You may now cast Tier 2 spells of the Spirit School. ",
+        "imagePath": "FeatClericSpiritMagic2",
+        "systemId": "",
+        "id": "FEA_ClericSpiritMagic2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:14 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveSpellTierSpirit"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListSpirit",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 4 spells of the Spirit School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:19:56 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericSpiritMagic3",
+        "title": "Spirit Magic Grand Master",
+        "description": "You may now cast Tier 4 spells of the Spirit School. ",
+        "imagePath": "FeatClericSpiritMagic4",
+        "systemId": "",
+        "id": "FEA_ClericSpiritMagic4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:22 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveSpellTierSpirit"
+                ],
+                "spells": [
+                    "ABI_SpellBlessTouch"
+                ],
+                "spellSchool": "ATT_SpellListSpirit",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 1 spells of the Spirit School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:19:50 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericSpellcasting",
+        "title": "Spirit Magic Initiate",
+        "description": "You may now cast Tier 1 spells of the Spirit School. ",
+        "imagePath": "FeatClericSpiritMagic1",
+        "systemId": "",
+        "id": "FEA_ClericSpiritMagic1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:12 PM UTC"
+    },
+    {
+        "container": "clericFeatsContainer",
+        "list": [
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveSpellTierSpirit"
+                ],
+                "spells": [
+                    "ABI_SpellHolyJudgement"
+                ],
+                "spellSchool": "ATT_SpellListSpirit",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 3 spells of the Spirit School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:19:54 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Magic",
+        "prereqFeat": "FEA_ClericSpiritMagic2",
+        "title": "Spirit Magic Master",
+        "description": "You may now cast Tier 3 spells of the Spirit School. ",
+        "imagePath": "FeatClericSpiritMagic3",
+        "systemId": "",
+        "id": "FEA_ClericSpiritMagic3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:56:20 PM UTC"
+    }
+]

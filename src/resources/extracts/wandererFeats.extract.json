@@ -1,0 +1,183 @@
+[
+    {
+        "container": "wandererFeatsContainer",
+        "list": [
+            {
+                "rank": 4,
+                "abilities": [
+                    "ABI_PassiveSpellTierNature"
+                ],
+                "spells": [
+                    "ABI_SpellBearsStrength"
+                ],
+                "spellSchool": "ATT_SpellListNature",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 2 spells of the Nature School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:26:20 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Magic",
+        "prereqFeat": "FEA_WandererNatureMagic1",
+        "title": "Nature Magic Expert",
+        "description": "",
+        "imagePath": "FeatWandererNatureMagic2",
+        "systemId": "",
+        "id": "FEA_WandererNatureMagic2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:17 PM UTC"
+    },
+    {
+        "container": "wandererFeatsContainer",
+        "list": [
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveSpellTierNature"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListNature",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 4 spells of the Nature School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:26:16 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Magic",
+        "prereqFeat": "FEA_WandererNatureMagic3",
+        "title": "Nature Magic Grand Master",
+        "description": "",
+        "imagePath": "FeatWandererNatureMagic4",
+        "systemId": "",
+        "id": "FEA_WandererNatureMagic4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:21 PM UTC"
+    },
+    {
+        "container": "wandererFeatsContainer",
+        "list": [
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveSpellTierNature"
+                ],
+                "spells": [
+                    "ABI_SpellBarkSkin"
+                ],
+                "spellSchool": "ATT_SpellListNature",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 1 spells of the Nature School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:26:22 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Magic",
+        "prereqFeat": "FEA_NatureSpellCasting",
+        "title": "Nature Magic Initiate",
+        "description": "",
+        "imagePath": "FeatWandererNatureMagic1",
+        "systemId": "",
+        "id": "FEA_WandererNatureMagic1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:15 PM UTC"
+    },
+    {
+        "container": "wandererFeatsContainer",
+        "list": [
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveSpellTierNature"
+                ],
+                "spells": [
+                    "ABI_SpellMassEnsnare"
+                ],
+                "spellSchool": "ATT_SpellListNature",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "You may now cast Tier 3 spells of the Nature School. ",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/19/2024 9:26:18 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Magic",
+        "prereqFeat": "FEA_WandererNatureMagic2",
+        "title": "Nature Magic Master",
+        "description": "",
+        "imagePath": "FeatWandererNatureMagic3",
+        "systemId": "",
+        "id": "FEA_WandererNatureMagic3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:20 PM UTC"
+    },
+    {
+        "container": "wandererFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveActivateSpellcaster"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/13/2023 10:22:13 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 0,
+        "type": "Magic",
+        "prereqFeat": "",
+        "title": "Nature Spellcasting",
+        "description": "You gain the ability to learn spells from the Nature School.",
+        "imagePath": "FeatNatureSpellcasting",
+        "systemId": "",
+        "id": "FEA_NatureSpellCasting",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:57:13 PM UTC"
+    }
+]

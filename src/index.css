@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+button, span, p, li, a, div {
+    text-shadow: -2px 2px black;
+    letter-spacing: 0;
+    word-spacing: -4px;
+    font-weight: 500;
+    outline: red;
+}
+
+::-webkit-scrollbar-button:vertical:start:increment,
+::-webkit-scrollbar-button:vertical:end:decrement,
+::-webkit-scrollbar-button:horizontal:start:increment,
+::-webkit-scrollbar-button:horizontal:end:decrement
+{
+    display: none;
+}
+
+.crt::before {
+    content: " ";
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.6;
+    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    z-index: 2;
+    background-size: 100% 2px, 3px 100%;
+    pointer-events: none;
+}
+
+@layer base {
+    @font-face {
+        font-family: "CommodorePixelized";
+        font-display: block;
+        src: local("CommodorePixelized"),
+        url('./assets/fonts/CommodorePixelized.ttf') format('truetype');
+    }
+
+    html {
+        font-family: 'CommodorePixelized', system-ui, sans-serif;
+    }
+}
+
+@layer utilities {
+    .scrollbar::-webkit-scrollbar {
+        width: 20px;
+    }
+
+    .scrollbar::-webkit-scrollbar-button {
+        background: #4A4A4A;
+        background-clip: padding-box;
+        border: 3px solid #7B7B7B;
+        cursor: pointer;
+        height: 24px;
+    }
+
+    .scrollbar::-webkit-scrollbar-track {
+        position: absolute;
+        background: #7B7B7B;
+        padding: 5px;
+    }
+
+    .scrollbar::-webkit-scrollbar-thumb {
+        background: #B2B2B2;
+        background-clip: padding-box;
+        cursor: pointer;
+        border-left: 3px solid rgba(0, 0, 0, 0);
+        border-right: 3px solid rgba(0, 0, 0, 0);
+    }
+}
+
+
+.react-flow__handle-top {
+    margin-top: 1px;
+    cursor: pointer !important;
+}
+
+.react-flow__handle-bottom {
+    margin-bottom: 1px;
+    cursor: pointer !important;
+}
+
+.react-flow__edge {
+    -webkit-filter: drop-shadow(-1px 1px 0px rgba(0, 0, 0, .7));
+    filter: drop-shadow(-1px 1px 0px rgba(0, 0, 0, .7));
+}
+
+.spinner {
+    animation: rotate 5s infinite alternate;
+}
+
+@keyframes rotate {
+    25% {
+        transform: rotate(90deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(270deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+

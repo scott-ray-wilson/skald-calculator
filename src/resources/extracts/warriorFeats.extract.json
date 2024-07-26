@@ -1,0 +1,2347 @@
+[
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:03 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDamageBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:03 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusFletching"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:03 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorArchery1",
+        "title": "Archery Expert",
+        "description": "",
+        "imagePath": "FeatWarriorArchery2",
+        "systemId": "",
+        "id": "FEA_WarriorArchery2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:03 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:03 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDamageBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/20/2023 11:55:35 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverRapidShot"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:03 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorArmsMastery1",
+        "title": "Archery Initiate",
+        "description": "",
+        "imagePath": "FeatWarriorArchery1",
+        "systemId": "",
+        "id": "FEA_WarriorArchery1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:02 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBows"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 11:22:22 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBows"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:03 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredCriticalBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 12:59:18 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorArchery2",
+        "title": "Archery Master",
+        "description": "",
+        "imagePath": "FeatWarriorArchery3",
+        "systemId": "",
+        "id": "FEA_WarriorArchery3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:05 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitMelee"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 1:08:34 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitRanged"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/20/2023 3:55:30 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverPreciseStrike"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/7/2023 8:43:22 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 0,
+        "type": "Combat",
+        "prereqFeat": "",
+        "title": "Arms Mastery",
+        "description": "",
+        "imagePath": "FeatWarriorArmsMastery1",
+        "systemId": "",
+        "id": "FEA_WarriorArmsMastery1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:07 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDamageAxe"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:05:51 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDamageAxe"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:05:51 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredCriticalAxe"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 5:28:17 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorAxe1",
+        "title": "Axe Expert",
+        "description": "",
+        "imagePath": "FeatWarriorAxe2",
+        "systemId": "",
+        "id": "FEA_WarriorAxe2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:10 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitAxe"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:05:51 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitAxe"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:05:51 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverAxeWildSwing"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 5:52:54 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorArmsMastery1",
+        "title": "Axe Initiate",
+        "description": "",
+        "imagePath": "FeatWarriorAxe1",
+        "systemId": "",
+        "id": "FEA_WarriorAxe1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:08 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusAxe"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:05:51 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusAxe"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:05:51 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredKillAxe"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:05:51 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorAxe2",
+        "title": "Axe Master",
+        "description": "",
+        "imagePath": "FeatWarriorAxe3",
+        "systemId": "",
+        "id": "FEA_WarriorAxe3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:12 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveCriticalChanceBonus"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 1:02:47 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusStrength"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/20/2023 12:38:00 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverCriticalStrike"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 12:39:54 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_WarriorBrutality2",
+        "title": "Bloodthirsty",
+        "description": "",
+        "imagePath": "FeatWarriorBrutality3",
+        "systemId": "",
+        "id": "FEA_WarriorBrutality3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:49:02 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusAthletics"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 7:12:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusToughness"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 7:12:22 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManueverSecondWind"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/21/2023 7:58:09 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 0,
+        "type": "ClassGeneral",
+        "prereqFeat": "",
+        "title": "Bred for War",
+        "description": "",
+        "imagePath": "FeatWarriorBredforWar1",
+        "systemId": "",
+        "id": "FEA_WarriorBredforWar1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:51 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveCriticalChanceBonus"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 1:02:47 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusAthletics"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/20/2023 12:09:31 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveMultiAttack"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 12:05:36 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_WarriorBrutality1",
+        "title": "Brutality",
+        "description": "",
+        "imagePath": "FeatWarriorBrutality2",
+        "systemId": "",
+        "id": "FEA_WarriorBrutality2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:49:01 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveChargeBonus"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/20/2023 10:18:03 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveChargeBonus"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 1:02:47 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredSmashingCharge"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 10:09:29 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_WarriorBredforWar1",
+        "title": "Calloused Hands",
+        "description": "",
+        "imagePath": "FeatWarriorBrutality1",
+        "systemId": "",
+        "id": "FEA_WarriorBrutality1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:59 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:00:57 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDamageClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/20/2023 4:29:18 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredCriticalClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:00:57 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorClub1",
+        "title": "Club Expert",
+        "description": "",
+        "imagePath": "FeatWarriorClub2",
+        "systemId": "",
+        "id": "FEA_WarriorClub2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:16 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDamageClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:00:57 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:00:57 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverStunningBlow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 4:36:28 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorArmsMastery1",
+        "title": "Club Initiate",
+        "description": "",
+        "imagePath": "FeatWarriorClub1",
+        "systemId": "",
+        "id": "FEA_WarriorClub1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:15 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:00:57 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusClub"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:00:57 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverShakeTheEarth"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 4:38:45 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorClub2",
+        "title": "Club Master",
+        "description": "",
+        "imagePath": "FeatWarriorClub3",
+        "systemId": "",
+        "id": "FEA_WarriorClub3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:18 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusArmorHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 7:12:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusArmorHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 7:12:22 AM UTC"
+            },
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveBonusArmorHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "5/22/2024 7:51:32 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 4,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_WarriorBredforWar4",
+        "title": "Heavy Armor Mastery",
+        "description": "",
+        "imagePath": "FeatWarriorBredforWar4",
+        "systemId": "",
+        "id": "FEA_WarriorBredforWar5",
+        "notes": "",
+        "lastEdit": "5/22/2024 8:18:01 AM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusDiplomacy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/20/2023 8:55:58 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusInitiative"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/20/2023 8:55:58 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverOfficerStandGround"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/13/2023 10:41:31 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_WarriorOfficer1",
+        "title": "Leadership Expert",
+        "description": "",
+        "imagePath": "FeatWarriorOfficer2",
+        "systemId": "",
+        "id": "FEA_WarriorOfficer2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:49:09 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusDiplomacy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/20/2023 8:55:58 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitMelee"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/21/2023 9:14:33 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverOfficerAttack"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 8:55:58 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 15,
+        "tier": 4,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_WarriorOfficer3",
+        "title": "Leadership Grand-Master",
+        "description": "",
+        "imagePath": "FeatWarriorOfficer4",
+        "systemId": "",
+        "id": "FEA_WarriorOfficer4",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:49:12 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusDiplomacy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/21/2023 9:00:24 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_TriggeredKillInspiringKill"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/20/2023 8:55:58 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverOfficerForwards"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 8:55:58 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassSpecific",
+        "prereqFeat": "",
+        "title": "Leadership Initiate",
+        "description": "",
+        "imagePath": "FeatWarriorOfficer1",
+        "systemId": "",
+        "id": "FEA_WarriorOfficer1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:49:08 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusInitiative"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/20/2023 8:55:58 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitMelee"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/21/2023 9:02:43 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverOfficerRegroup"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/21/2023 9:06:35 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_WarriorOfficer2",
+        "title": "Leadership Master",
+        "description": "",
+        "imagePath": "FeatWarriorOfficer3",
+        "systemId": "",
+        "id": "FEA_WarriorOfficer3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:49:11 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusArmorLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 7:12:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusArmorLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 7:12:22 AM UTC"
+            },
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveBonusArmorLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/21/2023 7:47:42 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_WarriorBredforWar2",
+        "title": "Light Armor Mastery",
+        "description": "",
+        "imagePath": "FeatWarriorBredforWar3",
+        "systemId": "",
+        "id": "FEA_WarriorBredforWar3",
+        "notes": "",
+        "lastEdit": "5/22/2024 8:08:08 AM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusArmorMedium"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 7:12:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusArmorMedium"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 7:12:22 AM UTC"
+            },
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveBonusArmorMedium"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "5/22/2024 7:51:32 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_WarriorBredforWar3",
+        "title": "Medium Armor Mastery",
+        "description": "",
+        "imagePath": "FeatWarriorBredforWar4",
+        "systemId": "",
+        "id": "FEA_WarriorBredforWar4",
+        "notes": "",
+        "lastEdit": "5/22/2024 8:08:14 AM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusSurvival",
+                    "ABI_PassiveCriticalBonusBows"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:40 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitRanged"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:40 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveDamageBow",
+                    "ABI_PassivePointBlankShot"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:40 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_WarriorRanger1",
+        "title": "Ranger Expert",
+        "description": "",
+        "imagePath": "FeatWarriorRanger2",
+        "systemId": "",
+        "id": "FEA_WarriorRanger2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:49:17 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_ManeuverMarkTarget",
+                    "ABI_PassiveBonusSurvival"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:40 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDamageBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:40 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveToHitBow",
+                    "ABI_TriggeredKillMarkedInspire"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:40 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassSpecific",
+        "prereqFeat": "",
+        "title": "Ranger Initiate",
+        "description": "",
+        "imagePath": "FeatWarriorRanger1",
+        "systemId": "",
+        "id": "FEA_WarriorRanger1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:49:15 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusSurvival",
+                    "ABI_PassiveToHitBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "5/26/2024 12:37:40 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveActivateEvasion"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:55:40 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredKillMarkedHeal"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/4/2023 10:55:30 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_WarriorRanger2",
+        "title": "Ranger Master",
+        "description": "",
+        "imagePath": "FeatWarriorRanger3",
+        "systemId": "",
+        "id": "FEA_WarriorRanger3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:49:19 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDodgeShield"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:06:14 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDodgePhalanx"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:06:14 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverDefendAlly"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 3:12:19 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorShield1",
+        "title": "Shield Expert",
+        "description": "",
+        "imagePath": "FeatWarriorShield2",
+        "systemId": "",
+        "id": "FEA_WarriorShield2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:25 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDodgeShield"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:06:14 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDodgePhalanx"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:06:14 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverShieldRush"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/25/2023 7:35:04 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorArmsMastery1",
+        "title": "Shield Initiate",
+        "description": "",
+        "imagePath": "FeatWarriorShield1",
+        "systemId": "",
+        "id": "FEA_WarriorShield1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:23 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDodgeShield"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:06:14 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDodgePhalanx"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/20/2023 3:52:17 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredShieldSlam"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/19/2023 6:06:14 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorShield2",
+        "title": "Shield Master",
+        "description": "",
+        "imagePath": "FeatWarriorShield3",
+        "systemId": "",
+        "id": "FEA_WarriorShield3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:27 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDamageBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 5:59:54 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 5:59:54 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredCriticalBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/19/2023 5:59:54 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorSword1",
+        "title": "Sword Expert",
+        "description": "",
+        "imagePath": "FeatWarriorSword2",
+        "systemId": "",
+        "id": "FEA_WarriorSword2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:30 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 5:59:54 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDamageBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 5:59:54 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverThrustAndParry"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/21/2023 8:57:19 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorArmsMastery1",
+        "title": "Sword Initiate",
+        "description": "",
+        "imagePath": "FeatWarriorSword1",
+        "systemId": "",
+        "id": "FEA_WarriorSword1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:28 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/19/2023 5:59:54 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/19/2023 5:59:54 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverStormOfSteel"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/20/2023 12:53:58 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorSword2",
+        "title": "Sword Master",
+        "description": "",
+        "imagePath": "FeatWarriorSword3",
+        "systemId": "",
+        "id": "FEA_WarriorSword3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:32 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusToughness"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 7:12:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusVitality"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/21/2023 7:52:06 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredWoundedNotToday"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "5/22/2024 8:08:00 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_WarriorBredforWar1",
+        "title": "Tough as Nails",
+        "description": "",
+        "imagePath": "FeatWarriorBredforWar2",
+        "systemId": "",
+        "id": "FEA_WarriorBredforWar2",
+        "notes": "",
+        "lastEdit": "5/22/2024 7:59:21 AM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDamageHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:44:24 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:44:24 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredKillHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:37:34 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorTwoHanders1",
+        "title": "Two-Handed Expert",
+        "description": "",
+        "imagePath": "FeatWarriorTwoHanders2",
+        "systemId": "",
+        "id": "FEA_WarriorTwoHanders2",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:36 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:44:24 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveDamageHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:44:24 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveDamageHeavy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:44:24 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorArmsMastery1",
+        "title": "Two-Handed Initiate",
+        "description": "",
+        "imagePath": "FeatWarriorTwoHanders1",
+        "systemId": "",
+        "id": "FEA_WarriorTwoHanders1",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:34 PM UTC"
+    },
+    {
+        "container": "warriorFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:44:24 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:44:24 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/18/2023 6:44:24 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_WarriorTwoHanders2",
+        "title": "Two-Handed Master",
+        "description": "",
+        "imagePath": "FeatWarriorTwoHanders3",
+        "systemId": "",
+        "id": "FEA_WarriorTwoHanders3",
+        "notes": "",
+        "lastEdit": "12/11/2023 5:48:38 PM UTC"
+    }
+]

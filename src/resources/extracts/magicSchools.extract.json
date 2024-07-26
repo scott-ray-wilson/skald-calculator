@@ -1,0 +1,431 @@
+[
+    {
+        "startingValue": 0,
+        "ranks": 0,
+        "levelFactor": 0,
+        "minValue": 0,
+        "maxValue": 1000,
+        "rootFactorPercentage": 100,
+        "rootAbility": "",
+        "abbreviation": "",
+        "attributeType": "Magic",
+        "suffixCharacter": "",
+        "countArmorEncumberance": false,
+        "countGloveEncumberance": false,
+        "countHelmetEncumberance": false,
+        "countShoeEncumberance": false,
+        "countOutfitReaction": false,
+        "usesPrimaryAttributeAsRoot": false,
+        "title": "Air Magic School",
+        "description": "The value of this attribute indicates the highest Spell Tier of Air magic spell you may cast.",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ATT_SpellListAir",
+        "notes": "",
+        "lastEdit": "6/2/2024 10:27:15 AM UTC",
+        "influences": [],
+        "spellTiers": [
+            {
+                "tier": 1,
+                "spellIds": [
+                    "ABI_SpellBlink",
+                    "ABI_SpellBlur",
+                    "ABI_SpellMagicMissile",
+                    "ABI_SpellSilence"
+                ]
+            },
+            {
+                "tier": 2,
+                "spellIds": [
+                    "ABI_SpellCauseBlindness",
+                    "ABI_SpellHaste",
+                    "ABI_SpellPurgeInvisibility"
+                ]
+            },
+            {
+                "tier": 3,
+                "spellIds": [
+                    "ABI_SpellDispelMagic",
+                    "ABI_SpellInvisibility",
+                    "ABI_SpellLightningStrike",
+                    "ABI_SpellPoisonBall"
+                ]
+            },
+            {
+                "tier": 4,
+                "spellIds": [
+                    "ABI_SpellThunderclap"
+                ]
+            }
+        ]
+    },
+    {
+        "startingValue": 0,
+        "ranks": 0,
+        "levelFactor": 0,
+        "minValue": 0,
+        "maxValue": 10,
+        "rootFactorPercentage": 100,
+        "rootAbility": "",
+        "abbreviation": "",
+        "attributeType": "Magic",
+        "suffixCharacter": "",
+        "countArmorEncumberance": false,
+        "countGloveEncumberance": false,
+        "countHelmetEncumberance": false,
+        "countShoeEncumberance": false,
+        "countOutfitReaction": false,
+        "usesPrimaryAttributeAsRoot": false,
+        "title": "Body Magic School",
+        "description": "The value of this attribute indicates the highest Spell Tier of Body magic spell you may cast.",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ATT_SpellListBody",
+        "notes": "",
+        "lastEdit": "6/2/2024 10:09:02 AM UTC",
+        "influences": [],
+        "spellTiers": [
+            {
+                "tier": 1,
+                "spellIds": [
+                    "ABI_SpellBearsStrength",
+                    "ABI_SpellCurePoisonModerate",
+                    "ABI_SpellLayOnHandsMinor",
+                    "ABI_SpellSerpentGrace"
+                ]
+            },
+            {
+                "tier": 2,
+                "spellIds": [
+                    "ABI_SpellCureDiseaseModerate",
+                    "ABI_SpellCureParalysis",
+                    "ABI_SpellLayOnHandsModerate",
+                    "ABI_SpellLesserRegeneration",
+                    "ABI_SpellPestilence"
+                ]
+            },
+            {
+                "tier": 3,
+                "spellIds": [
+                    "ABI_SpellAuraOfPoison",
+                    "ABI_SpellCircleOfHealingLesser",
+                    "ABI_SpellLayOnHandsGreater",
+                    "ABI_SpellRegenerationGreater",
+                    "ABI_SpellRestorationCorporal"
+                ]
+            },
+            {
+                "tier": 4,
+                "spellIds": [
+                    "ABI_SpellCircleOfCorporalRestoration"
+                ]
+            }
+        ]
+    },
+    {
+        "startingValue": 0,
+        "ranks": 0,
+        "levelFactor": 0,
+        "minValue": 0,
+        "maxValue": 1000,
+        "rootFactorPercentage": 100,
+        "rootAbility": "",
+        "abbreviation": "",
+        "attributeType": "Magic",
+        "suffixCharacter": "",
+        "countArmorEncumberance": false,
+        "countGloveEncumberance": false,
+        "countHelmetEncumberance": false,
+        "countShoeEncumberance": false,
+        "countOutfitReaction": false,
+        "usesPrimaryAttributeAsRoot": false,
+        "title": "Earth Magic School",
+        "description": "The value of this attribute indicates the highest Spell Tier of Earth magic spell you may cast.",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ATT_SpellListEarth",
+        "notes": "",
+        "lastEdit": "6/2/2024 10:09:06 AM UTC",
+        "influences": [],
+        "spellTiers": [
+            {
+                "tier": 1,
+                "spellIds": [
+                    "ABI_SpellShockwave",
+                    "ABI_SpellSlow",
+                    "ABI_SpellSummonVermin",
+                    "ABI_SpellSwarmOfGnats"
+                ]
+            },
+            {
+                "tier": 2,
+                "spellIds": [
+                    "ABI_SpellSlowMass",
+                    "ABI_SpellStoneskin",
+                    "ABI_SpellSummonInsects"
+                ]
+            },
+            {
+                "tier": 3,
+                "spellIds": [
+                    "ABI_SpellBreathGlass",
+                    "ABI_SpellDiamondForm",
+                    "ABI_SpellSummonOoze"
+                ]
+            },
+            {
+                "tier": 4,
+                "spellIds": [
+                    "ABI_SpellDistortMass"
+                ]
+            }
+        ]
+    },
+    {
+        "startingValue": 0,
+        "ranks": 0,
+        "levelFactor": 0,
+        "minValue": 0,
+        "maxValue": 10,
+        "rootFactorPercentage": 100,
+        "rootAbility": "",
+        "abbreviation": "",
+        "attributeType": "Magic",
+        "suffixCharacter": "",
+        "countArmorEncumberance": false,
+        "countGloveEncumberance": false,
+        "countHelmetEncumberance": false,
+        "countShoeEncumberance": false,
+        "countOutfitReaction": false,
+        "usesPrimaryAttributeAsRoot": false,
+        "title": "Fire Magic School",
+        "description": "The value of this attribute indicates the highest Spell Tier of Fire magic spell you may cast.",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ATT_SpellListFire",
+        "notes": "",
+        "lastEdit": "6/2/2024 10:09:10 AM UTC",
+        "influences": [],
+        "spellTiers": [
+            {
+                "tier": 1,
+                "spellIds": [
+                    "ABI_SpellFireAura",
+                    "ABI_SpellFireFist",
+                    "ABI_SpellFireWarrior",
+                    "ABI_SpellLight"
+                ]
+            },
+            {
+                "tier": 2,
+                "spellIds": [
+                    "ABI_SpellFireLash",
+                    "ABI_SpellFireResistance",
+                    "ABI_SpellSummonMagmite"
+                ]
+            },
+            {
+                "tier": 3,
+                "spellIds": [
+                    "ABI_SpellFireBall",
+                    "ABI_SpellFireFrenzy",
+                    "ABI_SpellFireInferno"
+                ]
+            },
+            {
+                "tier": 4,
+                "spellIds": [
+                    "ABI_SpellFireBreath"
+                ]
+            }
+        ]
+    },
+    {
+        "startingValue": 0,
+        "ranks": 0,
+        "levelFactor": 0,
+        "minValue": 0,
+        "maxValue": 10,
+        "rootFactorPercentage": 100,
+        "rootAbility": "",
+        "abbreviation": "",
+        "attributeType": "Magic",
+        "suffixCharacter": "",
+        "countArmorEncumberance": false,
+        "countGloveEncumberance": false,
+        "countHelmetEncumberance": false,
+        "countShoeEncumberance": false,
+        "countOutfitReaction": false,
+        "usesPrimaryAttributeAsRoot": false,
+        "title": "Mind Magic School",
+        "description": "The value of this attribute indicates the highest Spell Tier of Mind magic spell you may cast.",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ATT_SpellListMind",
+        "notes": "",
+        "lastEdit": "6/2/2024 10:09:14 AM UTC",
+        "influences": [],
+        "spellTiers": [
+            {
+                "tier": 1,
+                "spellIds": [
+                    "ABI_SpellAuraOfFear",
+                    "ABI_SpellClearSenses",
+                    "ABI_SpellFortifyAwareness",
+                    "ABI_SpellFortifyWill",
+                    "ABI_SpellInstillCourage",
+                    "ABI_SpellMindblast"
+                ]
+            },
+            {
+                "tier": 2,
+                "spellIds": [
+                    "ABI_SpellAuraOfSublimeDamage",
+                    "ABI_SpellCureInsanity",
+                    "ABI_SpellHolyLance",
+                    "ABI_SpellStunningTouch",
+                    "ABI_SpellTouchOfConfusion"
+                ]
+            },
+            {
+                "tier": 3,
+                "spellIds": [
+                    "ABI_SpellHystericalBlindness",
+                    "ABI_SpellRestorationMental",
+                    "ABI_SpellStunningAura"
+                ]
+            },
+            {
+                "tier": 4,
+                "spellIds": [
+                    "ABI_SpellCircleOfMentalRestoration"
+                ]
+            }
+        ]
+    },
+    {
+        "startingValue": 0,
+        "ranks": 0,
+        "levelFactor": 0,
+        "minValue": 0,
+        "maxValue": 10,
+        "rootFactorPercentage": 100,
+        "rootAbility": "",
+        "abbreviation": "",
+        "attributeType": "Magic",
+        "suffixCharacter": "",
+        "countArmorEncumberance": false,
+        "countGloveEncumberance": false,
+        "countHelmetEncumberance": false,
+        "countShoeEncumberance": false,
+        "countOutfitReaction": false,
+        "usesPrimaryAttributeAsRoot": false,
+        "title": "Nature Magic School",
+        "description": "The value of this attribute indicates the highest Spell Tier of Nature magic spell you may cast.",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ATT_SpellListNature",
+        "notes": "",
+        "lastEdit": "6/2/2024 10:09:17 AM UTC",
+        "influences": [],
+        "spellTiers": [
+            {
+                "tier": 1,
+                "spellIds": [
+                    "ABI_SpellBarkSkin",
+                    "ABI_SpellBearsStrength",
+                    "ABI_SpellCurePoisonModerate",
+                    "ABI_SpellFortifyAwareness",
+                    "ABI_SpellLayOnHandsMinor",
+                    "ABI_SpellSerpentGrace"
+                ]
+            },
+            {
+                "tier": 2,
+                "spellIds": [
+                    "ABI_SpellArmorOfThorns",
+                    "ABI_SpellImmobilizeTarget",
+                    "ABI_SpellLesserRegeneration",
+                    "ABI_SpellSummonInsects"
+                ]
+            },
+            {
+                "tier": 3,
+                "spellIds": [
+                    "ABI_SpellForceofNature",
+                    "ABI_SpellMassEnsnare",
+                    "ABI_SpellRegenerationGreater"
+                ]
+            }
+        ]
+    },
+    {
+        "startingValue": 0,
+        "ranks": 0,
+        "levelFactor": 0,
+        "minValue": 0,
+        "maxValue": 10,
+        "rootFactorPercentage": 100,
+        "rootAbility": "",
+        "abbreviation": "",
+        "attributeType": "Magic",
+        "suffixCharacter": "",
+        "countArmorEncumberance": false,
+        "countGloveEncumberance": false,
+        "countHelmetEncumberance": false,
+        "countShoeEncumberance": false,
+        "countOutfitReaction": false,
+        "usesPrimaryAttributeAsRoot": false,
+        "title": "Spirit Magic School",
+        "description": "The value of this attribute indicates the highest Spell Tier of Spirit magic spell you may cast.",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ATT_SpellListSpirit",
+        "notes": "",
+        "lastEdit": "6/2/2024 10:09:20 AM UTC",
+        "influences": [],
+        "spellTiers": [
+            {
+                "tier": 1,
+                "spellIds": [
+                    "ABI_SpellBlessTouch",
+                    "ABI_SpellHeroism",
+                    "ABI_SpellHolyHammer",
+                    "ABI_SpellLightHoly",
+                    "ABI_SpellTouchOfCondemnation"
+                ]
+            },
+            {
+                "tier": 2,
+                "spellIds": [
+                    "ABI_SpellAuraHeroism",
+                    "ABI_SpellAuraOfCondemnation",
+                    "ABI_SpellAuraOfSilence",
+                    "ABI_SpellBlessAura",
+                    "ABI_SpellTouchOfWeakness"
+                ]
+            },
+            {
+                "tier": 3,
+                "spellIds": [
+                    "ABI_SpellCommandParalyzation",
+                    "ABI_SpellHolyJudgement",
+                    "ABI_SpellPurgeMagic"
+                ]
+            },
+            {
+                "tier": 4,
+                "spellIds": [
+                    "ABI_SpellDivineIntervention"
+                ]
+            }
+        ]
+    }
+]

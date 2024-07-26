@@ -1,0 +1,1635 @@
+[
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:59:29 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:59:29 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverRogueVeinStrike"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:59:29 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueBackstab1",
+        "title": "Backstab Expert",
+        "description": "",
+        "imagePath": "FeatRogueBackstab2",
+        "systemId": "",
+        "id": "FEA_RogueBackstab2",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:25:34 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:59:29 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:59:29 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/25/2023 7:18:15 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 15,
+        "tier": 4,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueBackstab3",
+        "title": "Backstab Grand Master",
+        "description": "",
+        "imagePath": "FeatRogueBackstab3",
+        "systemId": "",
+        "id": "FEA_RogueBackstab4",
+        "notes": "",
+        "lastEdit": "5/26/2024 12:41:28 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:59:29 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:59:29 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManueverRogueHamstring"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:44:44 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueBase",
+        "title": "Backstab Initiate",
+        "description": "",
+        "imagePath": "FeatRogueBackstab1",
+        "systemId": "",
+        "id": "FEA_RogueBackstab1",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:15:56 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:59:29 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:59:29 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredBackstabCrippling"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/25/2023 7:18:15 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueBackstab2",
+        "title": "Backstab Master",
+        "description": "",
+        "imagePath": "FeatRogueBackstab3",
+        "systemId": "",
+        "id": "FEA_RogueBackstab3",
+        "notes": "",
+        "lastEdit": "5/26/2024 6:39:19 AM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:48 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:48 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:48 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_RogueDuelist1",
+        "title": "Duelist Expert",
+        "description": "",
+        "imagePath": "FeatRogueDuelist2",
+        "systemId": "",
+        "id": "FEA_RogueDuelist2",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:25:38 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:16:07 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:16:07 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:16:07 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 15,
+        "tier": 4,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_RogueDuelist3",
+        "title": "Duelist Grand-Master",
+        "description": "",
+        "imagePath": "FeatRogueDuelist4",
+        "systemId": "",
+        "id": "FEA_RogueDuelist4",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:17:15 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:48 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:48 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:48 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassSpecific",
+        "prereqFeat": "",
+        "title": "Duelist Initiate",
+        "description": "",
+        "imagePath": "FeatRogueDuelist1",
+        "systemId": "",
+        "id": "FEA_RogueDuelist1",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:16:48 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:48 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:48 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:48 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_RogueDuelist2",
+        "title": "Duelist Master",
+        "description": "",
+        "imagePath": "FeatRogueDuelist3",
+        "systemId": "",
+        "id": "FEA_RogueDuelist3",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:16:59 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDamagePiercing"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverRoguePierceArmor"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "Combat",
+        "prereqFeat": "FEA_RogueLightWeapons1",
+        "title": "Light Weapons Expert",
+        "description": "",
+        "imagePath": "FeatRogueLightWeapons2",
+        "systemId": "",
+        "id": "FEA_RogueLightWeapons2",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:25:43 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveToHitLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverPreciseStrike"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 4:58:37 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Combat",
+        "prereqFeat": "",
+        "title": "Light Weapons Initiate",
+        "description": "",
+        "imagePath": "FeatRogueLightWeapons1",
+        "systemId": "",
+        "id": "FEA_RogueLightWeapons1",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:19:24 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusInitiative"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:58:42 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusMovement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:58:42 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveActivateFreeSwap"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:58:42 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueMobility1",
+        "title": "Mobility Expert",
+        "description": "",
+        "imagePath": "FeatRogueMobility2",
+        "systemId": "",
+        "id": "FEA_RogueMobility2",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:25:47 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusInitiative"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:58:42 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusAthletics"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 7:50:24 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveActivateEvasion"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/25/2023 7:10:10 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueBase",
+        "title": "Mobility Initiate",
+        "description": "",
+        "imagePath": "FeatRogueMobility1",
+        "systemId": "",
+        "id": "FEA_RogueMobility1",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:19:34 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusInitiative"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:58:42 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusAthletics"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 11:58:42 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManueverDash"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/25/2023 7:34:13 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueMobility2",
+        "title": "Mobility Master",
+        "description": "",
+        "imagePath": "FeatRogueMobility3",
+        "systemId": "",
+        "id": "FEA_RogueMobility3",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:19:45 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDamageBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 8:07:26 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredCriticalBladeExtraAttack"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:12 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Combat",
+        "prereqFeat": "FEA_RogueRogueBlade1",
+        "title": "Rogue Blade Expert",
+        "description": "",
+        "imagePath": "FeatRogueRogueBlade2",
+        "systemId": "",
+        "id": "FEA_RogueRogueBlade2",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:25:50 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBlade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:12 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManeuverThrustAndParry"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 8:02:08 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_RogueLightWeapons2",
+        "title": "Rogue Blade Initiate",
+        "description": "",
+        "imagePath": "FeatRogueRogueBlade1",
+        "systemId": "",
+        "id": "FEA_RogueRogueBlade1",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:19:51 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveDamageBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:34 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBows"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:34 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredCriticalBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 8:01:00 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 4,
+        "type": "Combat",
+        "prereqFeat": "FEA_RogueRogueRanged1",
+        "title": "Rogue Ranged Expert",
+        "description": "",
+        "imagePath": "FeatRogueRogueRanged2",
+        "systemId": "",
+        "id": "FEA_RogueRogueRanged2",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:25:55 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveToHitBow"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:34 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveCriticalBonusBows"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:34 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusFletching"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 5:03:34 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "Combat",
+        "prereqFeat": "FEA_RogueLightWeapons2",
+        "title": "Rogue Ranged Initiate",
+        "description": "",
+        "imagePath": "FeatRogueRogueRanged1",
+        "systemId": "",
+        "id": "FEA_RogueRogueRanged1",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:20:03 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusToughness"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:01:07 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusDodge"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:01:07 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusCritResistance"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:01:07 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueSurvivor1",
+        "title": "Survivor Expert",
+        "description": "",
+        "imagePath": "FeatRogueSurvivor2",
+        "systemId": "",
+        "id": "FEA_RogueSurvivor2",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:26:00 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusArmorLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:01:07 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusArmorLight"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:01:07 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusCritResistance"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:01:07 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueBase",
+        "title": "Survivor Initiate",
+        "description": "",
+        "imagePath": "FeatRogueSurvivor1",
+        "systemId": "",
+        "id": "FEA_RogueSurvivor1",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:20:19 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusWill"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "8/5/2023 7:46:51 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusCritResistance"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:01:07 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredDodgeRogue"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "8/5/2023 7:39:54 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "ClassGeneral",
+        "prereqFeat": "FEA_RogueSurvivor2",
+        "title": "Survivor Master",
+        "description": "",
+        "imagePath": "FeatRogueSurvivor3",
+        "systemId": "",
+        "id": "FEA_RogueSurvivor3",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:20:27 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusStealth"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:32 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusThievery"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:32 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredStartOfCombatHide"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:32 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_RogueThief1",
+        "title": "Thievery Expert",
+        "description": "",
+        "imagePath": "FeatRogueThief2",
+        "systemId": "",
+        "id": "FEA_RogueThief2",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:26:03 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusThievery"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:32 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusStealth"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "8/6/2023 10:42:46 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_ManueverHide"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:32 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "ClassSpecific",
+        "prereqFeat": "",
+        "title": "Thievery Initiate",
+        "description": "",
+        "imagePath": "FeatRogueThief1",
+        "systemId": "",
+        "id": "FEA_RogueThief1",
+        "notes": "",
+        "lastEdit": "5/26/2024 10:25:25 AM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusThievery"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:32 PM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusStealth"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:32 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_TriggeredWoundedHide"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:05:32 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "ClassSpecific",
+        "prereqFeat": "FEA_RogueThief2",
+        "title": "Thievery Master",
+        "description": "",
+        "imagePath": "FeatRogueThief3",
+        "systemId": "",
+        "id": "FEA_RogueThief3",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:20:57 PM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveActivateBackstab",
+                    "ABI_PassiveBonusBackstab"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:30:09 PM UTC"
+            },
+            {
+                "rank": 4,
+                "abilities": [
+                    "ABI_PassiveBonusStealth"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:24:31 PM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusMovement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "7/24/2023 12:13:05 PM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 0,
+        "type": "ClassGeneral",
+        "prereqFeat": "",
+        "title": "Tradecraft",
+        "description": "",
+        "imagePath": "FeatRogueBase",
+        "systemId": "",
+        "id": "FEA_RogueBase",
+        "notes": "",
+        "lastEdit": "10/9/2023 12:16:33 PM UTC"
+    }
+]
