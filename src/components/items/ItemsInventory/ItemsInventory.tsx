@@ -3,6 +3,7 @@ import {
   ACCESSORY_LIST,
   AMMO_LIST,
   ARMOR_LIST,
+  CLOTHING_LIST,
   COMBINED_ADVENTURING_ITEMS_LIST,
   COMBINED_CONSUMABLES_LIST,
   COMBINED_ITEM_LIST,
@@ -43,7 +44,7 @@ export const ItemsInventory = ({ filter }: ItemsInventoryProps) => {
       items = [...COMBINED_WEAPON_LIST, ...AMMO_LIST];
       break;
     case "armor":
-      items = [...ARMOR_LIST, ...SHIELD_LIST];
+      items = [...ARMOR_LIST, ...SHIELD_LIST, ...CLOTHING_LIST];
       break;
     case "consumables":
       items = COMBINED_CONSUMABLES_LIST;
