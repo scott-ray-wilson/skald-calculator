@@ -49,9 +49,7 @@ export const ShieldDescription = ({ shieldId }: ShieldDescriptionProps) => {
       <div className={`flex flex-col`}>
         <span className={`text-lg uppercase text-blue`}>{title}</span>
         <div className={`-mt-1 flex flex-wrap gap-x-1`}>
-          <span className={"leading-5 text-light-gray"}>
-            [{weightCategory || parentShield?.weightCategory} Armor]
-          </span>
+          <span className={"leading-5 text-light-gray"}>[Shield]</span>
           {enchantment || unique || conferredAbilities.length ? (
             <span className={"leading-5 text-light-gray"}>[Enchanted]</span>
           ) : null}
