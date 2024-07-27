@@ -58,6 +58,7 @@ export const BasicItemDescription = ({ itemId }: BasicItemDescriptionProps) => {
       category = "Book";
       break;
     case "trinkets":
+    case "gems":
       category = "Trinket";
       break;
     case "clothing":

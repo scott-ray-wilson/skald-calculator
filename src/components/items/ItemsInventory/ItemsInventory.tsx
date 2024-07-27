@@ -9,6 +9,7 @@ import {
   COMBINED_ITEM_LIST,
   COMBINED_WEAPON_LIST,
   FOOD_LIST,
+  GEM_LIST,
   ItemType,
   JEWELRY_LIST,
   SHIELD_LIST,
@@ -56,7 +57,7 @@ export const ItemsInventory = ({ filter }: ItemsInventoryProps) => {
       items = COMBINED_ADVENTURING_ITEMS_LIST;
       break;
     case "misc":
-      items = TRINKET_LIST;
+      items = [...GEM_LIST, ...TRINKET_LIST];
       break;
     default:
       throw new Error("Unhandled Item Filter Type");
