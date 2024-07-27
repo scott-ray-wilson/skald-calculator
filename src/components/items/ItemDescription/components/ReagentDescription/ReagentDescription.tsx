@@ -1,4 +1,4 @@
-import { Paragraph } from "@/components/generic";
+import { CopyTextButton, Paragraph } from "@/components/generic";
 import { ALCHEMY_RECIPE_LIST, CONSUMABLE_MAP, REAGENT_MAP } from "@/resources";
 import { Fragment } from "react";
 
@@ -60,6 +60,7 @@ export const ReagentDescription = ({
       >
         {description}
       </Paragraph>
+      <CopyTextButton className={`mt-auto`}>{reagentId}</CopyTextButton>
     </>
   );
 };

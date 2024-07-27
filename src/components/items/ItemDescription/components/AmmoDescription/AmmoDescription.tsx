@@ -1,6 +1,6 @@
 import { AMMO_MAP } from "@/resources";
 import { Fragment } from "react";
-import { Keyword } from "@/components/generic";
+import { CopyTextButton, Keyword } from "@/components/generic";
 
 type AmmoDescriptionProps = { ammoId: string };
 
@@ -51,6 +51,7 @@ export const AmmoDescription = ({ ammoId }: AmmoDescriptionProps) => {
           </Fragment>
         ))}
       </div>
+      <CopyTextButton className={`mt-auto`}>{ammoId}</CopyTextButton>
     </>
   );
 };

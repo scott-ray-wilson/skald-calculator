@@ -26,6 +26,7 @@ import {
   AdditionAbilityDescription,
   CombatManeuverDescription,
   ConditionDescription,
+  CopyTextButton,
   Paragraph,
   SpellDescription,
   TriggeredAbilityDescription,
@@ -135,6 +136,7 @@ export const KeywordContent = ({
           {segment}
         </Paragraph>
       ))}
+      <CopyTextButton>{id}</CopyTextButton>
     </>
   );
 };

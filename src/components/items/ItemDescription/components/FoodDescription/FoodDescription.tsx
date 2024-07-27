@@ -1,4 +1,4 @@
-import { Paragraph } from "@/components/generic";
+import { CopyTextButton, Paragraph } from "@/components/generic";
 import { FOOD_MAP, FOOD_RECIPE_LIST } from "@/resources";
 import { Fragment } from "react";
 
@@ -61,6 +61,7 @@ export const FoodDescription = ({
       >
         {description}
       </Paragraph>
+      <CopyTextButton className={`mt-auto`}>{foodId}</CopyTextButton>
     </>
   );
 };

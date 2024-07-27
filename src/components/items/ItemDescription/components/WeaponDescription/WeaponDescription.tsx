@@ -4,7 +4,7 @@ import {
   WEAPON_ENCHANTMENT_LIST,
 } from "@/resources";
 import { Fragment } from "react";
-import { Keyword, Paragraph } from "@/components/generic";
+import { CopyTextButton, Keyword, Paragraph } from "@/components/generic";
 
 type WeaponDescriptionProps = { weaponId: string };
 
@@ -107,6 +107,7 @@ export const WeaponDescription = ({ weaponId }: WeaponDescriptionProps) => {
           className={`text-yellow`}
         >{`Possible Enchantments: ${potentialEnchantments.map((enchantment) => enchantment.prefix || enchantment.suffix).join(", ")}`}</Paragraph>
       ) : null}
+      <CopyTextButton className={`mt-auto`}>{weaponId}</CopyTextButton>
     </>
   );
 };

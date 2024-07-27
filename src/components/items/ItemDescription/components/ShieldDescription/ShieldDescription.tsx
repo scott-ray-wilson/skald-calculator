@@ -5,7 +5,7 @@ import {
   SHIELD_MAP,
 } from "@/resources";
 import { Fragment } from "react";
-import { Keyword, Paragraph } from "@/components/generic";
+import { CopyTextButton, Keyword, Paragraph } from "@/components/generic";
 
 type ShieldDescriptionProps = { shieldId: string };
 
@@ -101,6 +101,7 @@ export const ShieldDescription = ({ shieldId }: ShieldDescriptionProps) => {
           className={`text-yellow`}
         >{`Possible Enchantments: ${potentialEnchantments.map((enchantment) => enchantment.prefix || enchantment.suffix).join(", ")}`}</Paragraph>
       ) : null}
+      <CopyTextButton className={`mt-auto`}>{shieldId}</CopyTextButton>
     </>
   );
 };

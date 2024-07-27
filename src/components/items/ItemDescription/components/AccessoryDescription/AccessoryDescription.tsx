@@ -4,7 +4,7 @@ import {
   GENERAL_ENCHANTMENT_LIST,
 } from "@/resources";
 import { Fragment } from "react";
-import { Keyword, Paragraph } from "@/components/generic";
+import { CopyTextButton, Keyword, Paragraph } from "@/components/generic";
 
 type AccessoryDescriptionProps = { accessoryId: string };
 
@@ -54,6 +54,7 @@ export const AccessoryDescription = ({
       <div className={`flex flex-col`}>
         <span className={`text-lg uppercase text-blue`}>
           {title}
+          {/* helps differentiate items with the same name */}
           {!imagePath && modelPath !== title
             ? ` (${modelPath.split(/(?=[A-Z0-9])/).join(" ")})`
             : ""}
@@ -90,6 +91,7 @@ export const AccessoryDescription = ({
           className={`text-yellow`}
         >{`Possible Enchantments: ${potentialEnchantments.map((enchantment) => enchantment.suffix || enchantment.prefix).join(", ")}`}</Paragraph>
       ) : null}
+      <CopyTextButton className={`mt-auto`}>{accessoryId}</CopyTextButton>
     </>
   );
 };

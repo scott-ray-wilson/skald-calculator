@@ -42,23 +42,25 @@ export const DescriptionContainer = ({
     >
       <ErrorBoundary fallbackRender={ErrorComponent}>
         {children}
-        <div
-          className={cn(
-            `mt-auto flex flex-col items-center gap-2 pt-1 md:pt-0`,
-            buttonContainerClassName,
-          )}
-        >
-          {nextTab ? (
-            <PanelButton isDisabled={!nextTab} onPress={handleNext}>
-              Continue
-            </PanelButton>
-          ) : null}
-          {prevTab ? (
-            <PanelButton isDisabled={!prevTab} onPress={handlePrev}>
-              Back
-            </PanelButton>
-          ) : null}
-        </div>
+        {nextTab || prevTab ? (
+          <div
+            className={cn(
+              `mt-auto flex flex-col items-center gap-2 pt-1 md:pt-0`,
+              buttonContainerClassName,
+            )}
+          >
+            {nextTab ? (
+              <PanelButton isDisabled={!nextTab} onPress={handleNext}>
+                Continue
+              </PanelButton>
+            ) : null}
+            {prevTab ? (
+              <PanelButton isDisabled={!prevTab} onPress={handlePrev}>
+                Back
+              </PanelButton>
+            ) : null}
+          </div>
+        ) : null}
       </ErrorBoundary>
     </div>
   );

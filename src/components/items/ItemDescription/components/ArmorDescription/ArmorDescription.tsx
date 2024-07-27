@@ -5,7 +5,7 @@ import {
   GENERAL_ENCHANTMENT_LIST,
 } from "@/resources";
 import { Fragment } from "react";
-import { Keyword, Paragraph } from "@/components/generic";
+import { CopyTextButton, Keyword, Paragraph } from "@/components/generic";
 
 type ArmorDescriptionProps = { armorId: string };
 
@@ -101,6 +101,7 @@ export const ArmorDescription = ({ armorId }: ArmorDescriptionProps) => {
           className={`text-yellow`}
         >{`Possible Enchantments: ${potentialEnchantments.map((enchantment) => enchantment.prefix || enchantment.suffix).join(", ")}`}</Paragraph>
       ) : null}
+      <CopyTextButton className={`mt-auto`}>{armorId}</CopyTextButton>
     </>
   );
 };

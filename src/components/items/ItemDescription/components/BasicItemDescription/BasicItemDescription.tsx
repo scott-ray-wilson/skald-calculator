@@ -8,7 +8,7 @@ import {
   RecipeType,
 } from "@/resources";
 import { Fragment } from "react";
-import { Paragraph } from "@/components/generic";
+import { CopyTextButton, Paragraph } from "@/components/generic";
 
 type BasicItemDescriptionProps = { itemId: string };
 
@@ -88,6 +88,7 @@ export const BasicItemDescription = ({ itemId }: BasicItemDescriptionProps) => {
       {description ? (
         <Paragraph className={`text-yellow`}>{description}</Paragraph>
       ) : null}
+      <CopyTextButton className={`mt-auto`}>{itemId}</CopyTextButton>
     </>
   );
 };

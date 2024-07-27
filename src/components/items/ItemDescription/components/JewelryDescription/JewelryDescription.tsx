@@ -5,7 +5,7 @@ import {
   JEWELRY_MAP,
 } from "@/resources";
 import { Fragment } from "react";
-import { Paragraph } from "@/components/generic";
+import { CopyTextButton, Paragraph } from "@/components/generic";
 
 type JewelryDescriptionProps = { jewelryId: string };
 
@@ -85,6 +85,7 @@ export const JewelryDescription = ({ jewelryId }: JewelryDescriptionProps) => {
           className={`text-yellow`}
         >{`Possible Enchantments: ${potentialEnchantments.map((enchantment) => enchantment.prefix || enchantment.suffix).join(", ")}`}</Paragraph>
       ) : null}
+      <CopyTextButton className={`mt-auto`}>{jewelryId}</CopyTextButton>
     </>
   );
 };

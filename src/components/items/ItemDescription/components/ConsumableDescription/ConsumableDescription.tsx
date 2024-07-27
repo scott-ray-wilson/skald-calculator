@@ -1,7 +1,11 @@
-import { getConditonsAndEffects, Paragraph } from "@/components/generic";
+import {
+  ConditionsAndEffects,
+  CopyTextButton,
+  getConditonsAndEffects,
+  Paragraph,
+} from "@/components/generic";
 import { CONSUMABLE_MAP } from "@/resources";
 import { Fragment } from "react";
-import { ConditionsAndEffects } from "@/components/generic";
 
 export const ConsumableDescription = ({
   consumableId,
@@ -39,6 +43,7 @@ export const ConsumableDescription = ({
         {description}
       </Paragraph>
       <ConditionsAndEffects shouldOverride={shouldOverride} {...props} />
+      <CopyTextButton className={`mt-auto`}>{consumableId}</CopyTextButton>
     </>
   );
 };

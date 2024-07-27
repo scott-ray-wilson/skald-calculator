@@ -1,6 +1,6 @@
 import { MAGIC_SCHOOL_MAP, SPELL_MAP } from "@/resources";
 import { Fragment } from "react";
-import { Keyword } from "@/components/generic";
+import { CopyTextButton, Keyword } from "@/components/generic";
 
 type TomeDescriptionProps = { spellId: string };
 
@@ -69,6 +69,7 @@ export const TomeDescription = ({ spellId }: TomeDescriptionProps) => {
           </div>
         ))}
       </div>
+      <CopyTextButton className={`mt-auto`}>{spellId}</CopyTextButton>
     </>
   );
 };
