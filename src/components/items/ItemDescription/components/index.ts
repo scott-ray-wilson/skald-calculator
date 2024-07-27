@@ -1,6 +1,7 @@
 export * from "./AccessoryDescription";
 export * from "./AmmoDescription";
 export * from "./ArmorDescription";
+export * from "./BasicItemDescription";
 export * from "./ConsumableDescription";
 export * from "./FoodDescription";
 export * from "./JewelryDescription";
