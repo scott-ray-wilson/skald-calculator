@@ -15,7 +15,6 @@ export const ShieldDescription = ({ shieldId }: ShieldDescriptionProps) => {
   if (!shield) throw new Error(`Invalid Shield ID: ${shieldId}`);
 
   const {
-    weightCategory,
     description,
     soak,
     parent,
