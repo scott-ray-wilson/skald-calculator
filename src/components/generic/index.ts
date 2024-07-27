@@ -5,6 +5,7 @@ export * from "./GenericPopover";
 export * from "./GenericTooltip";
 export * from "./GameVersionDetails";
 export * from "./ConditionsAndEffects";
+export * from "./IconButton";
 export * from "./InventoryList";
 export * from "./ItemIcon";
 export * from "./Keyword";

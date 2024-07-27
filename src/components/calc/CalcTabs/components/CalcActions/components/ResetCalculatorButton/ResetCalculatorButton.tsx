@@ -1,5 +1,8 @@
-import { Button } from "react-aria-components";
-import { GenericDialog, GenericTooltip } from "@/components/generic";
+import {
+  GenericDialog,
+  GenericTooltip,
+  IconButton,
+} from "@/components/generic";
 import { useAttributesPanel, useCalcTabs, usePartyLoadout } from "@/stores";
 import { useState } from "react";
 
@@ -18,10 +21,7 @@ export const ResetCalculatorButton = () => {
   return (
     <>
       <GenericTooltip content={"Reset Build Calculator"}>
-        <Button
-          onPress={() => setOpenDialog(true)}
-          className={`focus:outline-none focus:ring-0 focus:text-blue text-white hover:text-yellow`}
-        >
+        <IconButton onPress={() => setOpenDialog(true)}>
           <svg
             className={`h-6 w-6`}
             fill="none"
@@ -33,7 +33,7 @@ export const ResetCalculatorButton = () => {
               fill="currentColor"
             />
           </svg>
-        </Button>
+        </IconButton>
       </GenericTooltip>
       <GenericDialog
         aria-label={"Confirm reset build calculator"}

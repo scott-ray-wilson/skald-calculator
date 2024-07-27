@@ -1,5 +1,8 @@
-import { Button } from "react-aria-components";
-import { GenericDialog, GenericTooltip } from "@/components/generic";
+import {
+  GenericDialog,
+  GenericTooltip,
+  IconButton,
+} from "@/components/generic";
 import { useState } from "react";
 import { supabase } from "@/lib/supabase";
 import { usePartyLoadout } from "@/stores";
@@ -69,10 +72,7 @@ export const GenerateBuildLinkButton = () => {
         )}
       </GenericDialog>
       <GenericTooltip content={"Generate Build Link"}>
-        <Button
-          onPress={handleGenerateLink}
-          className={`text-white hover:text-yellow focus:text-blue focus:outline-none focus:ring-0`}
-        >
+        <IconButton onPress={handleGenerateLink}>
           <svg
             fill="none"
             className={`h-6 w-6`}
@@ -84,7 +84,7 @@ export const GenerateBuildLinkButton = () => {
               fill="currentColor"
             />
           </svg>
-        </Button>
+        </IconButton>
       </GenericTooltip>
     </>
   );
