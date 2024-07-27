@@ -8,7 +8,7 @@ import { PanelButton } from "@/components/generic";
 import { ReactElement, ReactNode } from "react";
 import { cn } from "@/components/utils";
 
-type FeatLockedDialogProps = {
+type GenericDialogProps = {
   isOpen?: boolean;
   onOpenChange?: (isOpen: boolean) => void;
   trigger?: ReactElement;
@@ -16,6 +16,7 @@ type FeatLockedDialogProps = {
   containerClassName?: string;
   onConfirm?: () => void;
   ["aria-label"]: string;
+  disableClose?: boolean;
 };
 
 export const GenericDialog = ({
@@ -25,8 +26,9 @@ export const GenericDialog = ({
   onConfirm,
   isOpen,
   onOpenChange,
+  disableClose,
   ...props
-}: FeatLockedDialogProps) => {
+}: GenericDialogProps) => {
   const DialogComponent = (
     <ModalOverlay
       {...(trigger
@@ -35,7 +37,7 @@ export const GenericDialog = ({
             isOpen,
             onOpenChange,
           })}
-      isDismissable
+      isDismissable={!disableClose}
       className={`fixed crt inset-0 p-4 z-10 min-h-full flex items-center justify-center`}
     >
       <Modal
@@ -69,7 +71,12 @@ export const GenericDialog = ({
                     Yes
                   </PanelButton>
                 ) : null}
-                <PanelButton autoFocus onPress={close} className={`w-min`}>
+                <PanelButton
+                  isDisabled={disableClose}
+                  autoFocus
+                  onPress={close}
+                  className={`w-min`}
+                >
                   {onConfirm ? "No" : "Continue"}
                 </PanelButton>
               </div>

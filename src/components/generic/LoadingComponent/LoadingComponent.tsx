@@ -1,6 +1,21 @@
-export const LoadingComponent = () => {
+import { cn } from "@/components/utils";
+
+type LoadingComponentProps = {
+  title?: string;
+  className?: string;
+};
+
+export const LoadingComponent = ({
+  title = "Loading...",
+  className,
+}: LoadingComponentProps) => {
   return (
-    <div className={`flex-1 w-full grid place-items-center text-yellow`}>
+    <div
+      className={cn(
+        `flex-1 w-full grid place-items-center text-yellow`,
+        className,
+      )}
+    >
       <div className={`flex gap-2 items-center`}>
         <svg
           className={`h-8 w-8 spinner`}
@@ -13,7 +28,7 @@ export const LoadingComponent = () => {
             fill="currentColor"
           />
         </svg>
-        <span>Loading...</span>
+        <span>{title}</span>
       </div>
     </div>
   );

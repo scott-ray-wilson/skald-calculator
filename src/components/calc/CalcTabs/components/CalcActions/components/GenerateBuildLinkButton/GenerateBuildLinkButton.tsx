@@ -2,6 +2,7 @@ import {
   GenericDialog,
   GenericTooltip,
   IconButton,
+  LoadingComponent,
 } from "@/components/generic";
 import { useState } from "react";
 import { supabase } from "@/lib/supabase";
@@ -15,11 +16,14 @@ export const GenerateBuildLinkButton = () => {
   const [buildLink, setBuildLink] = useState("");
   const [openDialog, setOpenDialog] = useState(false);
   const [error, setError] = useState<PostgrestError | Error | null>();
+  const [isLoading, setIsLoading] = useState(false);
   const { exportLoadout } = usePartyLoadout();
 
   const handleGenerateLink = async () => {
     setError(null);
     setBuildLink("");
+    setOpenDialog(true);
+    setIsLoading(true);
 
     try {
       const { data, error } = await supabase
@@ -40,7 +44,7 @@ export const GenerateBuildLinkButton = () => {
       setError(e as Error);
     }
 
-    setOpenDialog(true);
+    setIsLoading(false);
   };
 
   return (
@@ -49,8 +53,14 @@ export const GenerateBuildLinkButton = () => {
         aria-label={"Character build link"}
         isOpen={openDialog}
         onOpenChange={setOpenDialog}
+        disableClose={isLoading}
       >
-        {error ? (
+        {isLoading ? (
+          <LoadingComponent
+            className={"text-blue"}
+            title={"Generating Link..."}
+          />
+        ) : error ? (
           <>
             <p>An error occurred while generating your link:</p>
             <p className={`text-blue`}>{error.message}</p>
