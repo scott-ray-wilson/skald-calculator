@@ -137,8 +137,6 @@
         "featsList": [
             "FEA_RogueBackstab1",
             "FEA_RogueBackstab2",
-            "FEA_RogueBackstab3",
-            "FEA_RogueBackstab4",
             "FEA_RogueBase",
             "FEA_RogueLightWeapons1",
             "FEA_RogueLightWeapons2",
@@ -230,7 +228,7 @@
         "systemId": "",
         "id": "CLA_Wanderer",
         "notes": "Varied support classes with slight to medium magic usage",
-        "lastEdit": "11/28/2022 7:31:10 AM UTC"
+        "lastEdit": "9/8/2024 10:04:08 AM UTC"
     },
     {
         "container": "archetypeClassContainer",

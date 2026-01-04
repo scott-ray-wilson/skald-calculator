@@ -8,15 +8,9 @@
     "build": "tsc && vite build",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "extract": "node extract-resources.js",
-    "db-types": "supabase gen types typescript --local > ./src/lib/supabase/types/database.generated.ts",
-    "db-up": "supabase migrations up && pnpm db-types",
-    "db-reset": "supabase db reset && pnpm db-types",
-    "supabase-restart": "supabase stop --no-backup && supabase start",
-    "pkg-up": "pnpm up -i --latest"
+    "extract": "node extract-resources.js"
   },
   "dependencies": {
-    "@supabase/supabase-js": "^2.44.4",
     "@tanstack/react-router": "^1.45.10",
     "ajv": "^8.17.1",
     "clsx": "^2.1.1",
@@ -31,7 +25,6 @@
     "zustand": "^4.5.4"
   },
   "devDependencies": {
-    "@tanstack/router-devtools": "1.45.10",
     "@tanstack/router-plugin": "^1.45.8",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
@@ -46,7 +39,6 @@
     "lodash": "^4.17.21",
     "postcss": "^8.4.40",
     "prettier": "^3.3.3",
-    "supabase": "^1.187.3",
     "tailwindcss": "^3.4.7",
     "typescript": "^5.5.4",
     "vite": "^5.3.5"

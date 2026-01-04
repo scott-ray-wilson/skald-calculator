@@ -13,9 +13,8 @@
 import { Route as rootRoute } from './routes/__root'
 import { Route as ItemsImport } from './routes/items'
 import { Route as CraftingImport } from './routes/crafting'
+import { Route as CalcImport } from './routes/calc'
 import { Route as IndexImport } from './routes/index'
-import { Route as CalcIndexImport } from './routes/calc/index'
-import { Route as CalcPartyLoadoutIdImport } from './routes/calc/$partyLoadoutId'
 
 // Create/Update Routes
 
@@ -29,18 +28,13 @@ const CraftingRoute = CraftingImport.update({
   getParentRoute: () => rootRoute,
 } as any)
 
+const CalcRoute = CalcImport.update({
+  path: '/calc',
+  getParentRoute: () => rootRoute,
+} as any)
+
 const IndexRoute = IndexImport.update({
   path: '/',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const CalcIndexRoute = CalcIndexImport.update({
-  path: '/calc/',
-  getParentRoute: () => rootRoute,
-} as any)
-
-const CalcPartyLoadoutIdRoute = CalcPartyLoadoutIdImport.update({
-  path: '/calc/$partyLoadoutId',
   getParentRoute: () => rootRoute,
 } as any)
 
@@ -53,6 +47,13 @@ declare module '@tanstack/react-router' {
       path: '/'
       fullPath: '/'
       preLoaderRoute: typeof IndexImport
+      parentRoute: typeof rootRoute
+    }
+    '/calc': {
+      id: '/calc'
+      path: '/calc'
+      fullPath: '/calc'
+      preLoaderRoute: typeof CalcImport
       parentRoute: typeof rootRoute
     }
     '/crafting': {
@@ -69,20 +70,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof ItemsImport
       parentRoute: typeof rootRoute
     }
-    '/calc/$partyLoadoutId': {
-      id: '/calc/$partyLoadoutId'
-      path: '/calc/$partyLoadoutId'
-      fullPath: '/calc/$partyLoadoutId'
-      preLoaderRoute: typeof CalcPartyLoadoutIdImport
-      parentRoute: typeof rootRoute
-    }
-    '/calc/': {
-      id: '/calc/'
-      path: '/calc'
-      fullPath: '/calc'
-      preLoaderRoute: typeof CalcIndexImport
-      parentRoute: typeof rootRoute
-    }
   }
 }
 
@@ -90,10 +77,9 @@ declare module '@tanstack/react-router' {
 
 export const routeTree = rootRoute.addChildren({
   IndexRoute,
+  CalcRoute,
   CraftingRoute,
   ItemsRoute,
-  CalcPartyLoadoutIdRoute,
-  CalcIndexRoute,
 })
 
 /* prettier-ignore-end */
@@ -105,26 +91,22 @@ export const routeTree = rootRoute.addChildren({
       "filePath": "__root.tsx",
       "children": [
         "/",
+        "/calc",
         "/crafting",
-        "/items",
-        "/calc/$partyLoadoutId",
-        "/calc/"
+        "/items"
       ]
     },
     "/": {
       "filePath": "index.tsx"
+    },
+    "/calc": {
+      "filePath": "calc.tsx"
     },
     "/crafting": {
       "filePath": "crafting.tsx"
     },
     "/items": {
       "filePath": "items.tsx"
-    },
-    "/calc/$partyLoadoutId": {
-      "filePath": "calc/$partyLoadoutId.tsx"
-    },
-    "/calc/": {
-      "filePath": "calc/index.tsx"
     }
   }
 }

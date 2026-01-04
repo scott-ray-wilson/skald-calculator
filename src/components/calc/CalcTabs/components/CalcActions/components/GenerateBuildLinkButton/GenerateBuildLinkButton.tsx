@@ -5,17 +5,15 @@ import {
   LoadingComponent,
 } from "@/components/generic";
 import { useState } from "react";
-import { supabase } from "@/lib/supabase";
 import { usePartyLoadout } from "@/stores";
 import copy from "copy-to-clipboard";
-import { PostgrestError } from "@supabase/supabase-js";
 
 const BASE_URL = import.meta.env.VITE_APP_LOCATION;
 
 export const GenerateBuildLinkButton = () => {
   const [buildLink, setBuildLink] = useState("");
   const [openDialog, setOpenDialog] = useState(false);
-  const [error, setError] = useState<PostgrestError | Error | null>();
+  const [error, setError] = useState<Error | null>();
   const [isLoading, setIsLoading] = useState(false);
   const { exportLoadout } = usePartyLoadout();
 
@@ -26,20 +24,10 @@ export const GenerateBuildLinkButton = () => {
     setIsLoading(true);
 
     try {
-      const { data, error } = await supabase
-        .rpc("upsert_party_loadout", {
-          loadout: exportLoadout(),
-        })
-        .select()
-        .single();
+      const url = `${BASE_URL}/calc?build=${btoa(JSON.stringify(exportLoadout()))}`;
 
-      if (error) {
-        setError(error);
-      } else {
-        const url = `${BASE_URL}/calc/${data.id}`;
-        setBuildLink(url);
-        copy(url);
-      }
+      setBuildLink(url);
+      copy(url);
     } catch (e) {
       setError(e as Error);
     }

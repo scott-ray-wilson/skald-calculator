@@ -86,7 +86,7 @@ export const FeatNode = (node: FeatNodeProps) => {
               "border-red": feat.type === "ClassSpecific",
               "border-indigo": feat.type === "Combat",
               "border-blue": feat.type === "Magic",
-              "border-light-gray": feat.type === "ClassGeneral",
+              "border-light-gray": feat.type === "ClassGeneral" || !feat.type,
             },
           )}
         >

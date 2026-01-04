@@ -35,7 +35,6 @@ The web app allows players to theorycraft party builds for their adventures thro
 - Vite (SPA)
 - React
 - Typescript
-- PostgreSQL / Supabase (Database)
 - TailwindCSS (Styling)
 - JSONSchema (Validation/Types)
 - Zustand (State Management)

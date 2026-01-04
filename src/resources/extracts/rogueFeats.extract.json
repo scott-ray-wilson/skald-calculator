@@ -135,7 +135,7 @@
         "systemId": "",
         "id": "FEA_RogueBackstab4",
         "notes": "",
-        "lastEdit": "5/26/2024 12:41:28 PM UTC"
+        "lastEdit": "9/8/2024 10:14:45 AM UTC"
     },
     {
         "container": "rogueFeatsContainer",
@@ -274,6 +274,353 @@
         "id": "FEA_RogueBackstab3",
         "notes": "",
         "lastEdit": "5/26/2024 6:39:19 AM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusAttunement"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "9/8/2024 11:37:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusDiplomacy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "9/8/2024 11:37:22 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusMaxCascade"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "9/8/2024 11:37:22 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 2,
+        "type": "",
+        "prereqFeat": "FEA_RogueBard1",
+        "title": "Bard Expert",
+        "description": "",
+        "imagePath": "FeatRogueBard2",
+        "systemId": "",
+        "id": "FEA_RogueBard2",
+        "notes": "",
+        "lastEdit": "9/8/2024 11:37:22 AM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusDiplomacy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "9/8/2024 11:45:16 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusLore"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "9/8/2024 11:37:22 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveBonusSpellAptitude"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "9/8/2024 11:57:08 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "",
+        "prereqFeat": "",
+        "title": "Bard Initiate",
+        "description": "",
+        "imagePath": "FeatRogueBard1",
+        "systemId": "",
+        "id": "FEA_RogueBard1",
+        "notes": "",
+        "lastEdit": "9/8/2024 11:40:45 AM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveBonusDiplomacy"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "9/8/2024 11:37:22 AM UTC"
+            },
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveBonusPresence"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier2",
+                "notes": "",
+                "lastEdit": "9/8/2024 11:37:22 AM UTC"
+            },
+            {
+                "rank": 6,
+                "abilities": [
+                    "ABI_PassiveMultiAttack"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier3",
+                "notes": "",
+                "lastEdit": "9/8/2024 11:37:22 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 3,
+        "type": "",
+        "prereqFeat": "FEA_RogueBard2",
+        "title": "Bard Master",
+        "description": "",
+        "imagePath": "FeatRogueBard3",
+        "systemId": "",
+        "id": "FEA_RogueBard3",
+        "notes": "",
+        "lastEdit": "9/8/2024 11:37:22 AM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 4,
+                "abilities": [
+                    "ABI_PassiveSpellTierBardic"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListBardic",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "9/8/2024 10:25:21 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 5,
+        "tier": 2,
+        "type": "Magic",
+        "prereqFeat": "FEA_BardicMagic1",
+        "title": "Bardic Magic Expert",
+        "description": "",
+        "imagePath": "FeatRogueBardicMagic2",
+        "systemId": "",
+        "id": "FEA_BardicMagic2",
+        "notes": "",
+        "lastEdit": "9/8/2024 10:30:27 AM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 3,
+                "abilities": [
+                    "ABI_PassiveSpellTierBardic"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListBardic",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "9/8/2024 10:25:21 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 1,
+        "type": "Magic",
+        "prereqFeat": "FEA_BardicSpellcasting",
+        "title": "Bardic Magic Initiate",
+        "description": "",
+        "imagePath": "FeatRogueBardicMagic1",
+        "systemId": "",
+        "id": "FEA_BardicMagic1",
+        "notes": "",
+        "lastEdit": "9/8/2024 10:31:29 AM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 5,
+                "abilities": [
+                    "ABI_PassiveSpellTierBardic"
+                ],
+                "spells": [],
+                "spellSchool": "ATT_SpellListBardic",
+                "spellsAdded": 2,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "9/8/2024 10:25:21 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 10,
+        "tier": 3,
+        "type": "Magic",
+        "prereqFeat": "FEA_BardicMagic2",
+        "title": "Bardic Magic Master",
+        "description": "",
+        "imagePath": "FeatRogueBardicMagic3",
+        "systemId": "",
+        "id": "FEA_BardicMagic3",
+        "notes": "",
+        "lastEdit": "9/8/2024 11:36:37 AM UTC"
+    },
+    {
+        "container": "rogueFeatsContainer",
+        "list": [
+            {
+                "rank": 1,
+                "abilities": [
+                    "ABI_PassiveActivateSpellcaster"
+                ],
+                "spells": [],
+                "spellSchool": "",
+                "spellsAdded": 1,
+                "title": "",
+                "description": "",
+                "imagePath": "",
+                "modelPath": "",
+                "systemId": "",
+                "id": "FTI_Tier1",
+                "notes": "",
+                "lastEdit": "9/8/2024 10:30:05 AM UTC"
+            }
+        ],
+        "recommended": false,
+        "startingRank": 0,
+        "prereqLevel": 0,
+        "tier": 0,
+        "type": "Magic",
+        "prereqFeat": "",
+        "title": "Bardic Spellcasting",
+        "description": "",
+        "imagePath": "FeatRogueBardicSpellcasting",
+        "systemId": "",
+        "id": "FEA_BardicSpellcasting",
+        "notes": "",
+        "lastEdit": "9/8/2024 10:23:37 AM UTC"
     },
     {
         "container": "rogueFeatsContainer",

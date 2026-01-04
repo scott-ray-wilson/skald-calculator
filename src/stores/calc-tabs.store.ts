@@ -42,7 +42,6 @@ const useCalcTabsStore = create<CalcTabsState>()((set, get) => ({
   },
   onNextTab: () => {
     const { getNextTab } = get();
-    console.log("next", getNextTab());
 
     set({
       selectedTab: getNextTab() ?? CALC_TABS[0].id,

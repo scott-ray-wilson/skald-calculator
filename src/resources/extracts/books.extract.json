@@ -477,7 +477,7 @@
     },
     {
         "container": "books",
-        "content": "Written on the day of departure from the mainland:\r\n\r\n\"Left Adler's Helm today with a full complement of passengers. Mercenaries by the looks of it. Paid well. Ship was dispatched by Guild before we could fully restock medical supplies. Hopefully we won't need them. Then again, our passengers make me uneasy...\"\r\n*\r\nWritten 5 days ago:\r\n\r\n\"Brawl in mess - had to set nose. Men seem on edge. Can't say I blame them. Have been sleeping poorly and dreams are... unsound.\"\r\n*\r\nWrittern 4 days ago:\r\n\r\nIgan came to me today with a bite-wound that he sustained whilst working in the hold. Didn't see creature and I would say it was a rat's bite if it weren't for the size and some aspect of the dentition that I find hard to explain properly.\"\r\n*\r\nWritten two days ago:\r\n\r\n\"Was visited today by navigator Aslam. He asked for Whitefern - a sedative. Claimed he had trouble sleeping. Suspected he was not fully forthcoming and when pushed, he mumbled something about the stars being 'odd'. Not sure what he meant and he left before I could push him further.\"\r\n*\r\nWritten today:\r\n\r\n\"Men are about to break. We cannot maintain our course for Idra. Captain advised me today to make ready the surgery and to expect casualties. I suspect he intends to inform our passengers that he refuses to land on the island. If this is my last...\"\r\n\r\nThe entry trails off.\r\n\r\n\r\n\r\n",
+        "content": "Written on the day of departure from the mainland:\r\n\r\n\"Left Adler's Helm today with a full complement of passengers. Mercenaries by the looks of it. Paid well. Ship was dispatched by Guild before we could fully restock medical supplies. Hopefully we won't need them. Then again, our passengers make me uneasy...\"\r\n*\r\nWritten 5 days ago:\r\n\r\n\"Brawl in mess - had to set nose. Men seem on edge. Can't say I blame them. Have been sleeping poorly and dreams are... unsound.\"\r\n*\r\nWritten 4 days ago:\r\n\r\nIgan came to me today with a bite-wound that he sustained whilst working in the hold. Didn't see creature and I would say it was a rat's bite if it weren't for the size and some aspect of the dentition that I find hard to explain properly.\"\r\n*\r\nWritten two days ago:\r\n\r\n\"Was visited today by navigator Aslam. He asked for Whitefern - a sedative. Claimed he had trouble sleeping. Suspected he was not fully forthcoming and when pushed, he mumbled something about the stars being 'odd'. Not sure what he meant and he left before I could push him further.\"\r\n*\r\nWritten today:\r\n\r\n\"Men are about to break. We cannot maintain our course for Idra. Captain advised me today to make ready the surgery and to expect casualties. I suspect he intends to inform our passengers that he refuses to land on the island. If this is my last...\"\r\n\r\nThe entry trails off.\r\n\r\n\r\n\r\n",
         "stackable": false,
         "unique": true,
         "sellable": true,
@@ -507,6 +507,6 @@
         "systemId": "",
         "id": "ITE_BookIntroSurgeonsJournal",
         "notes": "",
-        "lastEdit": "12/12/2023 9:23:51 AM UTC"
+        "lastEdit": "9/20/2024 10:36:46 AM UTC"
     }
 ]

@@ -1,4 +1,4 @@
-import gameData from "./SkaldProject.json" assert { type: "json" };
+import gameData from "./SkaldProject.json" with { type: "json" };
 import fs from "fs";
 import _ from "lodash";
 

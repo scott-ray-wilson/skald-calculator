@@ -139,6 +139,26 @@
         "container": "additionAbilityContainer",
         "bonusMagnitude": 1,
         "bonusAttributes": [
+            "ATT_SpellListBardic"
+        ],
+        "penaltyMagnitude": 0,
+        "penaltyAttributes": [],
+        "staticCondition": [],
+        "getTrigger": "",
+        "isPositiveForTarget": true,
+        "title": "Bardic Magic Focus",
+        "description": "",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ABI_PassiveSpellTierBardic",
+        "notes": "",
+        "lastEdit": "9/8/2024 10:37:53 AM UTC"
+    },
+    {
+        "container": "additionAbilityContainer",
+        "bonusMagnitude": 1,
+        "bonusAttributes": [
             "ATT_HitWeaponSwords"
         ],
         "penaltyMagnitude": 0,
@@ -1630,7 +1650,27 @@
         "systemId": "",
         "id": "ABI_PassiveNPCNaturalSoakMinor",
         "notes": "",
-        "lastEdit": "2/22/2024 10:00:01 AM UTC"
+        "lastEdit": "9/8/2024 12:40:38 PM UTC"
+    },
+    {
+        "container": "additionAbilityContainer",
+        "bonusMagnitude": 25,
+        "bonusAttributes": [
+            "ATT_ResEnergyFire"
+        ],
+        "penaltyMagnitude": 0,
+        "penaltyAttributes": [],
+        "staticCondition": [],
+        "getTrigger": "",
+        "isPositiveForTarget": true,
+        "title": "Minor Resistance: Fire",
+        "description": "",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ABI_PassiveResistanceFireMinor",
+        "notes": "",
+        "lastEdit": "9/8/2024 12:58:37 PM UTC"
     },
     {
         "container": "additionAbilityContainer",
@@ -1928,7 +1968,7 @@
         "systemId": "",
         "id": "ABI_PassiveResistanceFire",
         "notes": "",
-        "lastEdit": "9/5/2023 7:24:52 AM UTC"
+        "lastEdit": "9/8/2024 12:41:25 PM UTC"
     },
     {
         "container": "additionAbilityContainer",
@@ -2088,7 +2128,7 @@
         "systemId": "",
         "id": "ABI_PassiveSpellTierSpirit",
         "notes": "",
-        "lastEdit": "12/11/2023 4:40:22 PM UTC"
+        "lastEdit": "9/8/2024 10:29:10 AM UTC"
     },
     {
         "container": "additionAbilityContainer",

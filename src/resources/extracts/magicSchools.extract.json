@@ -17,13 +17,13 @@
         "countOutfitReaction": false,
         "usesPrimaryAttributeAsRoot": false,
         "title": "Air Magic School",
-        "description": "The value of this attribute indicates the highest Spell Tier of Air magic spell you may cast.",
+        "description": "The value of this attribute indicates the highest Spell Tier of Air magic spells you may cast.",
         "imagePath": "",
         "modelPath": "",
         "systemId": "",
         "id": "ATT_SpellListAir",
         "notes": "",
-        "lastEdit": "6/2/2024 10:27:15 AM UTC",
+        "lastEdit": "9/8/2024 10:28:17 AM UTC",
         "influences": [],
         "spellTiers": [
             {
@@ -77,14 +77,73 @@
         "countShoeEncumberance": false,
         "countOutfitReaction": false,
         "usesPrimaryAttributeAsRoot": false,
+        "title": "Bardic Magic School",
+        "description": "The value of this attribute indicates the highest Spell Tier of Bardic magic spells you may cast.",
+        "imagePath": "",
+        "modelPath": "",
+        "systemId": "",
+        "id": "ATT_SpellListBardic",
+        "notes": "",
+        "lastEdit": "9/8/2024 12:36:22 PM UTC",
+        "influences": [],
+        "spellTiers": [
+            {
+                "tier": 1,
+                "spellIds": [
+                    "ABI_SpellBardClearSenses",
+                    "ABI_SpellBardFireSprite",
+                    "ABI_SpellBardLiftingTune",
+                    "ABI_SpellBardLightPlease",
+                    "ABI_SpellBardSparkleDust"
+                ]
+            },
+            {
+                "tier": 2,
+                "spellIds": [
+                    "ABI_SpellBardHeroicTune",
+                    "ABI_SpellBardInvisibility",
+                    "ABI_SpellBardPurgeInvisibility",
+                    "ABI_SpellBardShadowStep",
+                    "ABI_SpellBardWhisperOfConfusion"
+                ]
+            },
+            {
+                "tier": 3,
+                "spellIds": [
+                    "ABI_SpellBardBlanketOfSilence",
+                    "ABI_SpellBardEyeshine",
+                    "ABI_SpellBardFireworks",
+                    "ABI_SpellBardLambentDance",
+                    "ABI_SpellBardSongOfSoothing"
+                ]
+            }
+        ]
+    },
+    {
+        "startingValue": 0,
+        "ranks": 0,
+        "levelFactor": 0,
+        "minValue": 0,
+        "maxValue": 10,
+        "rootFactorPercentage": 100,
+        "rootAbility": "",
+        "abbreviation": "",
+        "attributeType": "Magic",
+        "suffixCharacter": "",
+        "countArmorEncumberance": false,
+        "countGloveEncumberance": false,
+        "countHelmetEncumberance": false,
+        "countShoeEncumberance": false,
+        "countOutfitReaction": false,
+        "usesPrimaryAttributeAsRoot": false,
         "title": "Body Magic School",
-        "description": "The value of this attribute indicates the highest Spell Tier of Body magic spell you may cast.",
+        "description": "The value of this attribute indicates the highest Spell Tier of Body magic spells you may cast.",
         "imagePath": "",
         "modelPath": "",
         "systemId": "",
         "id": "ATT_SpellListBody",
         "notes": "",
-        "lastEdit": "6/2/2024 10:09:02 AM UTC",
+        "lastEdit": "9/8/2024 10:28:18 AM UTC",
         "influences": [],
         "spellTiers": [
             {
@@ -142,13 +201,13 @@
         "countOutfitReaction": false,
         "usesPrimaryAttributeAsRoot": false,
         "title": "Earth Magic School",
-        "description": "The value of this attribute indicates the highest Spell Tier of Earth magic spell you may cast.",
+        "description": "The value of this attribute indicates the highest Spell Tier of Earth magic spells you may cast.",
         "imagePath": "",
         "modelPath": "",
         "systemId": "",
         "id": "ATT_SpellListEarth",
         "notes": "",
-        "lastEdit": "6/2/2024 10:09:06 AM UTC",
+        "lastEdit": "9/8/2024 10:28:21 AM UTC",
         "influences": [],
         "spellTiers": [
             {
@@ -202,13 +261,13 @@
         "countOutfitReaction": false,
         "usesPrimaryAttributeAsRoot": false,
         "title": "Fire Magic School",
-        "description": "The value of this attribute indicates the highest Spell Tier of Fire magic spell you may cast.",
+        "description": "The value of this attribute indicates the highest Spell Tier of Fire magic spells you may cast.",
         "imagePath": "",
         "modelPath": "",
         "systemId": "",
         "id": "ATT_SpellListFire",
         "notes": "",
-        "lastEdit": "6/2/2024 10:09:10 AM UTC",
+        "lastEdit": "9/8/2024 10:28:23 AM UTC",
         "influences": [],
         "spellTiers": [
             {
@@ -262,13 +321,13 @@
         "countOutfitReaction": false,
         "usesPrimaryAttributeAsRoot": false,
         "title": "Mind Magic School",
-        "description": "The value of this attribute indicates the highest Spell Tier of Mind magic spell you may cast.",
+        "description": "The value of this attribute indicates the highest Spell Tier of Mind magic spells you may cast.",
         "imagePath": "",
         "modelPath": "",
         "systemId": "",
         "id": "ATT_SpellListMind",
         "notes": "",
-        "lastEdit": "6/2/2024 10:09:14 AM UTC",
+        "lastEdit": "9/8/2024 10:28:25 AM UTC",
         "influences": [],
         "spellTiers": [
             {
@@ -326,13 +385,13 @@
         "countOutfitReaction": false,
         "usesPrimaryAttributeAsRoot": false,
         "title": "Nature Magic School",
-        "description": "The value of this attribute indicates the highest Spell Tier of Nature magic spell you may cast.",
+        "description": "The value of this attribute indicates the highest Spell Tier of Nature magic spells you may cast.",
         "imagePath": "",
         "modelPath": "",
         "systemId": "",
         "id": "ATT_SpellListNature",
         "notes": "",
-        "lastEdit": "6/2/2024 10:09:17 AM UTC",
+        "lastEdit": "9/8/2024 10:28:27 AM UTC",
         "influences": [],
         "spellTiers": [
             {
@@ -383,13 +442,13 @@
         "countOutfitReaction": false,
         "usesPrimaryAttributeAsRoot": false,
         "title": "Spirit Magic School",
-        "description": "The value of this attribute indicates the highest Spell Tier of Spirit magic spell you may cast.",
+        "description": "The value of this attribute indicates the highest Spell Tier of Spirit magic spells you may cast.",
         "imagePath": "",
         "modelPath": "",
         "systemId": "",
         "id": "ATT_SpellListSpirit",
         "notes": "",
-        "lastEdit": "6/2/2024 10:09:20 AM UTC",
+        "lastEdit": "9/8/2024 10:28:29 AM UTC",
         "influences": [],
         "spellTiers": [
             {

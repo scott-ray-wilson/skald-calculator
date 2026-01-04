@@ -79,7 +79,13 @@ export const useFeatNodesAndEdges = () => {
     rootFeats.forEach((rootFeat, index) => {
       xOffset += processFeat(
         rootFeat,
-        xOffset + (rootFeat.id === "FEA_RogueThief1" ? 1 : 0) + index * 0.2,
+        xOffset +
+          (rootFeat.id.match(
+            /FEA_RogueThief1|FEA_BardicSpellcasting|FEA_RogueBard1/,
+          )
+            ? 1
+            : 0) +
+          index * 0.2,
         0,
       );
     });

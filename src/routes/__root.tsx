@@ -1,7 +1,6 @@
 import { createRootRoute, Outlet, useNavigate } from "@tanstack/react-router";
 import { Footer, Header, RouterPath } from "@/components/generic";
 import { RouterProvider } from "react-aria-components";
-import { TanStackRouterDevtools } from "@tanstack/router-devtools";
 
 export const Route = createRootRoute({
   component: Root,
@@ -25,7 +24,6 @@ function Root() {
         <Outlet />
       </main>
       <Footer />
-      <TanStackRouterDevtools />
     </RouterProvider>
   );
 }
