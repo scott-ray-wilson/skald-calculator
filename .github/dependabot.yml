@@ -1,0 +1,23 @@
+# Keeps dependencies current so security advisories don't pile up.
+# Security patches are also delivered automatically via Dependabot security
+# updates (enable in repo Settings → Code security if not already on).
+version: 2
+updates:
+  - package-ecosystem: npm
+    directory: "/"
+    schedule:
+      interval: weekly
+    open-pull-requests-limit: 10
+    # Bundle the routine minor/patch bumps into two PRs instead of dozens.
+    # Major bumps still open individual PRs so they get reviewed on their own.
+    groups:
+      production-dependencies:
+        dependency-type: production
+        update-types:
+          - minor
+          - patch
+      dev-dependencies:
+        dependency-type: development
+        update-types:
+          - minor
+          - patch

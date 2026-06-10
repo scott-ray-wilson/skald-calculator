@@ -18,7 +18,9 @@ export const BackgroundList = () => {
     if (selection === "all")
       throw new Error(`Invalid Background Selection: ${selection}`);
 
-    selectedPartyMember.setBackgroundId(selection.values().next().value);
+    selectedPartyMember.setBackgroundId(
+      selection.values().next().value as string,
+    );
   };
 
   return (

@@ -44,7 +44,7 @@ export const CraftingWorkstation = ({
       throw new Error(`Invalid Recipe Selection: ${selection}`);
     }
 
-    const item = items[selection.values().next().value];
+    const item = items[selection.values().next().value as number];
 
     onSelectIngredient(item.itemId);
   };

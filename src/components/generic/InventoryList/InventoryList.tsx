@@ -33,7 +33,7 @@ export const InventoryList = ({
     if (selection === "all") {
       throw new Error(`Invalid Item Selection: ${selection}`);
     }
-    const item = items[selection.values().next().value];
+    const item = items[selection.values().next().value as number];
 
     if (!item) throw new Error(`Invalid Item Key: ${selection}`);
 

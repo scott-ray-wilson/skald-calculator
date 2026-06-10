@@ -5,7 +5,7 @@ import { FEAT_MAP } from "@/resources";
 import { useFeatsPanel, usePartyLoadout } from "@/stores";
 import { useModifyFeatRanks } from "@/hooks";
 
-export interface FeatNodeProps extends NodeProps {}
+export type FeatNodeProps = NodeProps;
 
 export const FeatNode = (node: FeatNodeProps) => {
   const feat = FEAT_MAP.get(node.id);

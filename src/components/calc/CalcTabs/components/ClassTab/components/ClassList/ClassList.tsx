@@ -29,7 +29,7 @@ export const ClassList = () => {
       throw new Error(`Invalid Class Selection: ${selection}`);
     }
 
-    const classId = selection.values().next().value;
+    const classId = selection.values().next().value as string;
 
     if (feats.getTotalAllocatedRanks() > 0) {
       setConfirmClassChange(classId);

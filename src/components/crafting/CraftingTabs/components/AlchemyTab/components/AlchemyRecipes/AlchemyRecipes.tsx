@@ -25,7 +25,7 @@ export const AlchemyRecipes = () => {
       throw new Error(`Invalid Recipe Selection: ${selection}`);
     }
 
-    setSelectedRecipeId(selection.values().next().value);
+    setSelectedRecipeId(selection.values().next().value as string);
   };
 
   const handleClearPotionSelection = () => setSelectedReagentId(null);

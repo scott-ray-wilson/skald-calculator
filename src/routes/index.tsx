@@ -7,7 +7,8 @@ export const Route = createFileRoute("/")({
   beforeLoad: ({ search }) => {
     throw redirect({
       // handle redirect with old links using build query param
-      to: search.build ? `/calc?build=${search.build}` : `/calc`,
+      to: "/calc",
+      search: { build: search.build },
     });
   },
 });
