@@ -12,7 +12,6 @@ export const Route = createFileRoute("/calc")({
     if (!build) return;
 
     try {
-      console.log("atob", JSON.parse(atob(build)));
       importPartyLoadOut(JSON.parse(atob(build)));
     } catch (e) {
       // do nothing, just load default config
