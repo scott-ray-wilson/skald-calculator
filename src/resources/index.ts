@@ -4,5 +4,6 @@ export * from "./maps";
 export * from "./lists";
 export * from "./keywords";
 export * from "./types";
+export * from "./equipment";
 
 export { GAME_METADATA };

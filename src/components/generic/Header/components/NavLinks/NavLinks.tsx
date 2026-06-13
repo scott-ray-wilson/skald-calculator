@@ -70,7 +70,7 @@ export const NavLinks = () => {
           </svg>
         </Button>
         <Popover
-          className={`crt sh rounded-sm border-2 border-light-gray bg-dark-gray shadow-[-2px_2px_0px_black]`}
+          className={`crt sh relative rounded-sm border-2 border-light-gray bg-dark-gray shadow-[-2px_2px_0px_black]`}
         >
           <Menu
             className={`flex flex-col gap-2 border-2 border-black p-1.5 py-2`}

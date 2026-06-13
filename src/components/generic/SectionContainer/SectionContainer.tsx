@@ -6,6 +6,7 @@ export type SectionContainerProps = {
   className?: string;
   children: ReactNode;
   containerClassName?: string;
+  actions?: ReactNode;
 };
 
 export const SectionContainer = ({
@@ -13,13 +14,15 @@ export const SectionContainer = ({
   title,
   children,
   containerClassName,
+  actions,
 }: SectionContainerProps) => {
   return (
     <div className={cn(`flex flex-col`, className)}>
       <div
-        className={`flex items-baseline justify-between gap-2 rounded-t-md bg-olive pl-2 pr-3`}
+        className={`flex items-center justify-between gap-2 rounded-t-md bg-olive pl-2 pr-3`}
       >
         <span className={`whitespace-nowrap text-blue`}>{title}</span>
+        {actions}
       </div>
       <div
         className={cn(

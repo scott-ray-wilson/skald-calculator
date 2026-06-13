@@ -19,6 +19,8 @@ export const PrimaryAttributeDescription = ({
   const total =
     selectedPartyMember.primaryAttributes.getCalculatedRanks(attributeId);
   const abilities = selectedPartyMember.feats.getAttributeBonus(attributeId);
+  const equipment =
+    selectedPartyMember.equipment.getAttributeBonus(attributeId);
   const isMainAttribute =
     selectedPartyMember.getMainAttribute() === attributeId;
 
@@ -30,6 +32,7 @@ export const PrimaryAttributeDescription = ({
         {[
           { label: "Ranks", value: ranks },
           { label: "Abilities", value: abilities },
+          { label: "Equipment", value: equipment },
           { label: "TOTAL", value: total },
         ]
           .filter(({ value }) => !!value)
@@ -37,7 +40,7 @@ export const PrimaryAttributeDescription = ({
             <div key={label} className={"w-full flex justify-between"}>
               <span className={"text-light-gray"}>{label}</span>
               <span className={"text-white"}>
-                {label.match(/TOTAL|Ranks/) ? "" : "+"}
+                {label.match(/TOTAL|Ranks/) || value < 0 ? "" : "+"}
                 {value}
               </span>
             </div>

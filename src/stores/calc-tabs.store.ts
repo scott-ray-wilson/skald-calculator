@@ -1,11 +1,18 @@
 import { create } from "zustand";
 
-export type CalcTabsType = "class" | "background" | "attributes" | "feats";
+export type CalcTabsType =
+  | "class"
+  | "background"
+  | "attributes"
+  | "feats"
+  | "equipment";
 
 export const CALC_TABS: { id: CalcTabsType; label: string }[] = [
   { id: "class", label: "Class" },
   { id: "background", label: "Background" },
   { id: "attributes", label: "Attributes" },
+  // labelled like the game's character sheet tab
+  { id: "equipment", label: "Inventory" },
   { id: "feats", label: "Feats" },
 ];
 

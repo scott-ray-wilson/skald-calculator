@@ -1,10 +1,14 @@
 import type { FromSchema } from "json-schema-to-ts";
 import {
+  EquipmentSchema,
   MainCharacterSchema,
   MercenaryCharacterSchema,
   PartyLoadoutSchema,
   StoryCharacterSchema,
 } from "@/schemas";
+
+// Equipment
+export type EquipmentSchemaType = FromSchema<typeof EquipmentSchema>;
 
 // Characters
 export type MainCharacterSchemaType = FromSchema<typeof MainCharacterSchema>;

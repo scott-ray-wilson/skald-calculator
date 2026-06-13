@@ -54,7 +54,7 @@ export const AttributeDescription = () => {
   return (
     <DescriptionContainer
       prevTab={"background"}
-      nextTab={"feats"}
+      nextTab={"equipment"}
       className={`flex-1`}
     >
       {Component}

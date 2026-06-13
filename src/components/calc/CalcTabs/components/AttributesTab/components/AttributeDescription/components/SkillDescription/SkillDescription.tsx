@@ -1,4 +1,8 @@
-import { PRIMARY_ATTRIBUTE_LIST, SKILL_MAP } from "@/resources";
+import {
+  PRIMARY_ATTRIBUTE_LIST,
+  SKILL_MAP,
+  getEncumbranceAttributeModifier,
+} from "@/resources";
 import { Keyword, Paragraph } from "@/components/generic";
 import { usePartyLoadout } from "@/stores";
 import { EncumberanceDetails } from "@/components/calc";
@@ -26,6 +30,14 @@ export const SkillDescription = ({ skillId }: SkillDescriptionProps) => {
     selectedPartyMember.getBackgroundBonus(skillId) +
     selectedPartyMember.feats.getAttributeBonus(skillId);
 
+  const equipmentBonus =
+    selectedPartyMember.equipment.getAttributeBonus(skillId);
+
+  const encumbrance = getEncumbranceAttributeModifier(
+    skill,
+    selectedPartyMember.equipment.getEncumbranceValues(),
+  );
+
   const { description, title, rootFactorPercentage } = skill;
 
   return (
@@ -52,9 +64,11 @@ export const SkillDescription = ({ skillId }: SkillDescriptionProps) => {
               (rootFactorPercentage / 100),
             isKeyword: true,
           })),
+          { label: "Equipment", value: equipmentBonus, isKeyword: false },
+          { label: "Encumbrance", value: encumbrance, isKeyword: false },
           { label: "TOTAL", value: total, isKeyword: false },
         ]
-          .filter(({ value }) => value > 0)
+          .filter(({ value }) => value !== 0)
           .map(({ label, value, isKeyword }) => (
             <div key={label} className={"w-full flex justify-between"}>
               {isKeyword ? (
@@ -63,7 +77,7 @@ export const SkillDescription = ({ skillId }: SkillDescriptionProps) => {
                 <span className={"text-light-gray"}>{label}</span>
               )}
               <span className={"text-white"}>
-                {label.match(/TOTAL|Ranks/) ? "" : "+"}
+                {label.match(/TOTAL|Ranks/) || value < 0 ? "" : "+"}
                 {value}
               </span>
             </div>

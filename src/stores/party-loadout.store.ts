@@ -1,22 +1,40 @@
 import { create } from "zustand";
 import {
+  EquipmentSchemaType,
   MainCharacterSchemaType,
   PartyLoadoutSchemaType,
 } from "@/schemas/types";
 import { InitialPartyLoadoutState, PartyLoadoutState } from "@/stores/types";
 import {
   ADDITION_ABILITY_MAP,
+  ARMOR_BONUS_MAP,
+  ARMOR_MASTERY_ATTRIBUTE_IDS,
   BACKGROUND_LIST,
   CLASS_LIST,
+  EQUIPPABLE_ITEM_MAP,
   FEAT_MAP,
   GAME_METADATA,
   PRIMARY_ATTRIBUTE_LIST,
+  SHIELD_DODGE_ATTRIBUTE_ID,
+  SKILL_MAP,
+  UNARMORED_DODGE_ATTRIBUTE_ID,
+  WearableStatsSource,
+  getEffectiveArmorEncumbrance,
+  getEncumbranceAttributeModifier,
+  getEquipmentAttributeBonus,
+  resolveWearableStats,
 } from "@/resources";
 import { DecrementLevelError } from "@/errors";
 import {
+  getActiveItem,
+  getActiveItemList,
   getAttributeName,
   getBackgroundAbilities,
+  getPartyMemberPermissions,
   getPartyMemberState,
+  getSlotLegality,
+  getWornItem,
+  pruneStaleEquipment,
 } from "@/stores/utils";
 import {
   ALLOTTED_PRIMARY_ATTRIBUTE_RANKS,
@@ -34,10 +52,11 @@ import { validate } from "@/schemas/utils";
 // default state for custom and story characters
 const INITIAL_CHARACTER_STATE: Pick<
   MainCharacterSchemaType,
-  "feats" | "level"
+  "feats" | "level" | "equipment"
 > = {
   feats: {},
   level: 1,
+  equipment: {},
 };
 
 // default state for custom characters only
@@ -69,6 +88,17 @@ const INITIAL_PARTY_LOADOUT_STATE: InitialPartyLoadoutState = {
   ],
 };
 
+// armor-group attributes (ATT_ArmEnc*, ATT_ArmDodge*) have no rank
+// allocation; their value is starting value + background/feat/item passives
+const getArmorGroupAttributeValue = (
+  store: PartyLoadoutState,
+  attributeId: string,
+) =>
+  (ARMOR_BONUS_MAP.get(attributeId)?.startingValue ?? 0) +
+  store.selectedPartyMember.getBackgroundBonus(attributeId) +
+  store.selectedPartyMember.feats.getAttributeBonus(attributeId) +
+  store.selectedPartyMember.equipment.getAttributeBonus(attributeId);
+
 const usePartyEditorStore = create<PartyLoadoutState>()((set, get) => ({
   // initial state
   ...INITIAL_PARTY_LOADOUT_STATE,
@@ -79,7 +109,18 @@ const usePartyEditorStore = create<PartyLoadoutState>()((set, get) => ({
     const data: unknown = partyLoadout;
 
     if (validate(PartyLoadoutSchema, data)) {
-      set({ _partyLoadout: data });
+      // drop stale ids from imported builds; class-illegal gear is kept and
+      // rendered inert
+      const pruned = data.map((partyMember) =>
+        partyMember
+          ? {
+              ...partyMember,
+              equipment: pruneStaleEquipment(partyMember.equipment),
+            }
+          : null,
+      ) as PartyLoadoutSchemaType;
+
+      set({ _partyLoadout: pruned });
     } else {
       throw new Error("Invalid Party Loadout");
     }
@@ -304,6 +345,8 @@ const usePartyEditorStore = create<PartyLoadoutState>()((set, get) => ({
 
       partyMembers[selectedPartyMemberIndex] = {
         ...partyMemberState.base,
+        // unlike the game (which silently empties newly-illegal slots), gear
+        // survives class changes — it renders on a red tile and goes inert
         classId,
       };
 
@@ -396,7 +439,8 @@ const usePartyEditorStore = create<PartyLoadoutState>()((set, get) => ({
 
         return (
           selectedPartyMember.primaryAttributes.getAllocatedRanks(attributeId) +
-          selectedPartyMember.feats.getAttributeBonus(attributeId)
+          selectedPartyMember.feats.getAttributeBonus(attributeId) +
+          selectedPartyMember.equipment.getAttributeBonus(attributeId)
         );
       },
       incrementRanks: (attributeId, topOut) => {
@@ -550,6 +594,16 @@ const usePartyEditorStore = create<PartyLoadoutState>()((set, get) => ({
 
         ranks += selectedPartyMember.feats.getAttributeBonus(skillId);
         ranks += selectedPartyMember.getBackgroundBonus(skillId);
+        ranks += selectedPartyMember.equipment.getAttributeBonus(skillId);
+
+        const skill = SKILL_MAP.get(skillId);
+
+        if (skill) {
+          ranks += getEncumbranceAttributeModifier(
+            skill,
+            selectedPartyMember.equipment.getEncumbranceValues(),
+          );
+        }
 
         return selectedPartyMember.skills.getAllocatedRanks(skillId) + ranks;
       },
@@ -633,6 +687,218 @@ const usePartyEditorStore = create<PartyLoadoutState>()((set, get) => ({
           delete partyMembers[selectedPartyMemberIndex].skills[skillId];
 
         set({ _partyLoadout: partyMembers });
+      },
+    },
+
+    // equipment configuration
+    equipment: {
+      // active gear only — class-illegal worn items contribute nothing, so
+      // every stat path through these getters excludes them
+      getEquipped: (slotId) => {
+        const { _getSelectedPartyMemberState } = get();
+
+        return getActiveItem(_getSelectedPartyMemberState().base, slotId);
+      },
+      getEquippedItems: () => {
+        const { _getSelectedPartyMemberState } = get();
+
+        return getActiveItemList(_getSelectedPartyMemberState().base);
+      },
+      // whatever physically sits in the slot, legal or not — for display
+      getWorn: (slotId) => {
+        const { _getSelectedPartyMemberState } = get();
+
+        return getWornItem(_getSelectedPartyMemberState().base, slotId);
+      },
+      equip: (slotId, itemId) => {
+        const { selectedPartyMemberIndex, _getSelectedPartyMemberState } =
+          get();
+
+        const partyMemberState = _getSelectedPartyMemberState();
+
+        const entry = EQUIPPABLE_ITEM_MAP.get(itemId);
+
+        if (!entry || entry.slotId !== slotId)
+          throw new Error(
+            `Item Cannot Be Equipped in Slot "${slotId}": ${itemId}.`,
+          );
+
+        const legality = getSlotLegality(
+          getPartyMemberPermissions(partyMemberState.base),
+          slotId,
+          entry.item,
+        );
+
+        if (!legality.allowed) throw new Error(legality.reason);
+
+        const partyMembers = [
+          ...get()._partyLoadout,
+        ] satisfies PartyLoadoutSchemaType;
+
+        partyMembers[selectedPartyMemberIndex] = {
+          ...partyMemberState.base,
+          equipment: {
+            ...partyMemberState.equipment,
+            [slotId]: itemId,
+          },
+        };
+
+        set({ _partyLoadout: partyMembers });
+      },
+      unequip: (slotId) => {
+        const { selectedPartyMemberIndex, _getSelectedPartyMemberState } =
+          get();
+
+        const partyMemberState = _getSelectedPartyMemberState();
+
+        const equipment: EquipmentSchemaType = {
+          ...partyMemberState.equipment,
+        };
+
+        delete equipment[slotId];
+
+        const partyMembers = [
+          ...get()._partyLoadout,
+        ] satisfies PartyLoadoutSchemaType;
+
+        partyMembers[selectedPartyMemberIndex] = {
+          ...partyMemberState.base,
+          equipment,
+        };
+
+        set({ _partyLoadout: partyMembers });
+      },
+      clear: () => {
+        const { selectedPartyMemberIndex, _getSelectedPartyMemberState } =
+          get();
+
+        const partyMemberState = _getSelectedPartyMemberState();
+
+        const partyMembers = [
+          ...get()._partyLoadout,
+        ] satisfies PartyLoadoutSchemaType;
+
+        partyMembers[selectedPartyMemberIndex] = {
+          ...partyMemberState.base,
+          equipment: {},
+        };
+
+        set({ _partyLoadout: partyMembers });
+      },
+      getAttributeBonus: (attributeId) => {
+        const { selectedPartyMember } = get();
+
+        return getEquipmentAttributeBonus(
+          selectedPartyMember.equipment.getEquippedItems(),
+          attributeId,
+        );
+      },
+      getEncumbranceValues: () => {
+        const { selectedPartyMember } = get();
+        const { equipment } = selectedPartyMember;
+
+        const wearableEncumbrance = (
+          slotId: "head" | "gloves" | "boots",
+        ): number => {
+          const item = equipment.getEquipped(slotId);
+
+          return item
+            ? resolveWearableStats(item as WearableStatsSource).encumbrance
+            : 0;
+        };
+
+        let armor = 0;
+
+        const armorItem = equipment.getEquipped("armor");
+
+        if (armorItem) {
+          const resolved = resolveWearableStats(
+            armorItem as WearableStatsSource,
+          );
+
+          // armor (and only armor) encumbrance is reduced by the matching
+          // weight-category mastery attribute
+          const masteryAttributeId =
+            ARMOR_MASTERY_ATTRIBUTE_IDS[
+              resolved.weightCategory as keyof typeof ARMOR_MASTERY_ATTRIBUTE_IDS
+            ];
+
+          armor = getEffectiveArmorEncumbrance(
+            resolved.encumbrance,
+            masteryAttributeId
+              ? getArmorGroupAttributeValue(get(), masteryAttributeId)
+              : 0,
+          );
+        }
+
+        const clothingItem = equipment.getEquipped("clothing");
+
+        return {
+          armor,
+          helmet: wearableEncumbrance("head"),
+          gloves: wearableEncumbrance("gloves"),
+          shoes: wearableEncumbrance("boots"),
+          outfitReaction:
+            clothingItem && "reactionBonus" in clothingItem
+              ? clothingItem.reactionBonus
+              : 0,
+        };
+      },
+      isShieldSuppressed: (wieldedSlotId) => {
+        const { selectedPartyMember } = get();
+
+        const weapon = selectedPartyMember.equipment.getEquipped(wieldedSlotId);
+
+        // a wielded two-hander suppresses the shield without unequipping it
+        return !!weapon && "twoHanded" in weapon && weapon.twoHanded;
+      },
+      getShieldDodgeBonus: (wieldedSlotId) => {
+        const { selectedPartyMember } = get();
+        const { equipment } = selectedPartyMember;
+
+        const shield = equipment.getEquipped("shield");
+
+        if (!shield || equipment.isShieldSuppressed(wieldedSlotId)) return 0;
+
+        // shields add their soak (+ Shield Use mastery) to Dodge, not Soak
+        return (
+          resolveWearableStats(shield as WearableStatsSource).soak +
+          getArmorGroupAttributeValue(get(), SHIELD_DODGE_ATTRIBUTE_ID)
+        );
+      },
+      getUnarmoredDodgeBonus: () => {
+        const { selectedPartyMember } = get();
+
+        if (selectedPartyMember.equipment.getEquipped("armor")) return 0;
+
+        return getArmorGroupAttributeValue(get(), UNARMORED_DODGE_ATTRIBUTE_ID);
+      },
+      getSoakBreakdown: () => {
+        const { selectedPartyMember } = get();
+        const { equipment } = selectedPartyMember;
+
+        const wearableSoak = (
+          slotId: "armor" | "head" | "boots" | "gloves",
+        ): number => {
+          const item = equipment.getEquipped(slotId);
+
+          return item
+            ? resolveWearableStats(item as WearableStatsSource).soak
+            : 0;
+        };
+
+        const armor = wearableSoak("armor");
+        const headwear = wearableSoak("head");
+        const footwear = wearableSoak("boots");
+        const gloves = wearableSoak("gloves");
+
+        return {
+          armor,
+          headwear,
+          footwear,
+          gloves,
+          total: armor + headwear + footwear + gloves,
+        };
       },
     },
 

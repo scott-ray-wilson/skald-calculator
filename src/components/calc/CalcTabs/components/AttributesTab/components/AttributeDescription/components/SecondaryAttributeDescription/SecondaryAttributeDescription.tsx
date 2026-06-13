@@ -20,7 +20,7 @@ export const SecondaryAttributeDescription = ({
   const {
     attribute: { description, title },
     modifyingAttributes,
-    values: { ranks, bonus, mainAttribute, total, level },
+    values: { ranks, bonus, equipment, encumbrance, mainAttribute, total, level },
   } = secondaryAttribute;
 
   return (
@@ -44,9 +44,11 @@ export const SecondaryAttributeDescription = ({
             value: mainAttribute,
           },
           { label: "Level", value: level, isKeyword: false },
+          { label: "Equipment", value: equipment, isKeyword: false },
+          { label: "Encumbrance", value: encumbrance, isKeyword: false },
           { label: "TOTAL", value: total, isKeyword: false },
         ]
-          .filter(({ value }) => value > 0)
+          .filter(({ value }) => value !== 0)
           .map(({ label, value, isKeyword }) => (
             <div key={label} className={"w-full flex justify-between"}>
               {isKeyword ? (
@@ -55,7 +57,7 @@ export const SecondaryAttributeDescription = ({
                 <span className={"text-light-gray"}>{label}</span>
               )}
               <span className={"text-white"}>
-                {label.match(/TOTAL|Ranks/) ? "" : "+"}
+                {label.match(/TOTAL|Ranks/) || value < 0 ? "" : "+"}
                 {value}
               </span>
             </div>

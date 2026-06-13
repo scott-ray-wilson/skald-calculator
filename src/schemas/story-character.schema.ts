@@ -1,5 +1,5 @@
 import type { JSONSchema } from "json-schema-to-ts";
-import { LevelSchema, FeatsSchema } from "@/schemas";
+import { EquipmentSchema, LevelSchema, FeatsSchema } from "@/schemas";
 
 export const StoryCharacterSchema = {
   type: "object",
@@ -15,5 +15,7 @@ export const StoryCharacterSchema = {
     },
     feats: FeatsSchema,
     level: LevelSchema,
+    // optional for backwards compatibility with pre-equipment build links
+    equipment: EquipmentSchema,
   },
 } as const satisfies JSONSchema;

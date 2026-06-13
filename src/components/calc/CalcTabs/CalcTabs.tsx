@@ -6,6 +6,7 @@ import {
   BackgroundTab,
   CalcActions,
   ClassTab,
+  EquipmentTab,
   FeatsTab,
 } from "@/components/calc";
 
@@ -23,7 +24,7 @@ export const CalcTabs = () => {
         <div className={`flex`}>
           <TabList
             items={CALC_TABS}
-            className={`mx-4 hidden select-none gap-2 md:flex`}
+            className={`mx-4 hidden select-none gap-2 lg:flex`}
           >
             {({ label, id }) => <TabItem id={id as string} label={label} />}
           </TabList>
@@ -32,6 +33,7 @@ export const CalcTabs = () => {
         <ClassTab />
         <BackgroundTab />
         <AttributesTab />
+        <EquipmentTab />
         <FeatsTab />
       </Tabs>
     </PanelWrapper>

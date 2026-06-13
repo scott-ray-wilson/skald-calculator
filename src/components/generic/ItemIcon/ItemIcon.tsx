@@ -1,4 +1,4 @@
-import { COMBINED_ITEM_MAP } from "@/resources";
+import { COMBINED_ITEM_MAP, EQUIPPABLE_ITEM_MAP } from "@/resources";
 
 type ItemButtonProps = {
   itemId: string;
@@ -9,7 +9,9 @@ const getImageUrl = (path: string) => {
 };
 
 export const ItemIcon = ({ itemId }: ItemButtonProps) => {
-  const item = COMBINED_ITEM_MAP.get(itemId);
+  // generated enchanted items only exist in the equippable map
+  const item =
+    COMBINED_ITEM_MAP.get(itemId) ?? EQUIPPABLE_ITEM_MAP.get(itemId)?.item;
 
   if (!item) throw new Error(`No Item matches ID: ${itemId}`);
 

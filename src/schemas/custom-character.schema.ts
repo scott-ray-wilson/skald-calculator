@@ -1,5 +1,6 @@
 import type { JSONSchema } from "json-schema-to-ts";
 import {
+  EquipmentSchema,
   FeatsSchema,
   LevelSchema,
   PrimaryAttributesSchema,
@@ -31,6 +32,8 @@ const CustomCharacterProperties = {
   level: LevelSchema,
   primaryAttributes: PrimaryAttributesSchema,
   skills: SkillsSchema,
+  // optional for backwards compatibility with pre-equipment build links
+  equipment: EquipmentSchema,
 } as const;
 
 export const MainCharacterSchema = {

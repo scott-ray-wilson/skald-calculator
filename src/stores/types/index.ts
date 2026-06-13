@@ -14,6 +14,14 @@ import {
   CharacterType,
   ClassType,
 } from "@/resources/types";
+import {
+  EquipmentSlotId,
+  EquippableItemType,
+  EquippedEncumbranceValues,
+} from "@/resources/equipment";
+import { WornItem } from "@/stores/utils";
+
+export type WieldedWeaponSlotId = "meleeWeapon" | "rangedWeapon";
 
 export type PartyMemberState = PartyMemberSchemaType & {
   class: ClassType;
@@ -108,6 +116,28 @@ export type PartyLoadoutState = InitialPartyLoadoutState & {
       getCalculatedRanks: (skillId: string) => number;
       incrementRanks: (attributeId: string, topOut?: boolean) => void;
       decrementRanks: (attributeId: string, topOut?: boolean) => void;
+    };
+
+    // equipment
+    equipment: {
+      getEquipped: (slotId: EquipmentSlotId) => EquippableItemType | null;
+      getEquippedItems: () => EquippableItemType[];
+      getWorn: (slotId: EquipmentSlotId) => WornItem | null;
+      equip: (slotId: EquipmentSlotId, itemId: string) => void;
+      unequip: (slotId: EquipmentSlotId) => void;
+      clear: () => void;
+      getAttributeBonus: (attributeId: string) => number;
+      getEncumbranceValues: () => EquippedEncumbranceValues;
+      isShieldSuppressed: (wieldedSlotId: WieldedWeaponSlotId) => boolean;
+      getShieldDodgeBonus: (wieldedSlotId: WieldedWeaponSlotId) => number;
+      getUnarmoredDodgeBonus: () => number;
+      getSoakBreakdown: () => {
+        armor: number;
+        headwear: number;
+        footwear: number;
+        gloves: number;
+        total: number;
+      };
     };
 
     // feats

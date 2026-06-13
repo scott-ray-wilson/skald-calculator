@@ -1,3 +1,4 @@
+export * from "./equipment.schema";
 export * from "./feats.schema";
 export * from "./level.schema";
 export * from "./primary-attributes.schema";

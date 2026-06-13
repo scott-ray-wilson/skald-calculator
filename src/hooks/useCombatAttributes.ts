@@ -1,17 +1,35 @@
-import { COMBAT_ATTRIBUTE_LIST, PRIMARY_ATTRIBUTE_LIST } from "@/resources";
+import {
+  COMBAT_ATTRIBUTE_LIST,
+  PRIMARY_ATTRIBUTE_LIST,
+  getEncumbranceAttributeModifier,
+} from "@/resources";
 import { usePartyLoadout } from "@/stores";
 
 export const useCombatAttributes = () => {
   const { selectedPartyMember } = usePartyLoadout();
+
+  const encumbranceValues =
+    selectedPartyMember.equipment.getEncumbranceValues();
 
   return new Map(
     COMBAT_ATTRIBUTE_LIST.map((attribute) => {
       const { id, startingValue, rootFactorPercentage } = attribute;
       const backgroundBonus = selectedPartyMember.getBackgroundBonus(id);
       const featBonus = selectedPartyMember.feats.getAttributeBonus(id);
+      const equipment = selectedPartyMember.equipment.getAttributeBonus(id);
+      const encumbrance = getEncumbranceAttributeModifier(
+        attribute,
+        encumbranceValues,
+      );
 
       const ranks = attribute.ranks;
-      let total = startingValue + backgroundBonus + ranks + featBonus;
+      let total =
+        startingValue +
+        backgroundBonus +
+        ranks +
+        featBonus +
+        equipment +
+        encumbrance;
 
       const modifyingAttributes = PRIMARY_ATTRIBUTE_LIST.filter((attribute) =>
         attribute.influences.includes(id),
@@ -33,6 +51,8 @@ export const useCombatAttributes = () => {
           modifyingAttributes,
           values: {
             bonus: backgroundBonus + featBonus,
+            equipment,
+            encumbrance,
             ranks,
             total,
           },

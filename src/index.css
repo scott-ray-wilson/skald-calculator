@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-button, span, p, li, a, div {
+button, span, p, li, a, div, input {
     text-shadow: -2px 2px black;
     letter-spacing: 0;
     word-spacing: -4px;
@@ -18,10 +18,13 @@ button, span, p, li, a, div {
     display: none;
 }
 
+/* scanlines cover the nearest positioned ancestor — each .crt element
+   positions itself so the effect stays local instead of stacking
+   viewport-wide layers */
 .crt::before {
     content: " ";
     display: block;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     bottom: 0;

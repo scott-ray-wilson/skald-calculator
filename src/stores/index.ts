@@ -1,6 +1,7 @@
 export * from "./attributes-panel.store";
 export * from "./calc-tabs.store";
 export * from "./constants";
+export * from "./equipment-panel.store";
 export * from "./feats-panel.store";
 export * from "./cooking-panel.store";
 export * from "./alchemy-panel.store";

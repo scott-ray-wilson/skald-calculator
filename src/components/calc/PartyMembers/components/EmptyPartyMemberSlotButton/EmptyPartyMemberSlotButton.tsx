@@ -62,7 +62,7 @@ export const EmptyPartyMemberSlotButton = ({
         <CharacterPortraitButton />
       </GenericTooltip>
       <Popover
-        className={`rounded-sm crt border-2 shadow-[-2px_2px_0px_black] border-light-gray sh bg-dark-gray`}
+        className={`rounded-sm crt relative border-2 shadow-[-2px_2px_0px_black] border-light-gray sh bg-dark-gray`}
         placement={placementBottom ? "bottom" : "left top"}
       >
         <Menu className={`border-2 border-black p-1`} items={items}>

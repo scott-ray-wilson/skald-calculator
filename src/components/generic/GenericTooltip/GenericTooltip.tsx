@@ -16,7 +16,7 @@ export const GenericTooltip = ({
       {children}
       <Tooltip
         offset={4}
-        className={`bg-dark-gray crt shadow-[-1px_1px_0px_black] border-black border  text-xs px-1 py-0.5 text-white`}
+        className={`bg-dark-gray crt relative shadow-[-1px_1px_0px_black] border-black border  text-xs px-1 py-0.5 text-white`}
         {...props}
       >
         {content}

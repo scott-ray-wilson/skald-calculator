@@ -18,7 +18,7 @@ export const CombatAttributeDescription = ({
   const {
     attribute: { description, title },
     modifyingAttributes,
-    values: { ranks, bonus, total },
+    values: { ranks, bonus, equipment, encumbrance, total },
   } = combatAttribute;
 
   return (
@@ -38,9 +38,11 @@ export const CombatAttributeDescription = ({
               isKeyword: true,
             };
           }),
+          { label: "Equipment", value: equipment, isKeyword: false },
+          { label: "Encumbrance", value: encumbrance, isKeyword: false },
           { label: "TOTAL", value: total, isKeyword: false },
         ]
-          .filter(({ value }) => value > 0)
+          .filter(({ value }) => value !== 0)
           .map(({ label, value, isKeyword }) => (
             <div key={label} className={"w-full flex justify-between"}>
               {isKeyword ? (
@@ -49,7 +51,7 @@ export const CombatAttributeDescription = ({
                 <span className={"text-light-gray"}>{label}</span>
               )}
               <span className={"text-white"}>
-                {label.match(/TOTAL|Ranks/) ? "" : "+"}
+                {label.match(/TOTAL|Ranks/) || value < 0 ? "" : "+"}
                 {value}
               </span>
             </div>

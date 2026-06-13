@@ -25,7 +25,7 @@ export const FeatDescription = () => {
     <DescriptionContainer
       buttonContainerClassName={`mt-0`}
       className={`flex-[1.2]`}
-      prevTab={"attributes"}
+      prevTab={"equipment"}
     >
       {activeFeatId ? (
         <FeatDetails featId={activeFeatId} />

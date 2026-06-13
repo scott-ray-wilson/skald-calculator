@@ -1,5 +1,6 @@
 <!doctype html>
-<html class="bg-black" lang="en">
+<!-- html bg paints the overscroll/rubber-band canvas; body bg keeps the page itself black -->
+<html class="bg-red" lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -15,8 +16,16 @@
     />
     <title>SKALD Calculator</title>
   </head>
-  <body class="scrollbar overflow-auto">
-    <div class="flex flex-col crt h-fit min-h-screen overflow-y-auto overflow-x-hidden min-w-[386px]" id="root"></div>
+  <!-- no .scrollbar on body: custom-styling the document scrollbar forces it to
+       always take layout space, and react-aria's scroll lock (scrollbar-gutter)
+       can't reserve that space back, so the page shifts when overlays open -->
+  <body class="overflow-auto bg-black">
+    <!-- fixed backdrop extending past the viewport: rubber-band overscroll reveals
+         red + CRT scanlines instead of the flat canvas color. body's black paints
+         over it inside the page; insets are 2px/3px multiples so the scanline
+         phase matches the root .crt overlay -->
+    <div class="crt fixed -inset-x-[999px] -inset-y-[1000px] -z-10 bg-red pointer-events-none will-change-transform" aria-hidden="true"></div>
+    <div class="relative flex flex-col crt h-fit min-h-screen overflow-y-auto overflow-x-hidden min-w-[386px]" id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>

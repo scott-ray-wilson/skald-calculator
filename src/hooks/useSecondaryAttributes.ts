@@ -2,6 +2,7 @@ import {
   MAGIC_ATTRIBUTE_MAP,
   PRIMARY_ATTRIBUTE_LIST,
   SECONDARY_ATTRIBUTE_LIST,
+  getEncumbranceAttributeModifier,
 } from "@/resources";
 import { usePartyLoadout } from "@/stores";
 
@@ -13,6 +14,9 @@ const LEVEL_UP_PROP_MAP = new Map<string, "levelUpHP" | "levelUpSP">([
 export const useSecondaryAttributes = () => {
   const { selectedPartyMember } = usePartyLoadout();
 
+  const encumbranceValues =
+    selectedPartyMember.equipment.getEncumbranceValues();
+
   return new Map(
     SECONDARY_ATTRIBUTE_LIST.concat(
       MAGIC_ATTRIBUTE_MAP.get("ATT_Attunement")!,
@@ -20,10 +24,21 @@ export const useSecondaryAttributes = () => {
       const { id, startingValue, rootFactorPercentage } = attribute;
       const backgroundBonus = selectedPartyMember.getBackgroundBonus(id);
       const featBonus = selectedPartyMember.feats.getAttributeBonus(id);
+      const equipment = selectedPartyMember.equipment.getAttributeBonus(id);
+      const encumbrance = getEncumbranceAttributeModifier(
+        attribute,
+        encumbranceValues,
+      );
 
       // TODO: determine where the base 5 on wounds come from
       const ranks = attribute.ranks * 5;
-      let total = startingValue + backgroundBonus + ranks + featBonus;
+      let total =
+        startingValue +
+        backgroundBonus +
+        ranks +
+        featBonus +
+        equipment +
+        encumbrance;
 
       let level = 0;
       if (LEVEL_UP_PROP_MAP.has(id)) {
@@ -66,6 +81,8 @@ export const useSecondaryAttributes = () => {
           modifyingAttributes,
           values: {
             bonus: backgroundBonus + featBonus,
+            equipment,
+            encumbrance,
             ranks,
             level,
             mainAttribute,
