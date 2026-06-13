@@ -20,7 +20,9 @@ export const ErrorComponent = ({ error }: FallbackProps) => {
       </div>
       <div className={`flex flex-col`}>
         <span className={`text-white`}>Unexpected Error</span>
-        <p className={"text-light-gray text-sm"}>{error.message}</p>
+        <p className={"text-light-gray text-sm"}>
+          {error instanceof Error ? error.message : String(error)}
+        </p>
       </div>
     </div>
   );
