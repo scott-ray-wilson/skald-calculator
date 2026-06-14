@@ -25,7 +25,6 @@ export const FeatNode = (node: FeatNodeProps) => {
   const segments = title.split(" ").filter((seg) => !!seg);
   const firstSeg = segments[0];
   const secondSeg = segments[segments.length - 1];
-  let trackedRanks = 0;
 
   const isActive = activeFeatId === node.id;
 
@@ -64,9 +63,8 @@ export const FeatNode = (node: FeatNodeProps) => {
         }
       >
         <div className={`absolute left-[-8px] top-[0.5px] flex flex-col gap-1`}>
-          {feat.list.map(({ rank, id }) => {
-            const prevTicks = trackedRanks;
-            trackedRanks += rank - prevTicks;
+          {feat.list.map(({ rank, id }, listIndex) => {
+            const prevTicks = listIndex === 0 ? 0 : feat.list[listIndex - 1].rank;
             return (
               <div key={id}>
                 {Array.from(Array(rank - prevTicks)).map((_, index) => (
