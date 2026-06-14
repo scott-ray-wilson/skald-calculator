@@ -16,7 +16,6 @@ export const ArmorDescription = ({ armorId }: ArmorDescriptionProps) => {
 
   const {
     weightCategory,
-    description,
     soak,
     parent,
     value,
@@ -39,6 +38,7 @@ export const ArmorDescription = ({ armorId }: ArmorDescriptionProps) => {
   );
 
   const totalWeight = weight + (parentArmor?.weight || 0);
+  const description = armor.description || parentArmor?.description;
 
   const enchantmentInfo = enchantment
     ? COMBINED_ENCHANTMENT_MAP.get(enchantment)

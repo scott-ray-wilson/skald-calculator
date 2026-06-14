@@ -16,7 +16,6 @@ export const WeaponDescription = ({ weaponId }: WeaponDescriptionProps) => {
   const {
     weaponType,
     weightCategory,
-    description,
     hitBonus,
     minDamage,
     maxDamage,
@@ -46,6 +45,7 @@ export const WeaponDescription = ({ weaponId }: WeaponDescriptionProps) => {
   const totalCrit = crit + (parentWeapon?.crit ?? 0);
   const totalMinDamage = minDamage + (parentWeapon?.minDamage ?? 0);
   const totalMaxDamage = maxDamage + (parentWeapon?.maxDamage ?? 0);
+  const description = weapon.description || parentWeapon?.description;
 
   const subTitle: string[] = [
     ...new Set([
@@ -101,7 +101,9 @@ export const WeaponDescription = ({ weaponId }: WeaponDescriptionProps) => {
           </Fragment>
         ))}
       </div>
-      <Paragraph className={`text-yellow`}>{description}</Paragraph>
+      {description ? (
+        <Paragraph className={`text-yellow`}>{description}</Paragraph>
+      ) : null}
       {potentialEnchantments.length ? (
         <Paragraph
           className={`text-yellow`}

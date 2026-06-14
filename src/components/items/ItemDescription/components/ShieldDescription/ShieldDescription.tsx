@@ -15,7 +15,6 @@ export const ShieldDescription = ({ shieldId }: ShieldDescriptionProps) => {
   if (!shield) throw new Error(`Invalid Shield ID: ${shieldId}`);
 
   const {
-    description,
     soak,
     parent,
     value,
@@ -38,6 +37,7 @@ export const ShieldDescription = ({ shieldId }: ShieldDescriptionProps) => {
   );
 
   const totalWeight = weight + (parentShield?.weight || 0);
+  const description = shield.description || parentShield?.description;
 
   const enchantmentInfo = enchantment
     ? COMBINED_ENCHANTMENT_MAP.get(enchantment)

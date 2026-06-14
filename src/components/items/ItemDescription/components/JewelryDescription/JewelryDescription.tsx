@@ -10,12 +10,11 @@ import { CopyTextButton, Paragraph } from "@/components/generic";
 type JewelryDescriptionProps = { jewelryId: string };
 
 export const JewelryDescription = ({ jewelryId }: JewelryDescriptionProps) => {
-  const shield = JEWELRY_MAP.get(jewelryId);
+  const jewelry = JEWELRY_MAP.get(jewelryId);
 
-  if (!shield) throw new Error(`Invalid Jewelry ID: ${jewelryId}`);
+  if (!jewelry) throw new Error(`Invalid Jewelry ID: ${jewelryId}`);
 
   const {
-    description,
     parent,
     value,
     slotJewelry,
@@ -24,7 +23,7 @@ export const JewelryDescription = ({ jewelryId }: JewelryDescriptionProps) => {
     enchantment,
     conferredAbilities,
     unique,
-  } = shield;
+  } = jewelry;
 
   const parentJewelry = JEWELRY_MAP.get(parent);
 
@@ -37,6 +36,7 @@ export const JewelryDescription = ({ jewelryId }: JewelryDescriptionProps) => {
   );
 
   const totalWeight = weight + (parentJewelry?.weight || 0);
+  const description = jewelry.description || parentJewelry?.description;
 
   const enchantmentInfo = enchantment
     ? COMBINED_ENCHANTMENT_MAP.get(enchantment)
