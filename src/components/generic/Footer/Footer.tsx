@@ -7,7 +7,7 @@ export const Footer = () => {
       <footer
         className={`w-full border-t-2 text-center justify-center leading-[1.2] flex-wrap gap-x-3 border-light-gray py-2 px-3 bg-red text-[10px] flex text-white md:flex-row gap-y-2 md:justify-between`}
       >
-        <span className={`sm:w-fit w-full`}>2024 Created by Scott Wilson</span>
+        <span className={`sm:w-fit w-full`}>2026 Created by Scott Wilson</span>
         <GenericDialog
           aria-label={"Privacy disclaimer"}
           trigger={

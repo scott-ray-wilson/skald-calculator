@@ -1,57 +1,70 @@
-#  [SKALD Calculator](https://skaldcalculator.com) [Portfolio Showcase]
+# [SKALD Calculator](https://skaldcalculator.com)
+
+A build planner for the RPG [SKALD: Against the Black Priory](https://store.steampowered.com/app/1069160/SKALD_Against_the_Black_Priory).
+
+🔗 **[skaldcalculator.com](https://skaldcalculator.com)**
 
 ---
 
-### 🔎 Overview:
+### 🔎 Overview
 
-#### https://skaldcalculator.com
-
-SKALD Calculator is a build planner for the video game [SKALD: Against the Black Priory](https://store.steampowered.com/app/1069160/SKALD_Against_the_Black_Priory).
-The web app allows players to theorycraft party builds for their adventures through Idra; optimizing their gameplay strategies, enhancing their overall gaming experience and enabling them to share their builds with other players.
+SKALD Calculator lets players theorycraft party builds for their adventures through Idra — planning character progression, optimizing strategies, and sharing builds with the community.
 
 ---
 
-### 💡 Features:
+### 💡 Features
 
-- [Calculator](https://skaldcalculator.com/calc) - Allows players to configure their party, customizing each party member's class, background, attribute, skill, and feat point allocation
-- [Crafting](https://skaldcalculator.com/crafting) - Grants players the ability to explore the crafting recipes discoverable in-game and view their required components
-- [Item Database](https://skaldcalculator.com/items) - Gives players access to browse, search and filter the items available in-game
-
----
-
-### 📈 Demonstrates:
-
-- Proficiency with React, Typescript, PostgreSQL and other web technologies, libraries and frameworks
-- Ability to individually develop, launch and maintain a web application with consistent userbase
-- Ability to write clean, self-documenting code that is maintainable and organized
-- Ability to orient myself in a foreign code base and understand functionality
-- Ability to implement responsive web design and accessible UI components
-- Attention to detail and ability to craft an immersive web experience
-- Personal curiosity and joy in exploring game files, reverse engineering game logic, and creating an intuitive user experience for an awesome game and community
+- [Calculator](https://skaldcalculator.com/calc) — Configure your party, customizing each member's class, background, attribute, skill, and feat point allocation
+- [Crafting](https://skaldcalculator.com/crafting) — Explore the crafting recipes discoverable in-game and view their required components
+- [Item Database](https://skaldcalculator.com/items) — Browse, search, and filter the items available in-game
 
 ---
 
-### ⚙️ Tech:
+### ⚙️ Tech
+
 - Vite (SPA)
 - React
-- Typescript
+- TypeScript
 - TailwindCSS (Styling)
 - JSONSchema (Validation/Types)
 - Zustand (State Management)
-- Tanstack Router (App Router/Navigation)
+- TanStack Router (Routing/Navigation)
 - React Aria Components (Accessibility)
 - ReactFlow (Node-based Editor)
 
 ---
 
-### ❤️ Community Response:
+### 🛠️ Development
 
-["Wish I had this in my first playthrough[...]" - IlluminaZero](https://steamcommunity.com/app/1069160/discussions/0/4413046385619662686/)
+This project uses [pnpm](https://pnpm.io/).
 
-["so..much... thanks... bruh." - Mittens the Maleficent](https://steamcommunity.com/app/1069160/discussions/0/4413046385619662686/)
+```bash
+pnpm install      # install dependencies
+pnpm dev          # start the dev server
+pnpm build        # type-check and build for production
+pnpm test         # run the test suite
+pnpm lint         # lint
+pnpm extract      # regenerate game data from game files
+```
 
-["Love this!" - Seraxia](https://steamcommunity.com/app/1069160/discussions/0/4413046385619662686/)
+---
 
-["This is an amazing tool, thank you!" - RampantDurandal](https://www.reddit.com/r/SkaldRPG/comments/1dp4xlq/skald_calculator_theorycraft_and_share_builds/)
+### ❤️ Community Response
 
-["Whoa. That's cool." - Global_Ease_841](https://www.reddit.com/r/SkaldRPG/comments/1dp4xlq/skald_calculator_theorycraft_and_share_builds/)
+> "Wish I had this in my first playthrough[...]" — [IlluminaZero](https://steamcommunity.com/app/1069160/discussions/0/4413046385619662686/)
+
+> "so..much... thanks... bruh." — [Mittens the Maleficent](https://steamcommunity.com/app/1069160/discussions/0/4413046385619662686/)
+
+> "Love this!" — [Seraxia](https://steamcommunity.com/app/1069160/discussions/0/4413046385619662686/)
+
+> "This is an amazing tool, thank you!" — [RampantDurandal](https://www.reddit.com/r/SkaldRPG/comments/1dp4xlq/skald_calculator_theorycraft_and_share_builds/)
+
+> "Whoa. That's cool." — [Global_Ease_841](https://www.reddit.com/r/SkaldRPG/comments/1dp4xlq/skald_calculator_theorycraft_and_share_builds/)
+
+---
+
+### 📄 License
+
+[MIT](LICENSE) © Scott Wilson
+
+SKALD: Against the Black Priory and its game assets are property of their respective owners. This is an unofficial, fan-made tool and is not affiliated with or endorsed by the game's creators.
