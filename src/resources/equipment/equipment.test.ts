@@ -12,6 +12,7 @@ import {
   EQUIPPABLE_SHIELD_LIST,
   ENCHANTED_JEWELRY_LIST,
   ENCHANTED_MELEE_WEAPON_LIST,
+  compareStat,
   getArmorLegality,
   getClassPermissions,
   getConditionAttributeModifier,
@@ -241,6 +242,22 @@ describe("resolveDamagingStats (ItemDamaging)", () => {
     // value x enchantment multiplier + base price, rounded (Item.getValue)
     expect(resolveItemValue(agilityRing)).toBe(Math.round(100 * 1.4 + 600));
     expect(resolveItemValue(masterworkBreastplate)).toBe(1200); // no enchantment
+  });
+});
+
+describe("compareStat (Item.makeComparativeColorTag)", () => {
+  it("treats higher as better by default and lower as better when reversed", () => {
+    // accuracy/damage/soak/crit: higher wins
+    expect(compareStat(4, 3)).toBe("better");
+    expect(compareStat(2.25, 2.5)).toBe("worse");
+    // encumbrance: lower wins (makeComparativeColorTagReversed)
+    expect(compareStat(1, 3, true)).toBe("better");
+    expect(compareStat(3, 1, true)).toBe("worse");
+  });
+
+  it("reports equal stats as neutral regardless of direction", () => {
+    expect(compareStat(5, 5)).toBe("equal");
+    expect(compareStat(5, 5, true)).toBe("equal");
   });
 });
 

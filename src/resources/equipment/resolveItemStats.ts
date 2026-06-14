@@ -129,6 +129,25 @@ export const resolveItemWeight = (item: {
   parent: string;
 }): number => item.weight + (getParentStatFields(item.parent)?.weight ?? 0);
 
+// Inventory stat comparison: a shown item's stat against the item worn in the
+// same slot. Higher wins for accuracy/damage/soak/crit; encumbrance is
+// reversed (lower wins). Mirrors the game's Item.makeComparativeColorTag family
+// (and its reversed variant) — equal stats are neutral and shown without a
+// "Vs" suffix.
+export type StatComparison = "better" | "worse" | "equal";
+
+export const compareStat = (
+  value: number,
+  against: number,
+  lowerIsBetter = false,
+): StatComparison => {
+  if (value === against) return "equal";
+
+  const isBetter = lowerIsBetter ? value < against : value > against;
+
+  return isBetter ? "better" : "worse";
+};
+
 // the enchantment multiplies the item's own value and adds its base price,
 // rounded (Item.getValue); parents are not consulted
 export const resolveItemValue = (item: {

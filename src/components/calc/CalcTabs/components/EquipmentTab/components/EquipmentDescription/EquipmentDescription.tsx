@@ -13,7 +13,9 @@ import {
   EQUIPMENT_SLOT_LABELS,
   EQUIPPABLE_ITEM_MAP,
   EquipmentSlotId,
+  StatComparison,
   WearableStatsSource,
+  compareStat,
   getClassPermissions,
   getConferredAuxiliaryComponents,
   getConferredPassiveAbilities,
@@ -30,6 +32,14 @@ const getAttributeTitle = (attributeId: string) =>
   attributeId.replace("ATT_", "");
 
 const WEAPON_SLOTS: EquipmentSlotId[] = ["meleeWeapon", "rangedWeapon", "ammo"];
+
+// value coloring for the "Vs worn item" comparison, mirroring the game's
+// light-green / light-red / white comparative stat tags
+const COMPARISON_COLOR: Record<StatComparison, string> = {
+  better: "text-lime",
+  worse: "text-light-red",
+  equal: "text-white",
+};
 
 export const EquipmentDescription = () => {
   const { selectedSlotId, pickerItemId } = useEquipmentPanel();
@@ -95,31 +105,79 @@ const EquipmentItemDetails = ({
 
   const isWeapon = WEAPON_SLOTS.includes(slotId);
 
-  // stats and formatting mirror the item database description components
-  const statRows: { label: string; value: string; isKeyword?: boolean }[] = [];
+  // the item this one would replace in the slot — null when the slot is empty
+  // or the shown item is already worn, so an item never compares against itself
+  // (the game nulls its compare target for the equipped item)
+  const comparisonItem = isEquipped
+    ? null
+    : (equipment.getWorn(slotId)?.item ?? null);
+
+  // stats and formatting mirror the item database description components; a
+  // comparison is attached for the combat stats the game shows "Vs" the worn item
+  const statRows: {
+    label: string;
+    value: string;
+    isKeyword?: boolean;
+    comparison?: { value: string; status: StatComparison };
+  }[] = [];
   let subTitle: string[] = [EQUIPMENT_SLOT_LABELS[slotId]];
 
   if (isWeapon) {
     const resolved = resolveDamagingStats(item as DamagingStatsSource);
+    const compared = comparisonItem
+      ? resolveDamagingStats(comparisonItem as DamagingStatsSource)
+      : null;
+
+    const isAmmo = slotId === "ammo";
+
+    const formatHit = (hitBonus: number) =>
+      `${hitBonus < 0 ? "" : "+"}${hitBonus}`;
+    const formatDamage = (minDamage: number, maxDamage: number) =>
+      `${isAmmo ? "+" : ""}${
+        minDamage === maxDamage ? maxDamage : `${minDamage}-${maxDamage}`
+      }`;
+    const formatCrit = (crit: number) =>
+      `x${crit === 0 ? crit : crit.toFixed(1)}`;
+    // weapons compare on average damage, ammo on max damage
+    // (ItemWeapon/ItemAmmo.printComparativeStats)
+    const damageMetric = (minDamage: number, maxDamage: number) =>
+      isAmmo ? maxDamage : (minDamage + maxDamage) / 2;
 
     statRows.push(
       {
         label: "Accuracy",
-        value: `${resolved.hitBonus < 0 ? "" : "+"}${resolved.hitBonus}`,
+        value: formatHit(resolved.hitBonus),
         isKeyword: true,
+        comparison: compared
+          ? {
+              value: formatHit(compared.hitBonus),
+              status: compareStat(resolved.hitBonus, compared.hitBonus),
+            }
+          : undefined,
       },
       {
         label: "Damage",
-        value: `${slotId === "ammo" ? "+" : ""}${
-          resolved.minDamage === resolved.maxDamage
-            ? resolved.maxDamage
-            : `${resolved.minDamage}-${resolved.maxDamage}`
-        }`,
+        value: formatDamage(resolved.minDamage, resolved.maxDamage),
+        comparison: compared
+          ? {
+              value: formatDamage(compared.minDamage, compared.maxDamage),
+              status: compareStat(
+                damageMetric(resolved.minDamage, resolved.maxDamage),
+                damageMetric(compared.minDamage, compared.maxDamage),
+              ),
+            }
+          : undefined,
       },
       {
         label: "Crit.",
-        value: `x${resolved.crit === 0 ? resolved.crit : resolved.crit.toFixed(1)}`,
+        value: formatCrit(resolved.crit),
         isKeyword: true,
+        comparison: compared
+          ? {
+              value: formatCrit(compared.crit),
+              status: compareStat(resolved.crit, compared.crit),
+            }
+          : undefined,
       },
     );
 
@@ -141,13 +199,50 @@ const EquipmentItemDetails = ({
     }
   } else if (slotId !== "ring" && slotId !== "necklace") {
     const resolved = resolveWearableStats(item as WearableStatsSource);
+    const compared = comparisonItem
+      ? resolveWearableStats(comparisonItem as WearableStatsSource)
+      : null;
+
+    const isShield = slotId === "shield";
+
+    const soakComparison = compared
+      ? {
+          value: isShield ? `+${compared.soak}` : `${compared.soak}`,
+          status: compareStat(resolved.soak, compared.soak),
+        }
+      : undefined;
 
     statRows.push(
       // a shield's soak raises Dodge while in hand, not Soak
-      slotId === "shield"
-        ? { label: "Dodge", value: `+${resolved.soak}`, isKeyword: true }
-        : { label: "Soak", value: `${resolved.soak}`, isKeyword: true },
-      { label: "Enc.", value: `${resolved.encumbrance}`, isKeyword: true },
+      isShield
+        ? {
+            label: "Dodge",
+            value: `+${resolved.soak}`,
+            isKeyword: true,
+            comparison: soakComparison,
+          }
+        : {
+            label: "Soak",
+            value: `${resolved.soak}`,
+            isKeyword: true,
+            comparison: soakComparison,
+          },
+      {
+        label: "Enc.",
+        value: `${resolved.encumbrance}`,
+        isKeyword: true,
+        // lower encumbrance is better (makeComparativeColorTagReversed)
+        comparison: compared
+          ? {
+              value: `${compared.encumbrance}`,
+              status: compareStat(
+                resolved.encumbrance,
+                compared.encumbrance,
+                true,
+              ),
+            }
+          : undefined,
+      },
     );
 
     if (resolved.weightCategory) {
@@ -224,14 +319,22 @@ const EquipmentItemDetails = ({
         </div>
       </div>
       <div className={`grid w-fit grid-cols-2 gap-x-4`}>
-        {statRows.map(({ label, value, isKeyword }) => (
+        {statRows.map(({ label, value, isKeyword, comparison }) => (
           <Fragment key={label}>
             {isKeyword ? (
               <Keyword>{label}</Keyword>
             ) : (
               <span className={`text-light-gray`}>{label}</span>
             )}
-            <span className={`text-white`}>{value}</span>
+            <span>
+              <span className={COMPARISON_COLOR[comparison?.status ?? "equal"]}>
+                {value}
+              </span>
+              {/* the game shows "Vs <worn>" only when the stat actually differs */}
+              {comparison && comparison.status !== "equal" ? (
+                <span className={`text-white`}> Vs {comparison.value}</span>
+              ) : null}
+            </span>
           </Fragment>
         ))}
       </div>
