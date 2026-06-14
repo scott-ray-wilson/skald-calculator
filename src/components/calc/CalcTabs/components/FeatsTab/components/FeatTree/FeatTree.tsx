@@ -30,7 +30,7 @@ export const FeatTree = () => {
 
   return (
     <div
-      className={`flex min-h-[30rem] flex-[2] flex-col rounded border-[3px] border-olive`}
+      className={`flex min-h-120 flex-2 flex-col rounded-sm border-[3px] border-olive`}
     >
       <ReactFlow
         key={classId}
@@ -53,7 +53,7 @@ export const FeatTree = () => {
           hideAttribution: true,
         }}
       >
-        <Panel position={"top-right"} className={`!mr-1.5 !mt-1`}>
+        <Panel position={"top-right"} className={`mr-1.5! mt-1!`}>
           <ResetFeatsButton />
         </Panel>
       </ReactFlow>

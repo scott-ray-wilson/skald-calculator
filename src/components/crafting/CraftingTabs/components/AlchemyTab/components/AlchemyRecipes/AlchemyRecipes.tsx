@@ -37,7 +37,7 @@ export const AlchemyRecipes = () => {
       selectionMode="single"
       shouldFocusWrap
       onFocus={handleClearPotionSelection}
-      className={`flex-[3]`}
+      className={`flex-3`}
       containerClassName={`bg-brown md:overflow-y-auto`}
       selectedKeys={selectedRecipeId ? [selectedRecipeId] : []}
       onSelectionChange={handleSelectionChange}

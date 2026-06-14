@@ -33,7 +33,7 @@ export const GenericPopover = ({
         >
           <Modal className={`bg-black p-[0.18rem]`}>
             <Dialog
-              className={`bg-brown p-0.5 focus:outline-none focus:ring-0`}
+              className={`bg-brown p-0.5 focus:outline-hidden focus:ring-0`}
             >
               <div className="scrollbar flex max-h-[70vh] flex-col gap-3 overflow-y-auto border-[3px] border-red px-3 py-2.5">
                 <ErrorBoundary fallbackRender={ErrorComponent}>
@@ -52,9 +52,9 @@ export const GenericPopover = ({
       {trigger}
       <Popover
         {...props}
-        className={`crt max-w-sm rounded-sm bg-black p-[0.18rem]`}
+        className={`crt max-w-sm rounded-xs bg-black p-[0.18rem]`}
       >
-        <Dialog className={`bg-brown p-0.5 focus:outline-none focus:ring-0`}>
+        <Dialog className={`bg-brown p-0.5 focus:outline-hidden focus:ring-0`}>
           <div className="scrollbar flex max-h-[60vh] flex-col gap-3 overflow-y-auto border-[3px] border-red px-3 py-2.5">
             <ErrorBoundary fallbackRender={ErrorComponent}>
               {children}

@@ -62,7 +62,7 @@ export const EmptyPartyMemberSlotButton = ({
         <CharacterPortraitButton />
       </GenericTooltip>
       <Popover
-        className={`rounded-sm crt relative border-2 shadow-[-2px_2px_0px_black] border-light-gray sh bg-dark-gray`}
+        className={`rounded-xs crt relative border-2 shadow-[-2px_2px_0px_black] border-light-gray sh bg-dark-gray`}
         placement={placementBottom ? "bottom" : "left top"}
       >
         <Menu className={`border-2 border-black p-1`} items={items}>
@@ -76,7 +76,7 @@ export const EmptyPartyMemberSlotButton = ({
                 id={id}
                 className={({ isHovered, isDisabled }) =>
                   cn(
-                    `flex gap-2  items-start rounded-sm p-1 pr-1.5 text-white cursor-pointer`,
+                    `flex gap-2  items-start rounded-xs p-1 pr-1.5 text-white cursor-pointer`,
                     {
                       "bg-red": isHovered,
                       "opacity-40 pointer-events-none": isDisabled,

@@ -3,7 +3,7 @@ import { FallbackProps } from "react-error-boundary";
 export const ErrorComponent = ({ error }: FallbackProps) => {
   return (
     <div
-      className={`bg-red px-4 py-2 m-auto rounded-sm border-black border-2 text-white p-2 gap-2 flex`}
+      className={`bg-red px-4 py-2 m-auto rounded-xs border-black border-2 text-white p-2 gap-2 flex`}
     >
       <div className={`mt-0.5`}>
         <svg

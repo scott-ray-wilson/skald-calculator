@@ -122,7 +122,7 @@ export const KeywordContent = ({
       <div className={`flex flex-col`}>
         <span className={`uppercase text-blue`}>{title}</span>
         <span
-          className={`capitalize leading-[1] text-light-gray`}
+          className={`capitalize leading-none text-light-gray`}
         >{`[${category}]`}</span>
       </div>
       {AdditionalComponents}

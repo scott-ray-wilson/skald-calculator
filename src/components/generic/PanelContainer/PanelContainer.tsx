@@ -22,10 +22,10 @@ export const PanelContainer = ({
   return (
     <TabPanel
       id={id}
-      className={`col-span-full flex w-full flex-col gap-1 rounded-sm bg-brown p-1 shadow-[-3px_3px_0px] shadow-olive md:h-[100vh] md:max-h-[42rem] lg:col-span-1`}
+      className={`col-span-full flex w-full flex-col gap-1 rounded-xs bg-brown p-1 shadow-[-3px_3px_0px] shadow-olive md:h-screen md:max-h-168 lg:col-span-1`}
     >
       <header
-        className={`flex w-full items-start gap-1 rounded bg-red px-3 pb-2 pt-1`}
+        className={`flex w-full items-start gap-1 rounded-sm bg-red px-3 pb-2 pt-1`}
       >
         <h3 className={"text-xl text-yellow"}>{title}</h3>
         {actions}

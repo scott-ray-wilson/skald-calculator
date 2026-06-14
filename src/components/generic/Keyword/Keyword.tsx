@@ -26,7 +26,7 @@ export const Keyword = ({ className, children, shouldOverride }: Keyword) => {
       }
       className={cn(
         className,
-        `cursor-pointer text-green focus:text-blue focus:outline-none focus:ring-0`,
+        `cursor-pointer text-green focus:text-blue focus:outline-hidden focus:ring-0`,
       )}
     >
       {children}

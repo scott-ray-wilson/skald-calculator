@@ -20,7 +20,7 @@ export const AlchemyTab = () => {
         <AlchemyWorkstation />
         <AlchemyInventory />
       </div>
-      <DescriptionContainer className={`flex-[3]`}>
+      <DescriptionContainer className={`flex-3`}>
         {selectedReagentId ? (
           REAGENT_MAP.has(selectedReagentId) ? (
             <ReagentDescription reagentId={selectedReagentId} />

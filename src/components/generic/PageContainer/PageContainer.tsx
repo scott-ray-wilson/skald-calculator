@@ -6,7 +6,7 @@ type PageContainerProps = { children: ReactNode };
 
 export const PageContainer = ({ children }: PageContainerProps) => (
   <div
-    className={`mx-auto flex w-full max-w-[70rem] flex-col-reverse gap-3 md:my-auto md:gap-4 lg:flex-row`}
+    className={`mx-auto flex w-full max-w-280 flex-col-reverse gap-3 md:my-auto md:gap-4 lg:flex-row`}
   >
     <ErrorBoundary fallbackRender={ErrorComponent}>{children}</ErrorBoundary>
   </div>

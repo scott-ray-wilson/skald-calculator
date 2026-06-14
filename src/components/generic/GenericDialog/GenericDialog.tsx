@@ -41,11 +41,11 @@ export const GenericDialog = ({
       className={`fixed crt inset-0 p-4 z-10 min-h-full flex items-center justify-center`}
     >
       <Modal
-        className={`shadow-[-3px_3px_0px_black] focus:outline-none focus:ring-0 bg-dark-gray max-w-xl w-full border-2 border-black`}
+        className={`shadow-[-3px_3px_0px_black] focus:outline-hidden focus:ring-0 bg-dark-gray max-w-xl w-full border-2 border-black`}
       >
         <Dialog
           {...props}
-          className={`border-brown border-2 min-h-[14rem] m-0.5 flex flex-col focus:outline-none ring-black outline-black focus:ring-0 bg-dark-gray`}
+          className={`border-brown border-2 min-h-56 m-0.5 flex flex-col focus:outline-hidden ring-black outline-black focus:ring-0 bg-dark-gray`}
         >
           {({ close }) => (
             <>

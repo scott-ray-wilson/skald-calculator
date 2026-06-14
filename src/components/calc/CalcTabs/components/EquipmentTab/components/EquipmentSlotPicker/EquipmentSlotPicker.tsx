@@ -98,7 +98,7 @@ export const EquipmentSlotPicker = () => {
         className={`group flex flex-col px-1 pt-1 text-light-gray focus-within:text-white`}
       >
         <Input
-          className={`w-full min-w-[5rem] bg-brown text-white placeholder-light-gray focus:outline-none focus:ring-0`}
+          className={`w-full min-w-20 bg-brown text-white placeholder-light-gray focus:outline-hidden focus:ring-0`}
           placeholder={"Search Items..."}
         />
         {/* underline as its own element so it can drop the same -2px 2px
@@ -125,7 +125,7 @@ export const EquipmentSlotPicker = () => {
         selectedKeys={pickerItemId ? new Set([pickerItemId]) : new Set()}
         onSelectionChange={handleSelection}
         onAction={handleAction}
-        className={`scrollbar grid max-h-[21rem] min-h-0 flex-1 grid-cols-[repeat(auto-fill,3rem)] content-start gap-0.5 overflow-y-auto md:max-h-none md:pr-0.5`}
+        className={`scrollbar grid max-h-84 min-h-0 flex-1 grid-cols-[repeat(auto-fill,3rem)] content-start gap-0.5 overflow-y-auto md:max-h-none md:pr-0.5`}
       >
         {({ id, isLegal, textValue }) => (
           <ListBoxItem

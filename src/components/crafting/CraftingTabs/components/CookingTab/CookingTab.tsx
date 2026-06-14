@@ -18,7 +18,7 @@ export const CookingTab = () => {
         <CookingWorkstation />
         <CookingInventory />
       </div>
-      <DescriptionContainer className={`flex-[3]`}>
+      <DescriptionContainer className={`flex-3`}>
         {selectedFoodId ? (
           <FoodDescription foodId={selectedFoodId} />
         ) : selectedRecipeId ? (

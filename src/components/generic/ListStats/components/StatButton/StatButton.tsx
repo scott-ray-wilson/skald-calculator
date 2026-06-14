@@ -13,7 +13,7 @@ export const StatButton = ({
   return (
     <Button
       className={cn(
-        `focus:outline-none active:scale-[.80] transition-transform focus:ring-0`,
+        `focus:outline-hidden active:scale-[.80] transition-transform focus:ring-0`,
         className,
       )}
       {...props}

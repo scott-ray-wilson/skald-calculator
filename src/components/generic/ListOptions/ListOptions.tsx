@@ -17,7 +17,7 @@ export const ListOptions = ({ className, ...props }: ListOptionsProps) => {
   return (
     <ListBox
       className={cn(
-        `border-[3px] rounded px-4 py-4 border-olive flex flex-col`,
+        `border-[3px] rounded-sm px-4 py-4 border-olive flex flex-col`,
         className,
       )}
       {...props}
@@ -26,7 +26,7 @@ export const ListOptions = ({ className, ...props }: ListOptionsProps) => {
         <ListBoxItem
           className={({ isFocused, isHovered, isSelected }) =>
             cn(
-              `cursor-pointer whitespace-nowrap focus:outline-none text-lg focus:ring-0 capitalize select-none text-light-gray`,
+              `cursor-pointer whitespace-nowrap focus:outline-hidden text-lg focus:ring-0 capitalize select-none text-light-gray`,
               {
                 "text-yellow": isSelected,
                 "text-white": isHovered,

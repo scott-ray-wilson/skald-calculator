@@ -5,7 +5,7 @@ export const WeaponsTab = () => {
   return (
     <PanelContainer id={"weapons"} title={"Weapons"}>
       <ItemsInventory filter={"weapons"} />
-      <DescriptionContainer className={`flex-[2]`}>
+      <DescriptionContainer className={`flex-2`}>
         <ItemDescription />
       </DescriptionContainer>
     </PanelContainer>

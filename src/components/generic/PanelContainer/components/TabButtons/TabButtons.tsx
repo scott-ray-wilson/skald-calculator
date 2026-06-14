@@ -11,14 +11,14 @@ export const TabButtons = () => {
       <Button
         isDisabled={!getPreviousTab()}
         onPress={onPreviousTab}
-        className={`active:scale-[.80] disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-0`}
+        className={`active:scale-[.80] disabled:opacity-50 disabled:pointer-events-none focus:outline-hidden focus:ring-0`}
       >
         {(props) => <ButtonLeftIcon {...props} />}
       </Button>
       <Button
         isDisabled={!getNextTab()}
         onPress={onNextTab}
-        className={`active:scale-[.80] disabled:opacity-50 disabled:pointer-events-none focus:outline-none focus:ring-0`}
+        className={`active:scale-[.80] disabled:opacity-50 disabled:pointer-events-none focus:outline-hidden focus:ring-0`}
       >
         {(props) => <ButtonRightIcon {...props} />}
       </Button>

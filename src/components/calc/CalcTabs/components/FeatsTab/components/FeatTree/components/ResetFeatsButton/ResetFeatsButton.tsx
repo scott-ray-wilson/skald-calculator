@@ -35,7 +35,7 @@ export const ResetFeatsButton = () => {
         <Button
           isDisabled={feats.getTotalAllocatedRanks() === 0}
           onPress={handleConfirmReset}
-          className={`focus:outline-none disabled:pointer-events-none disabled:opacity-40 focus:ring-0 focus:text-blue text-olive hover:text-red`}
+          className={`focus:outline-hidden disabled:pointer-events-none disabled:opacity-40 focus:ring-0 focus:text-blue text-olive hover:text-red`}
         >
           <svg
             className={`h-6 w-6`}

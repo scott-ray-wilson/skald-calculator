@@ -26,7 +26,7 @@ export const ClassDescription = () => {
   ];
 
   return (
-    <DescriptionContainer className={`flex-[3]`} nextTab={"background"}>
+    <DescriptionContainer className={`flex-3`} nextTab={"background"}>
       <span className={`uppercase text-blue text-lg`}>
         {characterClass.title}
       </span>

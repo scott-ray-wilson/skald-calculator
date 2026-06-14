@@ -70,7 +70,7 @@ export const PartyMemberButton = ({
     <DialogTrigger>
       {Component}
       <Popover
-        className={`rounded-sm crt relative max-h-[80vh] flex flex-col  border-2 shadow-[-2px_2px_0px_black] border-light-gray sh bg-dark-gray`}
+        className={`rounded-xs crt relative max-h-[80vh] flex flex-col  border-2 shadow-[-2px_2px_0px_black] border-light-gray sh bg-dark-gray`}
         placement={placementBottom ? "bottom" : "left top"}
       >
         <Dialog
@@ -99,7 +99,7 @@ export const PartyMemberButton = ({
                   {partyMemberIndex !== 0 ? (
                     <div
                       role={"separator"}
-                      className={`bg-light-gray min-h-[2px] !h-[2px] my-1`}
+                      className={`bg-light-gray min-h-[2px] h-[2px]! my-1`}
                     />
                   ) : null}
                 </>
@@ -113,7 +113,7 @@ export const PartyMemberButton = ({
                     }}
                     className={({ isHovered, isDisabled }) =>
                       cn(
-                        `flex gap-2 w-full items-start rounded-sm p-1 pr-1.5 text-white cursor-pointer`,
+                        `flex gap-2 w-full items-start rounded-xs p-1 pr-1.5 text-white cursor-pointer`,
                         {
                           "bg-red": isHovered,
                           "opacity-40 pointer-events-none": isDisabled,

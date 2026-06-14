@@ -8,7 +8,7 @@ export const PanelButton = ({ className, ...props }: PanelButtonProps) => {
     <Button
       {...props}
       className={cn(
-        "h-7 w-full max-w-sm border-[3px] border-medium-gray bg-dark-gray px-6 leading-[1px] text-light-gray shadow-[-3px_3px_0px_black] hover:text-yellow focus:text-blue focus:outline-none focus:ring-0 disabled:pointer-events-none disabled:opacity-70",
+        "h-7 w-full max-w-sm border-[3px] border-medium-gray bg-dark-gray px-6 leading-px text-light-gray shadow-[-3px_3px_0px_black] hover:text-yellow focus:text-blue focus:outline-hidden focus:ring-0 disabled:pointer-events-none disabled:opacity-70",
         className,
       )}
     />

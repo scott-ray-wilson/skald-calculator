@@ -21,7 +21,7 @@ export const CharacterPortraitButton = ({
       aria-label={"Select a party member"}
       className={({ isHovered, isFocused }) =>
         cn(
-          `relative flex h-12 w-12 select-none flex-col items-center justify-center rounded-sm border-2 bg-black hover:border-white focus:border-blue aria-[expanded=true]:border-blue lg:h-20 lg:w-20`,
+          `relative flex h-12 w-12 select-none flex-col items-center justify-center rounded-xs border-2 bg-black hover:border-white focus:border-blue aria-expanded:border-blue lg:h-20 lg:w-20`,
           {
             "border-yellow": isSelected,
             "border-blue": isFocused,

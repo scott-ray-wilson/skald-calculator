@@ -5,7 +5,7 @@ export const FoodTab = () => {
   return (
     <PanelContainer id={"food"} title={"Food"}>
       <ItemsInventory filter={"food"} />
-      <DescriptionContainer className={`flex-[2]`}>
+      <DescriptionContainer className={`flex-2`}>
         <ItemDescription />
       </DescriptionContainer>
     </PanelContainer>

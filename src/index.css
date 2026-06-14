@@ -1,28 +1,107 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import 'tailwindcss';
 
-button, span, p, li, a, div, input {
+@theme {
+  --color-*: initial;
+  --color-red: #813338;
+  --color-brown: #905f25;
+  --color-olive: #5c4700;
+  --color-yellow: #edf171;
+  --color-green: #56ac4d;
+  --color-lime: #a9ff9f;
+  --color-blue: #75cec8;
+  --color-indigo: #706de3;
+  --color-navy: #2e2c9b;
+  --color-light-gray: #b2b2b2;
+  --color-medium-gray: #7b7b7b;
+  --color-dark-gray: #4a4a4a;
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
+/*
+  The default border color has changed to `currentcolor` in Tailwind CSS v4,
+  so we've added these compatibility styles to make sure everything still
+  looks the same as it did with Tailwind CSS v3.
+
+  If we ever want to remove these styles, we need to add an explicit border
+  color utility to any element that depends on these defaults.
+*/
+@layer base {
+  *,
+  ::after,
+  ::before,
+  ::backdrop,
+  ::file-selector-button {
+    border-color: var(--color-gray-200, currentcolor);
+  }
+}
+
+/*
+  Tailwind CSS v4 changed the default button cursor to `default`; restore the
+  v3 pointer cursor for interactive (non-disabled) buttons.
+*/
+@layer base {
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+}
+
+@utility scrollbar {
+  &::-webkit-scrollbar {
+    width: 20px;
+  }
+
+  &::-webkit-scrollbar-button {
+    background: #4a4a4a;
+    background-clip: padding-box;
+    border: 3px solid #7b7b7b;
+    cursor: pointer;
+    height: 24px;
+  }
+
+  &::-webkit-scrollbar-track {
+    position: absolute;
+    background: #7b7b7b;
+    padding: 5px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    background: #b2b2b2;
+    background-clip: padding-box;
+    cursor: pointer;
+    border-left: 3px solid rgba(0, 0, 0, 0);
+    border-right: 3px solid rgba(0, 0, 0, 0);
+  }
+}
+
+@layer utilities {
+  button,
+  span,
+  p,
+  li,
+  a,
+  div,
+  input {
     text-shadow: -2px 2px black;
     letter-spacing: 0;
     word-spacing: -4px;
     font-weight: 500;
     outline: red;
-}
+  }
 
-::-webkit-scrollbar-button:vertical:start:increment,
-::-webkit-scrollbar-button:vertical:end:decrement,
-::-webkit-scrollbar-button:horizontal:start:increment,
-::-webkit-scrollbar-button:horizontal:end:decrement
-{
+  ::-webkit-scrollbar-button:vertical:start:increment,
+  ::-webkit-scrollbar-button:vertical:end:decrement,
+  ::-webkit-scrollbar-button:horizontal:start:increment,
+  ::-webkit-scrollbar-button:horizontal:end:decrement {
     display: none;
-}
+  }
 
-/* scanlines cover the nearest positioned ancestor — each .crt element
+  /* scanlines cover the nearest positioned ancestor — each .crt element
    positions itself so the effect stays local instead of stacking
    viewport-wide layers */
-.crt::before {
-    content: " ";
+  .crt::before {
+    content: ' ';
     display: block;
     position: absolute;
     top: 0;
@@ -30,10 +109,20 @@ button, span, p, li, a, div, input {
     bottom: 0;
     right: 0;
     opacity: 0.6;
-    background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+    background:
+      linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
+      linear-gradient(
+        90deg,
+        rgba(255, 0, 0, 0.06),
+        rgba(0, 255, 0, 0.02),
+        rgba(0, 0, 255, 0.06)
+      );
     z-index: 2;
-    background-size: 100% 2px, 3px 100%;
+    background-size:
+      100% 2px,
+      3px 100%;
     pointer-events: none;
+  }
 }
 
 @layer base {
@@ -46,34 +135,6 @@ button, span, p, li, a, div, input {
 
     html {
         font-family: 'CommodorePixelized', system-ui, sans-serif;
-    }
-}
-
-@layer utilities {
-    .scrollbar::-webkit-scrollbar {
-        width: 20px;
-    }
-
-    .scrollbar::-webkit-scrollbar-button {
-        background: #4A4A4A;
-        background-clip: padding-box;
-        border: 3px solid #7B7B7B;
-        cursor: pointer;
-        height: 24px;
-    }
-
-    .scrollbar::-webkit-scrollbar-track {
-        position: absolute;
-        background: #7B7B7B;
-        padding: 5px;
-    }
-
-    .scrollbar::-webkit-scrollbar-thumb {
-        background: #B2B2B2;
-        background-clip: padding-box;
-        cursor: pointer;
-        border-left: 3px solid rgba(0, 0, 0, 0);
-        border-right: 3px solid rgba(0, 0, 0, 0);
     }
 }
 

@@ -41,7 +41,7 @@ export const WieldToggle = () => {
             aria-label={label}
             aria-pressed={wieldedSlotId === id}
             onPress={() => setWieldedSlotId(id)}
-            className={cn(`h-5 w-5 focus:text-blue focus:outline-none`, {
+            className={cn(`h-5 w-5 focus:text-blue focus:outline-hidden`, {
               "text-yellow": wieldedSlotId === id,
               "text-light-gray hover:text-white": wieldedSlotId !== id,
             })}

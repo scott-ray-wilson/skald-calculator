@@ -9,7 +9,7 @@ export const BackgroundDescription = () => {
 
   return (
     <DescriptionContainer
-      className={`flex-[3]`}
+      className={`flex-3`}
       prevTab={"class"}
       nextTab={"attributes"}
     >

@@ -127,7 +127,7 @@ export const EquipmentSummary = () => {
   // Items Worn box
   return (
     <>
-      <div className={`flex min-w-[8.5rem] flex-1 flex-col px-1`}>
+      <div className={`flex min-w-34 flex-1 flex-col px-1`}>
         {summary.map(({ label, value }) => (
           <div
             key={label}

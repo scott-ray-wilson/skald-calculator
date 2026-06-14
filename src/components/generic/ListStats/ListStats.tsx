@@ -68,7 +68,7 @@ export const ListStats = ({
           ...itemProps
         }) => (
           <GridListItem
-            className={`cursor-pointer rounded-sm gap-3 flex items-center justify-between focus:outline-none focus:ring-0`}
+            className={`cursor-pointer rounded-xs gap-3 flex items-center justify-between focus:outline-hidden focus:ring-0`}
             {...itemProps}
           >
             {({ isFocused, isHovered }) => (

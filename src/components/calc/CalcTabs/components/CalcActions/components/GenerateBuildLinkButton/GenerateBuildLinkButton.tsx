@@ -62,7 +62,7 @@ export const GenerateBuildLinkButton = () => {
             <a
               target={"_blank"}
               href={buildLink}
-              className={`line-clamp-3 cursor-pointer break-words text-blue underline underline-offset-4`}
+              className={`line-clamp-3 cursor-pointer wrap-break-word text-blue underline underline-offset-4`}
             >
               {buildLink}
             </a>

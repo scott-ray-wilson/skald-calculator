@@ -52,7 +52,7 @@ export const FeatNode = (node: FeatNodeProps) => {
         onPress={handlePress}
         className={({ isHovered, isPressed, isFocused }) =>
           cn(
-            `relative aspect-square h-[3.2rem] w-[3.2rem] rounded-sm border-[3px] border-dark-gray focus:outline-none focus:ring-0`,
+            `relative aspect-square h-[3.2rem] w-[3.2rem] rounded-xs border-[3px] border-dark-gray focus:outline-hidden focus:ring-0`,
             {
               "border-light-gray": isHovered,
               "border-lime": isFocused,
@@ -63,7 +63,7 @@ export const FeatNode = (node: FeatNodeProps) => {
           )
         }
       >
-        <div className={`absolute -left-[8px] top-[0.5px] flex flex-col gap-1`}>
+        <div className={`absolute left-[-8px] top-[0.5px] flex flex-col gap-1`}>
           {feat.list.map(({ rank, id }) => {
             const prevTicks = trackedRanks;
             trackedRanks += rank - prevTicks;
@@ -109,11 +109,11 @@ export const FeatNode = (node: FeatNodeProps) => {
               </svg>
             ) : (
               <>
-                <span className={`capitalize leading-[1px] text-white`}>
+                <span className={`capitalize leading-px text-white`}>
                   {firstSeg.substring(0, 2)}
                 </span>
                 {segments.length > 1 ? (
-                  <span className={`-mt-1 capitalize leading-[1px] text-white`}>
+                  <span className={`-mt-1 capitalize leading-px text-white`}>
                     {secondSeg.substring(0, 2)}
                   </span>
                 ) : null}
@@ -123,7 +123,7 @@ export const FeatNode = (node: FeatNodeProps) => {
         </div>
         {tier ? (
           <span
-            className={`absolute -bottom-[0.6rem] right-[0.3rem] text-yellow ${tier < 4 ? "[letter-spacing:-6px]" : "[letter-spacing:-2px]"}`}
+            className={`absolute bottom-[-0.6rem] right-[0.3rem] text-yellow ${tier < 4 ? "tracking-[-6px]" : "tracking-[-2px]"}`}
           >
             {ROMAN_NUMERAL_MAP.get(tier) ?? "??"}
           </span>

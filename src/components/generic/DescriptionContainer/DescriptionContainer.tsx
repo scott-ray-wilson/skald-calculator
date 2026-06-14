@@ -36,7 +36,7 @@ export const DescriptionContainer = ({
   return (
     <div
       className={cn(
-        `scrollbar flex flex-1 flex-col gap-4 overflow-y-auto rounded bg-olive p-4`,
+        `scrollbar flex flex-1 flex-col gap-4 overflow-y-auto rounded-sm bg-olive p-4`,
         className,
       )}
     >

@@ -37,7 +37,7 @@ export const CookingRecipes = () => {
       selectionMode="single"
       shouldFocusWrap
       onFocus={handleClearFoodSelection}
-      className={`flex-[3]`}
+      className={`flex-3`}
       containerClassName={`bg-brown md:overflow-y-auto`}
       selectedKeys={selectedRecipeId ? [selectedRecipeId] : []}
       onSelectionChange={handleSelectionChange}

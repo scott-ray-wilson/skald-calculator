@@ -81,7 +81,7 @@ export const InventoryList = ({
         renderEmptyState={() => (
           <>
             <div
-              className={`col-span-full mt-2 pl-2 text-yellow md:min-w-[21.75rem] lg:min-w-[34.25rem]`}
+              className={`col-span-full mt-2 pl-2 text-yellow md:min-w-87 lg:min-w-137`}
             >
               No items match search.
             </div>

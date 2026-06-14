@@ -1,8 +1,9 @@
-import tailwindConfig from "../../tailwind.config";
 import { useEffect, useState } from "react";
-import resolveConfig from "tailwindcss/resolveConfig";
 
-const fullConfig = resolveConfig(tailwindConfig);
+// Tailwind's default breakpoints (px). The project doesn't customize `screens`,
+// so these mirror the framework defaults (previously read via resolveConfig,
+// which was removed in Tailwind v4's CSS-first config).
+const BREAKPOINTS = { sm: 640, md: 768, lg: 1024 } as const;
 
 function getWindowSize() {
   if (typeof window === "undefined") return null;
@@ -12,9 +13,7 @@ function getWindowSize() {
 
 export const useBreakpoint = (size: "sm" | "md" | "lg") => {
   const [windowSize, setWindowSize] = useState(getWindowSize());
-  const [breakpoint] = useState(
-    Number.parseInt(fullConfig.theme?.screens?.[size].replace("px", "")),
-  );
+  const [breakpoint] = useState(BREAKPOINTS[size]);
   useEffect(() => {
     function handleWindowResize() {
       setWindowSize(getWindowSize());

@@ -40,7 +40,7 @@ export const NavLinks = () => {
           <RouterLink
             to={to}
             className={cn(
-              `hidden text-white hover:text-yellow focus:text-blue focus:outline-none focus:ring-0 lg:inline`,
+              `hidden text-white hover:text-yellow focus:text-blue focus:outline-hidden focus:ring-0 lg:inline`,
 
               {
                 "underline decoration-[0.1rem] underline-offset-4":
@@ -70,7 +70,7 @@ export const NavLinks = () => {
           </svg>
         </Button>
         <Popover
-          className={`crt sh relative rounded-sm border-2 border-light-gray bg-dark-gray shadow-[-2px_2px_0px_black]`}
+          className={`crt sh relative rounded-xs border-2 border-light-gray bg-dark-gray shadow-[-2px_2px_0px_black]`}
         >
           <Menu
             className={`flex flex-col gap-2 border-2 border-black p-1.5 py-2`}
@@ -79,7 +79,7 @@ export const NavLinks = () => {
             {({ title, to }) => (
               <MenuItem
                 className={cn(
-                  `flex cursor-pointer items-start rounded-sm p-1 pr-1.5 text-white hover:bg-red focus:text-blue`,
+                  `flex cursor-pointer items-start rounded-xs p-1 pr-1.5 text-white hover:bg-red focus:text-blue`,
                   {
                     "text-yellow underline underline-offset-4": pathname === to,
                   },

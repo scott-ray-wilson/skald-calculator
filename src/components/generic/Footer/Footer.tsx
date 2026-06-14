@@ -12,7 +12,7 @@ export const Footer = () => {
           aria-label={"Privacy disclaimer"}
           trigger={
             <Button
-              className={`underline focus:outline-none focus:text-blue hover:text-yellow focus:ring-0 underline-offset-4`}
+              className={`underline focus:outline-hidden focus:text-blue hover:text-yellow focus:ring-0 underline-offset-4`}
             >
               Privacy
             </Button>
@@ -28,7 +28,7 @@ export const Footer = () => {
           aria-label={"Contact info"}
           trigger={
             <Button
-              className={`underline md:mr-auto focus:outline-none focus:text-blue hover:text-yellow focus:ring-0 underline-offset-4`}
+              className={`underline md:mr-auto focus:outline-hidden focus:text-blue hover:text-yellow focus:ring-0 underline-offset-4`}
             >
               Contact
             </Button>

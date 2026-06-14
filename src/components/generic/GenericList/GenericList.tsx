@@ -36,7 +36,7 @@ export const GenericList = ({
           <ListBoxItem
             className={({ isFocused, isSelected, isHovered }) =>
               cn(
-                `line-clamp-1 cursor-pointer select-none capitalize text-light-gray focus:outline-none focus:ring-0`,
+                `line-clamp-1 cursor-pointer select-none capitalize text-light-gray focus:outline-hidden focus:ring-0`,
                 {
                   "text-yellow": isSelected,
                   "text-blue": isFocused,

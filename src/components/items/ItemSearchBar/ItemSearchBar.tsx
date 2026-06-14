@@ -28,7 +28,7 @@ export const ItemSearchBar = () => {
         />
       </svg>
       <Input
-        className={`min-w-[5rem] border-b-2 border-light-gray bg-black text-white placeholder-light-gray focus:border-white focus:decoration-white focus:outline-none focus:ring-0`}
+        className={`min-w-20 border-b-2 border-light-gray bg-black text-white placeholder-light-gray focus:border-white focus:decoration-white focus:outline-hidden focus:ring-0`}
         placeholder={"Search Items..."}
       />
     </TextField>

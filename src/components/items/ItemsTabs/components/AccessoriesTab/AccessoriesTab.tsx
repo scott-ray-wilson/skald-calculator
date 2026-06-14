@@ -5,7 +5,7 @@ export const AccessoriesTab = () => {
   return (
     <PanelContainer id={"accessories"} title={"Accessories"}>
       <ItemsInventory filter={"accessories"} />
-      <DescriptionContainer className={`flex-[2]`}>
+      <DescriptionContainer className={`flex-2`}>
         <ItemDescription />
       </DescriptionContainer>
     </PanelContainer>
