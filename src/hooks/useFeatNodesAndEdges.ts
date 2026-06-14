@@ -1,7 +1,7 @@
 import { usePartyLoadout } from "@/stores";
 import { useMemo } from "react";
 import { FEAT_MAP, FeatType } from "@/resources";
-import { Edge, MarkerType, Node } from "reactflow";
+import { Edge, MarkerType, Node } from "@xyflow/react";
 
 // TODO: generate feat trees on extract
 

@@ -1,5 +1,5 @@
 import { PanelContainer, TabButtons } from "@/components/generic";
-import { ReactFlowProvider } from "reactflow";
+import { ReactFlowProvider } from "@xyflow/react";
 import { usePartyLoadout } from "@/stores";
 import { FeatDescription, FeatTree } from "@/components/calc";
 

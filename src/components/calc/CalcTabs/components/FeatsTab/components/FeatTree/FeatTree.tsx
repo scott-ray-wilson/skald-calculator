@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import ReactFlow, { Panel, useReactFlow, useStore } from "reactflow";
+import { ReactFlow, Panel, useReactFlow, useStore } from "@xyflow/react";
 import { usePartyLoadout } from "@/stores";
 import { useFeatNodesAndEdges } from "@/hooks";
-import "reactflow/dist/style.css";
+import "@xyflow/react/dist/style.css";
 import { FeatNode, ResetFeatsButton } from "@/components/calc";
 
 const FIT_VIEW_OPTIONS = {
@@ -40,7 +40,7 @@ export const FeatTree = () => {
         edges={edges}
         nodesFocusable={false}
         edgesFocusable={false}
-        edgesUpdatable={false}
+        edgesReconnectable={false}
         panOnDrag={false}
         fitView
         fitViewOptions={FIT_VIEW_OPTIONS}

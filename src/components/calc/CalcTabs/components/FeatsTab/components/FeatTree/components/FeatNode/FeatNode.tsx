@@ -1,4 +1,4 @@
-import { Handle, NodeProps, Position } from "reactflow";
+import { Handle, NodeProps, Position } from "@xyflow/react";
 import { Button, PressEvent } from "react-aria-components";
 import { cn } from "@/components/utils";
 import { FEAT_MAP } from "@/resources";

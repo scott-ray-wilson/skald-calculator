@@ -2,7 +2,7 @@ import { FEAT_MAP, FeatType } from "@/resources";
 import { usePartyLoadout } from "@/stores";
 import { GenericDialog } from "@/components/generic";
 import { useState } from "react";
-import { getOutgoers, Node, useReactFlow } from "reactflow";
+import { getOutgoers, Node, useReactFlow } from "@xyflow/react";
 
 export const useModifyFeatRanks = (feat: FeatType) => {
   const { getNodes, getEdges } = useReactFlow();
@@ -41,7 +41,6 @@ export const useModifyFeatRanks = (feat: FeatType) => {
 
     if (!areMinimumFeatRequirementsMet(feat.id)) {
       const clearDescendantNodePoints = (node: Node | { id: string }) => {
-        // @ts-expect-error id is sufficient for "node"
         const descendantNodes = getOutgoers(node, getNodes(), getEdges());
 
         descendantNodes.forEach((node) => {

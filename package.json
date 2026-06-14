@@ -13,6 +13,7 @@
   },
   "dependencies": {
     "@tanstack/react-router": "^1.170.15",
+    "@xyflow/react": "^12.11.0",
     "ajv": "^8.20.0",
     "clsx": "^2.1.1",
     "copy-to-clipboard": "^4.0.2",
@@ -20,7 +21,6 @@
     "react-aria-components": "^1.18.0",
     "react-dom": "^19.2.7",
     "react-error-boundary": "^6.1.2",
-    "reactflow": "^11.11.4",
     "tailwind-merge": "^3.6.0",
     "use-debounce": "^10.1.1",
     "zustand": "^5.0.14"
